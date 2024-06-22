@@ -1,0 +1,41 @@
+leader_traits = {
+
+	artillery_officer = {
+		type = corps_commander
+		trait_type = personality_trait
+		modifier = {
+			army_artillery_attack_factor = 0.10
+		}
+		attack_skill_factor = 1
+		planning_skill_factor = 1
+		unit_trigger = {
+			OR = {
+				division_has_majority_template = infantry
+				division_has_majority_template = bicycle_battalion
+				division_has_majority_template = marine
+				division_has_majority_template = mountaineers
+				division_has_majority_template = paratrooper
+				division_has_majority_template = penal_battalion
+				owner = {
+					has_idea = mass_assault_academy_spirit
+				}
+			}
+			owner = {
+				NOT = {
+					OR = {
+						has_idea = best_of_the_best_spirit
+						has_idea = academy_scholarships_spirit
+						has_idea = SOV_purged_junior_army_officers_3
+					}
+				}
+			}
+		}
+		trait_xp_factor = {
+			infantry_leader = 0.5
+		}
+		new_commander_weight = {
+			factor = 1
+		}
+	}
+
+}

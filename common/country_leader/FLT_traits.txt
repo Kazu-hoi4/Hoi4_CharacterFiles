@@ -1,0 +1,50 @@
+@tier1 = 30
+@tier2 = 20
+@tier3 = 10
+
+@experience_gain_low = 0.03
+@experience_gain_medium = 0.06
+@experience_gain_high = 0.08
+
+@chief_experience_gain_low = 0.20
+@chief_experience_gain_medium = 0.30
+@chief_experience_gain_high = 0.40
+
+###Todo remove commented advisor experience gains
+
+leader_traits = {
+
+	the_railway_king = {
+		random = no
+		production_speed_rail_way_factor = 0.30
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	defenders_of_parliamentary_politics = {
+		random = no
+		political_power_factor = 0.05
+		democratic_drift = 0.10
+		neutrality_drift = 0.10
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	the_last_genro = {
+		random = no
+		political_power_factor = 0.10
+		stability_factor = 0.10
+		democratic_drift = 0.10
+		neutrality_drift = 0.10
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+}

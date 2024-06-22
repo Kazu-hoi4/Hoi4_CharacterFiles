@@ -1,0 +1,5180 @@
+
+#-------# POLITICS #-------#
+characters = {
+
+	#-----# EMPEROR #-----#
+
+	jap_emperor_hirohito = {
+		name = jap_emperor_hirohito
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_emperor_hirohito_army
+			}
+			Navy = {
+				large = GFX_portrait_jap_emperor_hirohito_navy
+			}
+			Civilian = {
+				large = GFX_portrait_jap_emperor_hirohito
+				small = GFX_frame_jap_emperor_hirohito
+			}
+		}
+		country_leader = {
+			id = 700
+			expire = "1989.1.7.6"
+			ideology = moderatism
+			traits = {
+				warrior_code
+				emperor_showa
+				imperial_sanction
+			}
+		}
+	}
+
+	#-----# POLITICIAN #-----#
+
+	#---# PRIME MINISTER (内閣総理大臣) #---#
+
+	#-# HISTORICAL #-#
+
+	jap_takashi_hara = {
+		name = jap_takashi_hara
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_takashi_hara
+			}
+			Civilian = {
+				large = GFX_portrait_jap_takashi_hara
+				small = GFX_frame_jap_takashi_hara
+			}
+		}
+		advisor = {
+			slot = prime_minister
+			idea_token = jap_takashi_hara_pri
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_security
+			idea_token = jap_takashi_hara_sec
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = jap_takashi_hara
+			allowed = {
+				original_tag = JAP
+			}
+			visible = {
+				has_character_flag = HE_IS_A_SURVIVOR
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_korekiyo_takahashi = {
+		name = jap_korekiyo_takahashi
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_korekiyo_takahashi
+			}
+			Civilian = {
+				large = GFX_portrait_jap_korekiyo_takahashi
+				small = GFX_frame_jap_korekiyo_takahashi
+			}
+		}
+		advisor = {
+			slot = prime_minister
+			idea_token = jap_korekiyo_takahashi_pri
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_finance
+			idea_token = jap_korekiyo_takahashi_fin
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				financial_expert
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	##jap_tomozaburou_kato = {} # Navy Characters
+	
+	jap_gonbe_yamamoto = {
+		name = jap_gonbe_yamamoto
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_gonbe_yamamoto
+				small = GFX_frame_jap_gonbe_yamamoto
+			}
+		}
+		advisor = {
+			slot = prime_minister
+			idea_token = jap_gonbe_yamamoto_pri
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign
+			idea_token = jap_gonbe_yamamoto_for
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_keigo_kiyoura = {
+		name = jap_keigo_kiyoura
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_keigo_kiyoura
+				small = GFX_frame_jap_keigo_kiyoura
+			}
+		}
+		advisor = {
+			slot = prime_minister
+			idea_token = jap_keigo_kiyoura_pri
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_security
+			idea_token = jap_keigo_kiyoura_sec
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = jap_keigo_kiyoura
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_takaaki_kato = {
+		name = jap_takaaki_kato
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_takaaki_kato
+				small = GFX_frame_jap_takaaki_kato
+			}
+		}
+		advisor = {
+			slot = prime_minister
+			idea_token = jap_takaaki_kato_pri
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign
+			idea_token = jap_takaaki_kato_for
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_reijiro_wakatsuki = {
+		name = jap_reijiro_wakatsuki
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_reijiro_wakatsuki
+				small = GFX_frame_jap_reijiro_wakatsuki
+			}
+		}
+		advisor = {
+			slot = prime_minister
+			idea_token = jap_reijiro_wakatsuki_pri
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_finance
+			idea_token = jap_reijiro_wakatsuki_fin
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign
+			idea_token = jap_reijiro_wakatsuki_for
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	##jap_giichi_tanaka = {} # Army Characters
+	
+	jap_osachi_hamaguchi = {
+		name = jap_osachi_hamaguchi
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_osachi_hamaguchi
+				small = GFX_frame_jap_osachi_hamaguchi
+			}
+		}
+		advisor = {
+			slot = prime_minister
+			idea_token = jap_osachi_hamaguchi_pri
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_finance
+			idea_token = jap_osachi_hamaguchi_fin
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_security
+			idea_token = jap_osachi_hamaguchi_sec
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_tsuyoshi_inukai = {
+		name = jap_tsuyoshi_inukai
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_tsuyoshi_inukai
+				small = GFX_frame_jap_tsuyoshi_inukai
+			}
+		}
+		advisor = {
+			slot = prime_minister
+			idea_token = jap_tsuyoshi_inukai_pri
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign
+			idea_token = jap_tsuyoshi_inukai_for
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_security
+			idea_token = jap_tsuyoshi_inukai_sec
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_makoto_saito = {
+		name = jap_makoto_saito
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_makoto_saito
+			}
+			Civilian = {
+				large = GFX_portrait_jap_makoto_saito
+				small = GFX_frame_jap_makoto_saito
+			}
+		}
+		advisor = {
+			slot = prime_minister
+			idea_token = jap_makoto_saito_pri
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				retired_officer
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	##jap_keisuke_okada = {} # Navy Characters
+	
+	jap_kouki_hirota = {
+		name = jap_kouki_hirota
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_kouki_hirota
+				small = GFX_frame_jap_kouki_hirota
+			}
+		}
+		advisor = {
+			slot = prime_minister
+			idea_token = jap_kouki_hirota_pri
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign
+			idea_token = jap_kouki_hirota_for
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	##jap_senjuro_hayashi = {} # Army Characters
+	
+	jap_fumimaro_konoe = {
+		name = jap_fumimaro_konoe
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_fumimaro_konoe
+				small = GFX_frame_jap_fumimaro_konoe
+			}
+		}
+		advisor = {
+			slot = prime_minister
+			idea_token = jap_fumimaro_konoe_pri
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign
+			idea_token = jap_fumimaro_konoe_for
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = jap_fumimaro_konoe
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_kiichirou_hiranuma = {
+		name = jap_kiichirou_hiranuma
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_kiichirou_hiranuma
+				small = GFX_frame_jap_kiichirou_hiranuma
+			}
+		}
+		advisor = {
+			slot = prime_minister
+			idea_token = jap_kiichirou_hiranuma_pri
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				incompetent_leader
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_security
+			idea_token = jap_kiichirou_hiranuma_sec
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	##jap_nobuyuki_abe = {} # Army Characters
+	
+	##jap_mitsuyuki_yonai = {} # Navy Characters
+	
+	##jap_hideki_tojo = {} # Army Characters
+	
+	##jap_kuniaki_koiso = {} # Army Characters
+	
+	##jap_kantaro_suzuki = {} # Navy Characters
+	
+	##jap_naruhiko_higashikuni # Army Characters
+
+	jap_kijuro_shidehara = {
+		name = jap_kijuro_shidehara
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_kijuro_shidehara
+				small = GFX_frame_jap_kijuro_shidehara
+			}
+		}
+		advisor = {
+			slot = prime_minister
+			idea_token = jap_kijuro_shidehara_pri
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign
+			idea_token = jap_kijuro_shidehara_for
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_shigeru_takeuchi = {
+		name = jap_shigeru_takeuchi
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_shigeru_takeuchi
+				small = GFX_frame_jap_shigeru_takeuchi
+			}
+		}
+		advisor = {
+			slot = prime_minister
+			idea_token = jap_shigeru_takeuchi_pri
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign
+			idea_token = jap_shigeru_takeuchi_for
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_tetsu_katayama = {
+		name = jap_tetsu_katayama
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_tetsu_katayama
+				small = GFX_frame_jap_tetsu_katayama
+			}
+		}
+		advisor = {
+			slot = prime_minister
+			idea_token = jap_tetsu_katayama_pri
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign
+			idea_token = jap_tetsu_katayama_for
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_hitoshi_ashida = {
+		name = jap_hitoshi_ashida
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_hitoshi_ashida
+				small = GFX_frame_jap_hitoshi_ashida
+			}
+		}
+		advisor = {
+			slot = prime_minister
+			idea_token = jap_hitoshi_ashida_pri
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign
+			idea_token = jap_hitoshi_ashida_for
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_ichiro_hatoyama = {
+		name = jap_ichiro_hatoyama
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_ichiro_hatoyama
+				small = GFX_frame_jap_ichiro_hatoyama
+			}
+		}
+		advisor = {
+			slot = prime_minister
+			idea_token = jap_ichiro_hatoyama_pri
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_tanzan_ishibashi = {
+		name = jap_tanzan_ishibashi
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_tanzan_ishibashi
+				small = GFX_frame_jap_tanzan_ishibashi
+			}
+		}
+		advisor = {
+			slot = prime_minister
+			idea_token = jap_tanzan_ishibashi_pri
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_finance
+			idea_token = jap_tanzan_ishibashi_fin
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign
+			idea_token = jap_tanzan_ishibashi_for
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_nobusuke_kishi = {
+		name = jap_nobusuke_kishi
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_nobusuke_kishi
+				small = GFX_frame_jap_nobusuke_kishi
+			}
+		}
+		advisor = {
+			slot = prime_minister
+			idea_token = jap_nobusuke_kishi_pri
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign
+			idea_token = jap_nobusuke_kishi_for
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	#-# FICTIONAL #-#
+
+	jap_kyuichi_tokuda = {
+		name = jap_kyuichi_tokuda
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_kyuichi_tokuda
+				small = GFX_frame_jap_kyuichi_tokuda
+			}
+		}
+		country_leader = {
+			id = 700
+			expire = "1953.10.14.12"
+			ideology = marxism
+			traits = {
+				ideological_crusader
+			}
+		}
+		advisor = {
+			slot = prime_minister
+			idea_token = jap_kyuichi_tokuda_pri
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	#-# MINISTER OF SECURITY (内務大臣) #-#
+
+	jap_takejiro_tokonami = {
+		name = jap_takejiro_tokonami
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_takejiro_tokonami
+				small = GFX_frame_jap_takejiro_tokonami
+			}
+		}
+		advisor = {
+			slot = minister_of_security
+			idea_token = jap_takejiro_tokonami_sec
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_rentaro_mizuno = {
+		name = jap_rentaro_mizuno
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_rentaro_mizuno
+				small = GFX_frame_jap_rentaro_mizuno
+			}
+		}
+		advisor = {
+			slot = minister_of_security
+			idea_token = jap_rentaro_mizuno_sec
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_shinpei_goto = {
+		name = jap_shinpei_goto
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_shinpei_goto
+				small = GFX_frame_jap_shinpei_goto
+			}
+		}
+		advisor = {
+			slot = minister_of_security
+			idea_token = jap_shinpei_goto_sec
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign
+			idea_token = jap_shinpei_goto_for
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_kisaburo_suzuki = {
+		name = jap_kisaburo_suzuki
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_kisaburo_suzuki
+				small = GFX_frame_jap_kisaburo_suzuki
+			}
+		}
+		advisor = {
+			slot = minister_of_security
+			idea_token = jap_kisaburo_suzuki_sec
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_keisuke_mochiduki = {
+		name = jap_keisuke_mochiduki
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_keisuke_mochiduki
+				small = GFX_frame_jap_keisuke_mochiduki
+			}
+		}
+		advisor = {
+			slot = minister_of_security
+			idea_token = jap_keisuke_mochiduki_sec
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_kenzo_adachi = {
+		name = jap_kenzo_adachi
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_kenzo_adachi
+				small = GFX_frame_jap_kenzo_adachi
+			}
+		}
+		advisor = {
+			slot = minister_of_security
+			idea_token = jap_kenzo_adachi_sec
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_tokugoro_nakabashi = {
+		name = jap_tokugoro_nakabashi
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_tokugoro_nakabashi
+				small = GFX_frame_jap_tokugoro_nakabashi
+			}
+		}
+		advisor = {
+			slot = minister_of_security
+			idea_token = jap_tokugoro_nakabashi_sec
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_tatsuo_yamamoto = {
+		name = jap_tatsuo_yamamoto
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_tatsuo_yamamoto
+				small = GFX_frame_jap_tatsuo_yamamoto
+			}
+		}
+		advisor = {
+			slot = minister_of_security
+			idea_token = jap_tatsuo_yamamoto_sec
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_fumio_goto = {
+		name = jap_fumio_goto
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_fumio_goto
+				small = GFX_frame_jap_fumio_goto
+			}
+		}
+		advisor = {
+			slot = prime_minister
+			idea_token = jap_fumio_goto_pri
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_security
+			idea_token = jap_fumio_goto_sec
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_shigenosuke_ushio = {
+		name = jap_shigenosuke_ushio
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_shigenosuke_ushio
+				small = GFX_frame_jap_shigenosuke_ushio
+			}
+		}
+		advisor = {
+			slot = minister_of_security
+			idea_token = jap_shigenosuke_ushio_sec
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_kakichi_kawarada = {
+		name = jap_kakichi_kawarada
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_kakichi_kawarada
+				small = GFX_frame_jap_kakichi_kawarada
+			}
+		}
+		advisor = {
+			slot = minister_of_security
+			idea_token = jap_kakichi_kawarada_sec
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_koichi_kido = {
+		name = jap_koichi_kido
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_koichi_kido
+				small = GFX_frame_jap_koichi_kido
+			}
+		}
+		advisor = {
+			slot = minister_of_security
+			idea_token = jap_koichi_kido_sec
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = jap_koichi_kido_minobe
+			traits = {
+				silent_workhorse
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_naoshi_ohara = {
+		name = jap_naoshi_ohara
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_naoshi_ohara
+				small = GFX_frame_jap_naoshi_ohara
+			}
+		}
+		advisor = {
+			slot = minister_of_security
+			idea_token = jap_naoshi_ohara_sec
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_hideo_kodama = {
+		name = jap_hideo_kodama
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_hideo_kodama
+				small = GFX_frame_jap_hideo_kodama
+			}
+		}
+		advisor = {
+			slot = minister_of_security
+			idea_token = jap_hideo_kodama_sec
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_eiji_yasui = {
+		name = jap_eiji_yasui
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_eiji_yasui
+				small = GFX_frame_jap_eiji_yasui
+			}
+		}
+		advisor = {
+			slot = minister_of_security
+			idea_token = jap_eiji_yasui_sec
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_harumichi_tanabe = {
+		name = jap_harumichi_tanabe
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_harumichi_tanabe
+				small = GFX_frame_jap_harumichi_tanabe
+			}
+		}
+		advisor = {
+			slot = minister_of_security
+			idea_token = jap_harumichi_tanabe_sec
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_michio_yuzawa = {
+		name = jap_michio_yuzawa
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_michio_yuzawa
+				small = GFX_frame_jap_michio_yuzawa
+			}
+		}
+		advisor = {
+			slot = minister_of_security
+			idea_token = jap_michio_yuzawa_sec
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_kisaburo_ando = {
+		name = jap_kisaburo_ando
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_kisaburo_ando
+				small = GFX_frame_jap_kisaburo_ando
+			}
+		}
+		advisor = {
+			slot = minister_of_security
+			idea_token = jap_kisaburo_ando_sec
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_shigeo_odachi = {
+		name = jap_shigeo_odachi
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_shigeo_odachi
+				small = GFX_frame_jap_shigeo_odachi
+			}
+		}
+		advisor = {
+			slot = minister_of_security
+			idea_token = jap_shigeo_odachi_sec
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_genki_abe = {
+		name = jap_genki_abe
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_genki_abe
+				small = GFX_frame_jap_genki_abe
+			}
+		}
+		advisor = {
+			slot = minister_of_security
+			idea_token = jap_genki_abe_sec
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_iwao_yamazaki = {
+		name = jap_iwao_yamazaki
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_iwao_yamazaki
+				small = GFX_frame_jap_iwao_yamazaki
+			}
+		}
+		advisor = {
+			slot = minister_of_security
+			idea_token = jap_iwao_yamazaki_sec
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_horikiri_zejuro = {
+		name = jap_horikiri_zejuro
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_horikiri_zejuro
+				small = GFX_frame_jap_horikiri_zejuro
+			}
+		}
+		advisor = {
+			slot = minister_of_security
+			idea_token = jap_horikiri_zejuro_sec
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_seiichi_omura = {
+		name = jap_seiichi_omura
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_seiichi_omura
+				small = GFX_frame_jap_seiichi_omura
+			}
+		}
+		advisor = {
+			slot = minister_of_security
+			idea_token = jap_seiichi_omura_sec
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_etsujiro_uehara = {
+		name = jap_etsujiro_uehara
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_etsujiro_uehara
+				small = GFX_frame_jap_etsujiro_uehara
+			}
+		}
+		advisor = {
+			slot = minister_of_security
+			idea_token = jap_etsujiro_uehara_sec
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	
+	jap_kozaemon_kimura = {
+		name = jap_kozaemon_kimura
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_kozaemon_kimura
+				small = GFX_frame_jap_kozaemon_kimura
+			}
+		}
+		advisor = {
+			slot = minister_of_security
+			idea_token = jap_kozaemon_kimura_sec
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	#-# MINISTER OF FINANCE (大蔵大臣) #-#
+	
+	jap_kazue_shouda = {
+		name = jap_kazue_shouda
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_kazue_shouda
+				small = GFX_frame_jap_kazue_shouda
+			}
+		}
+		advisor = {
+			slot = minister_of_finance
+			idea_token = jap_kazue_shouda_fin
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_otohiko_ichiki = {
+		name = jap_otohiko_ichiki
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_otohiko_ichiki
+				small = GFX_frame_jap_otohiko_ichiki
+			}
+		}
+		advisor = {
+			slot = minister_of_finance
+			idea_token = jap_otohiko_ichiki_fin
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_junnosuke_inoue = {
+		name = jap_junnosuke_inoue
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_junnosuke_inoue
+				small = GFX_frame_jap_junnosuke_inoue
+			}
+		}
+		advisor = {
+			slot = minister_of_finance
+			idea_token = jap_junnosuke_inoue_fin
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_seiji_hayami = {
+		name = jap_seiji_hayami
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_seiji_hayami
+				small = GFX_frame_jap_seiji_hayami
+			}
+		}
+		advisor = {
+			slot = minister_of_finance
+			idea_token = jap_seiji_hayami_fin
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_naoharu_kataoka = {
+		name = jap_naoharu_kataoka
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_naoharu_kataoka
+				small = GFX_frame_jap_naoharu_kataoka
+			}
+		}
+		advisor = {
+			slot = minister_of_finance
+			idea_token = jap_naoharu_kataoka_fin
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_chuzo_mitsuchi = {
+		name = jap_chuzo_mitsuchi
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_chuzo_mitsuchi
+				small = GFX_frame_jap_chuzo_mitsuchi
+			}
+		}
+		advisor = {
+			slot = minister_of_finance
+			idea_token = jap_chuzo_mitsuchi_fin
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_sadanobu_fujii = {
+		name = jap_sadanobu_fujii
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_sadanobu_fujii
+				small = GFX_frame_jap_sadanobu_fujii
+			}
+		}
+		advisor = {
+			slot = minister_of_finance
+			idea_token = jap_sadanobu_fujii_fin
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_chuji_machida = {
+		name = jap_chuji_machida
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_chuji_machida
+				small = GFX_frame_jap_chuji_machida
+			}
+		}
+		advisor = {
+			slot = minister_of_finance
+			idea_token = jap_chuji_machida_fin
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_eiichi_baba = {
+		name = jap_eiichi_baba
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_eiichi_baba
+				small = GFX_frame_jap_eiichi_baba
+			}
+		}
+		advisor = {
+			slot = minister_of_finance
+			idea_token = jap_eiichi_baba_fin
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_toyutaro_yuuki = {
+		name = jap_toyutaro_yuuki
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_toyutaro_yuuki
+				small = GFX_frame_jap_toyutaro_yuuki
+			}
+		}
+		advisor = {
+			slot = minister_of_finance
+			idea_token = jap_toyutaro_yuuki_fin
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_okinori_kaya = {
+		name = jap_okinori_kaya
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_okinori_kaya
+				small = GFX_frame_jap_okinori_kaya
+			}
+		}
+		advisor = {
+			slot = minister_of_finance
+			idea_token = jap_okinori_kaya_fin
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_shigeaki_ikeda = {
+		name = jap_shigeaki_ikeda
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_shigeaki_ikeda
+				small = GFX_frame_jap_shigeaki_ikeda
+			}
+		}
+		advisor = {
+			slot = minister_of_finance
+			idea_token = jap_shigeaki_ikeda_fin
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_soutaro_ishiwata = {
+		name = jap_soutaro_ishiwata
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_soutaro_ishiwata
+				small = GFX_frame_jap_soutaro_ishiwata
+			}
+		}
+		advisor = {
+			slot = minister_of_finance
+			idea_token = jap_soutaro_ishiwata_fin
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_kazuo_aoki = {
+		name = jap_kazuo_aoki
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_kazuo_aoki
+				small = GFX_frame_jap_kazuo_aoki
+			}
+		}
+		advisor = {
+			slot = minister_of_finance
+			idea_token = jap_kazuo_aoki_fin
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_yukio_sakurauchi = {
+		name = jap_yukio_sakurauchi
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_yukio_sakurauchi
+				small = GFX_frame_jap_yukio_sakurauchi
+			}
+		}
+		advisor = {
+			slot = minister_of_finance
+			idea_token = jap_yukio_sakurauchi_fin
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_isao_kawada = {
+		name = jap_isao_kawada
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_isao_kawada
+				small = GFX_frame_jap_isao_kawada
+			}
+		}
+		advisor = {
+			slot = minister_of_finance
+			idea_token = jap_isao_kawada_fin
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_masatsune_ogura = {
+		name = jap_masatsune_ogura
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_masatsune_ogura
+				small = GFX_frame_jap_masatsune_ogura
+			}
+		}
+		advisor = {
+			slot = minister_of_finance
+			idea_token = jap_masatsune_ogura_fin
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_juichi_tsushima = {
+		name = jap_juichi_tsushima
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_juichi_tsushima
+				small = GFX_frame_jap_juichi_tsushima
+			}
+		}
+		advisor = {
+			slot = minister_of_finance
+			idea_token = jap_juichi_tsushima_fin
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_toyosaku_hirose = {
+		name = jap_toyosaku_hirose
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_toyosaku_hirose
+				small = GFX_frame_jap_toyosaku_hirose
+			}
+		}
+		advisor = {
+			slot = minister_of_finance
+			idea_token = jap_toyosaku_hirose_fin
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_keizo_shibusawa = {
+		name = jap_keizo_shibusawa
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_keizo_shibusawa
+				small = GFX_frame_jap_keizo_shibusawa
+			}
+		}
+		advisor = {
+			slot = minister_of_finance
+			idea_token = jap_keizo_shibusawa_fin
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	#-# MINISTER OF FOREIGN (外務大臣) #-#
+
+	jap_kousai_uchida = {
+		name = jap_kousai_uchida
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_kousai_uchida
+				small = GFX_frame_jap_kousai_uchida
+			}
+		}
+		advisor = {
+			slot = prime_minister
+			idea_token = jap_kousai_uchida_pri
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign
+			idea_token = jap_kousai_uchida_for
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_hikoichi_ijuin = {
+		name = jap_hikoichi_ijuin
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_hikoichi_ijuin
+				small = GFX_frame_jap_hikoichi_ijuin
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign
+			idea_token = jap_hikoichi_ijuin_for
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_keishiro_matsui = {
+		name = jap_keishiro_matsui
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_keishiro_matsui
+				small = GFX_frame_jap_keishiro_matsui
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign
+			idea_token = jap_keishiro_matsui_for
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_kenkichi_yoshizawa = {
+		name = jap_kenkichi_yoshizawa
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_kenkichi_yoshizawa
+				small = GFX_frame_jap_kenkichi_yoshizawa
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign
+			idea_token = jap_kenkichi_yoshizawa_for
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_hachiro_arita = {
+		name = jap_hachiro_arita
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_hachiro_arita
+				small = GFX_frame_jap_hachiro_arita
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign
+			idea_token = jap_hachiro_arita_for
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_naotake_sato = {
+		name = jap_naotake_sato
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_naotake_sato
+				small = GFX_frame_jap_naotake_sato
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign
+			idea_token = jap_naotake_sato_for
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	##jap_kazushige_ugaki = {} # Army Characters
+
+	##jap_kichisaburo_nomura = {} # Navy Characters
+
+	jap_yousuke_matsuoka = {
+		name = jap_yousuke_matsuoka
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_yousuke_matsuoka
+				small = GFX_frame_jap_yousuke_matsuoka
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign
+			idea_token = jap_yousuke_matsuoka_for
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	##jap_teiziro_toyoda = {} # Navy Characters
+
+	jap_shigenori_togo = {
+		name = jap_shigenori_togo
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_shigenori_togo
+				small = GFX_frame_jap_shigenori_togo
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign
+			idea_token = jap_shigenori_togo_for
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_masayuji_tani = {
+		name = jap_masayuji_tani
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_masayuji_tani
+				small = GFX_frame_jap_masayuji_tani
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign
+			idea_token = jap_masayuji_tani_for
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_mamoru_shigemitsu = {
+		name = jap_mamoru_shigemitsu
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_mamoru_shigemitsu
+				small = GFX_frame_jap_mamoru_shigemitsu
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign
+			idea_token = jap_mamoru_shigemitsu_for
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_katsuo_okazaki = {
+		name = jap_katsuo_okazaki
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_katsuo_okazaki
+				small = GFX_frame_jap_katsuo_okazaki
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign
+			idea_token = jap_katsuo_okazaki_for
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_aiichiro_fujiyama = {
+		name = jap_aiichiro_fujiyama
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_aiichiro_fujiyama
+				small = GFX_frame_jap_aiichiro_fujiyama
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign
+			idea_token = jap_aiichiro_fujiyama_for
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	#---# Political Advisor (政治顧問) #---#
+
+	jap_nobuaki_makino = {
+		name = jap_nobuaki_makino
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_nobuaki_makino
+				small = GFX_frame_jap_nobuaki_makino
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = jap_nobuaki_makino
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				staunch_monarchist
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_kinmochi_saionji = {
+		name = jap_kinmochi_saionji
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_kinmochi_saionji
+				small = GFX_frame_jap_kinmochi_saionji
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = jap_kinmochi_saionji
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				the_last_genro
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_kaichiro_nezu = {
+		name = jap_kaichiro_nezu
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_kaichiro_nezu
+				small = GFX_frame_jap_kaichiro_nezu
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = jap_kaichiro_nezu
+			available = {
+				OR = {
+					has_government = democratic
+					has_government = neutrality
+				}
+			}
+			traits = {
+				the_railway_king
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_ichizo_kobayashi = {
+		name = jap_ichizo_kobayashi
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_ichizo_kobayashi
+				small = GFX_frame_jap_ichizo_kobayashi
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = jap_ichizo_kobayashi
+			available = {
+				OR = {
+					has_government = democratic
+					has_government = neutrality
+				}
+			}
+			traits = {
+				the_railway_king
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_tatsukichi_minobe = {
+		name = jap_tatsukichi_minobe
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_tatsukichi_minobe
+				small = GFX_frame_jap_tatsukichi_minobe
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = jap_tatsukichi_minobe
+			traits = {
+				democratic_reformer
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_takao_saito = {
+		name = jap_takao_saito
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_takao_saito
+				small = GFX_frame_jap_takao_saito
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = jap_takao_saito
+			traits = {
+				defenders_of_parliamentary_politics
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+
+
+	#-# FASCIST #-#
+
+	jap_ikki_kita = {
+		name = jap_ikki_kita
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_ikki_kita
+				small = GFX_frame_jap_ikki_kita
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = jap_ikki_kita
+			traits = {
+				fascist_demagogue
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_hiroshi_oshima = {
+		name = jap_hiroshi_oshima
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_hiroshi_oshima
+			}
+			Civilian = {
+				large = GFX_portrait_jap_hiroshi_oshima
+				small = GFX_frame_jap_hiroshi_oshima
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = jap_hiroshi_oshima
+			available = {
+				has_government = fascism
+			}
+			traits = {
+				prince_of_terror
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_teiichi_suzuki = {
+		name = jap_teiichi_suzuki
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_teiichi_suzuki
+			}
+			Civilian = {
+				large = GFX_portrait_jap_teiichi_suzuki
+				small = GFX_frame_jap_teiichi_suzuki
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = jap_teiichi_suzuki
+			available = {
+				has_government = fascism
+			}
+			traits = {
+				quartermaster_general
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_yoshisuke_ayukawa = {
+		name = jap_yoshisuke_ayukawa
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_yoshisuke_ayukawa
+				small = GFX_frame_jap_yoshisuke_ayukawa
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = jap_yoshisuke_ayukawa
+			available = {
+				has_government = fascism
+			}
+			traits = {
+				gifted_shipping_magnate
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	#-# COMMUNIST #-#
+
+	jap_sanzo_nosaka = {
+		name = jap_sanzo_nosaka
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_sanzo_nosaka
+				small = GFX_frame_jap_sanzo_nosaka
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = jap_sanzo_nosaka
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				communist_revolutionary
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+}
+
+#-----# ARMY #-----#
+characters = {
+
+	jap_giichi_tanaka = {
+		name = jap_giichi_tanaka
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_giichi_tanaka_army
+			}
+			Civilian = {
+				large = GFX_portrait_jap_giichi_tanaka
+				small = GFX_frame_jap_giichi_tanaka
+			}
+		}
+		advisor = {
+			slot = prime_minister
+			idea_token = jap_giichi_tanaka_pri
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				retired_officer
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign
+			idea_token = jap_giichi_tanaka_for
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_security
+			idea_token = jap_giichi_tanaka_sec
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_kotohito_kanin = {
+		name = jap_kotohito_kanin
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_kotohito_kanin_army
+				small = GFX_frame_jap_kotohito_kanin_army
+			}
+		}
+		advisor = {
+			slot = chief
+			idea_token = jap_kotohito_kanin_chi
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = jap_kotohito_kanin_arc
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				army_chief_morale_1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				JAP_imperial_family
+				JAP_samurai_lineage
+				cavalry_officer
+				cavalry_leader
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_morimasa_nashimoto = {
+		name = jap_morimasa_nashimoto
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_morimasa_nashimoto_army
+				small = GFX_frame_jap_morimasa_nashimoto_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				JAP_imperial_family
+				infantry_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_kazushige_ugaki = {
+		name = jap_kazushige_ugaki
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_kazushige_ugaki_army
+			}
+			Civilian = {
+				large = GFX_portrait_jap_kazushige_ugaki
+				small = GFX_frame_jap_kazushige_ugaki
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign
+			idea_token = jap_kazushige_ugaki_for
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_jiro_minami = {
+		name = jap_jiro_minami
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_jiro_minami_army
+				small = GFX_frame_jap_jiro_minami_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				JAP_samurai_lineage
+				cavalry_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_jotaro_watanabe = {
+		name = jap_jotaro_watanabe
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_jotaro_watanabe_army
+				small = GFX_frame_jap_jotaro_watanabe_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+				career_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_senjuro_hayashi = {
+		name = jap_senjuro_hayashi
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_senjuro_hayashi_army
+				small = GFX_frame_jap_senjuro_hayashi_army
+			}
+		}
+		advisor = {
+			slot = prime_minister
+			idea_token = jap_senjuro_hayashi_pri
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				JAP_samurai_lineage
+				infantry_officer
+				trait_reckless
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_nobuyuki_abe = {
+		name = jap_nobuyuki_abe
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_nobuyuki_abe_army
+				small = GFX_frame_jap_nobuyuki_abe_army
+			}
+		}
+		advisor = {
+			slot = prime_minister
+			idea_token = jap_nobuyuki_abe_pri
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign
+			idea_token = jap_nobuyuki_for
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				artillery_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_jinzaburo_masaki = {
+		name = jap_jinzaburo_masaki
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_jinzaburo_masaki_army
+				small = GFX_frame_jap_jinzaburo_masaki_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				JAP_imperial_way_faction
+				infantry_officer
+				trait_cautious
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_shigeru_honjo = {
+		name = jap_shigeru_honjo
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_shigeru_honjo_army
+				small = GFX_frame_jap_shigeru_honjo_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+				war_hero
+				old_guard
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_iwane_matsui = {
+		name = jap_iwane_matsui
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_iwane_matsui_army
+				small = GFX_frame_jap_iwane_matsui_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+				trait_reckless
+				old_guard
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_sadao_araki = {
+		name = jap_sadao_araki
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_sadao_araki_army
+				small = GFX_frame_jap_sadao_araki_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				JAP_imperial_way_faction
+				infantry_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_yoshiyuki_kawashima = {
+		name = jap_yoshiyuki_kawashima
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_yoshiyuki_kawashima_army
+				small = GFX_frame_jap_yoshiyuki_kawashima_army
+			}
+		}
+		advisor = {
+			slot = minister_of_army
+			idea_token = yoshiyuki_kawashima_mar
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}	
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+				trait_cautious
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_yoshikazu_nishi = {
+		name = jap_yoshikazu_nishi
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_yoshikazu_nishi_army
+				small = GFX_frame_jap_yoshikazu_nishi_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				artillery_officer
+				career_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_kenkichi_ueda = {
+		name = jap_kenkichi_ueda
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_kenkichi_ueda_army
+				small = GFX_frame_jap_kenkichi_ueda_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				cavalry_officer
+				trait_reckless
+				old_guard
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_hisaichi_terauchi = {
+		name = jap_hisaichi_terauchi
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_hisaichi_terauchi_army
+				small = GFX_frame_jap_hisaichi_terauchi_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				JAP_samurai_lineage
+				infantry_officer
+				politically_connected
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_ayao_kishimoto = {
+		name = jap_ayao_kishimoto
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_ayao_kishimoto_army
+				small = GFX_frame_jap_ayao_kishimoto_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				artillery_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_hajime_sugiyama = {
+		name = jap_hajime_sugiyama
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_hajime_sugiyama_army
+				small = GFX_frame_jap_hajime_sugiyama_army
+			}
+		}
+		advisor = {
+			slot = chief
+			idea_token = jap_hajime_sugiyama_chi
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = jap_hajime_sugiyama_arc
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				army_chief_drill_1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				JAP_samurai_lineage
+				##airforce_officer
+				politically_connected
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_shunroku_hata = {
+		name = jap_shunroku_hata
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_shunroku_hata_army
+				small = GFX_frame_jap_shunroku_hata_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				artillery_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_kuniaki_koiso = {
+		name = jap_kuniaki_koiso
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_kuniaki_koiso_army
+				small = GFX_frame_jap_kuniaki_koiso_army
+			}
+		}
+		advisor = {
+			slot = prime_minister
+			idea_token = jap_kuniaki_koiso_pri
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				JAP_samurai_lineage
+				infantry_officer
+				politically_connected
+				old_guard
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_koutaro_nakamura = {
+		name = jap_koutaro_nakamura
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_koutaro_nakamura_army
+				small = GFX_frame_jap_koutaro_nakamura_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_motoo_furusho = {
+		name = jap_motoo_furusho
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_motoo_furusho_army
+				small = GFX_frame_jap_motoo_furusho_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_toshizo_nishio = {
+		name = jap_toshizo_nishio
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_toshizo_nishio_army
+				small = GFX_frame_jap_toshizo_nishio_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+				brilliant_strategist
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_yasuhiko_asaka = {
+		name = jap_yasuhiko_asaka
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_yasuhiko_asaka_army
+				small = GFX_frame_jap_yasuhiko_asaka_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+				JAP_imperial_family
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_naruhiko_higashikuni = {
+		name = jap_naruhiko_higashikuni
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_naruhiko_higashikuni_army
+				small = GFX_frame_jap_naruhiko_higashikuni_army
+			}
+			Civilian = {
+				large = GFX_portrait_jap_naruhiko_higashikuni
+			}
+		}
+		advisor = {
+			slot = prime_minister
+			idea_token = jap_naruhiko_higashikuni_pri
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_army
+			idea_token = jap_naruhiko_higashikuni_mar
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+				JAP_imperial_family
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_otozo_yamada = {
+		name = jap_otozo_yamada
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_otozo_yamada_army
+				small = GFX_frame_jap_otozo_yamada_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				cavalry_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_yoshijiro_umezu = {
+		name = jap_yoshijiro_umezu
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_yoshijiro_umezu_army
+				small = GFX_frame_jap_yoshijiro_umezu_army
+			}
+		}
+		advisor = {
+			slot = chief
+			idea_token = jap_yoshijiro_umezu_chi
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = jap_yoshijiro_umezu_arc
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				army_chief_organizational_1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_shigru_hasunuma = {
+		name = jap_shigru_hasunuma
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_shigru_hasunuma_army
+				small = GFX_frame_jap_shigru_hasunuma_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				cavalry_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_yasuji_okamura = {
+		name = jap_yasuji_okamura
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_yasuji_okamura_army
+				small = GFX_frame_jap_yasuji_okamura_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+				JAP_samurai_lineage
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_kenji_doihara = {
+		name = jap_kenji_doihara
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_kenji_doihara_army
+				small = GFX_frame_jap_kenji_doihara_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+				JAP_samurai_lineage
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_hayao_tada = {
+		name = jap_hayao_tada
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_hayao_tada_army
+				small = GFX_frame_jap_hayao_tada_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				artillery_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_seishiro_itagaki = {
+		name = jap_seishiro_itagaki
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_seishiro_itagaki_army
+				small = GFX_frame_jap_seishiro_itagaki_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+				JAP_manshu_function
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_hideki_tojo = {
+		name = jap_hideki_tojo
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_hideki_tojo_army
+				small = GFX_frame_jap_hideki_tojo_army
+			}
+			Civilian = {
+				large = GFX_portrait_jap_hideki_tojo
+			}
+		}
+		advisor = {
+			slot = prime_minister
+			idea_token = jap_hideki_tojo_pri
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_security
+			idea_token = jap_hideki_tojo_sec
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = chief
+			idea_token = jap_hideki_tojo_chi
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = jap_hideki_tojo_arc
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				army_chief_morale_1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+				JAP_samurai_lineage
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_jun_ushiroku = {
+		name = jap_jun_ushiroku
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_jun_ushiroku_army
+				small = GFX_frame_jap_jun_ushiroku_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_toshinari_maeda = {
+		name = jap_toshinari_maeda
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_toshinari_maeda_army
+				small = GFX_frame_jap_toshinari_maeda_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_osamu_tsukada = {
+		name = jap_osamu_tsukada
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_osamu_tsukada_army
+				small = GFX_frame_jap_osamu_tsukada_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_tomoyuki_yamashita = {
+		name = jap_tomoyuki_yamashita
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_tomoyuki_yamashita_army
+				small = GFX_frame_jap_tomoyuki_yamashita_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+				brilliant_strategist
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_naozaburo_okabe = {
+		name = jap_naozaburo_okabe
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_naozaburo_okabe_army
+				small = GFX_frame_jap_naozaburo_okabe_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				artillery_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_keisuke_fujie = {
+		name = jap_keisuke_fujie
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_keisuke_fujie_army
+				small = GFX_frame_jap_keisuke_fujie_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				artillery_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_korechika_anami = {
+		name = jap_korechika_anami
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_korechika_anami_army
+				small = GFX_frame_jap_korechika_anami_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_hisashi_imamura = {
+		name = jap_hisashi_imamura
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_hisashi_imamura_army
+				small = GFX_frame_jap_hisashi_imamura_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_shizuichi_tanaka = {
+		name = jap_shizuichi_tanaka
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_shizuichi_tanaka_army
+				small = GFX_frame_jap_shizuichi_tanaka_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+				career_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_nobumasa_tominaga = {
+		name = jap_nobumasa_tominaga
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_nobumasa_tominaga_army
+				small = GFX_frame_jap_nobumasa_tominaga_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+				JAP_samurai_lineage
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_rikichi_ando = {
+		name = jap_rikichi_ando
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_rikichi_ando_army
+				small = GFX_frame_jap_rikichi_ando_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+				career_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_masataka_yamawaki = {
+		name = jap_masataka_yamawaki
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_masataka_yamawaki_army
+				small = GFX_frame_jap_masataka_yamawaki_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_hideyoshi_obata = {
+		name = jap_hideyoshi_obata
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_hideyoshi_obata_army
+				small = GFX_frame_jap_hideyoshi_obata_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				cavalry_officer
+				##airforce_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_masakazu_kawabe = {
+		name = jap_masakazu_kawabe
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_masakazu_kawabe_army
+				small = GFX_frame_jap_masakazu_kawabe_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_seiichi_kita = {
+		name = jap_seiichi_kita
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_seiichi_kita_army
+				small = GFX_frame_jap_seiichi_kita_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_tadammichi_kuribayashi = {
+		name = jap_tadammichi_kuribayashi
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_tadammichi_kuribayashi_army
+				small = GFX_frame_jap_tadammichi_kuribayashi_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				cavalry_officer
+				inflexible_strategist
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_sadamu_shimomura = {
+		name = jap_sadamu_shimomura
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_sadamu_shimomura_army
+				small = GFX_frame_jap_sadamu_shimomura_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				artillery_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_teiichi_yoshimoto = {
+		name = jap_teiichi_yoshimoto
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_teiichi_yoshimoto_army
+				small = GFX_frame_jap_teiichi_yoshimoto_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_heitaro_kimura = {
+		name = jap_heitaro_kimura
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_heitaro_kimura_army
+				small = GFX_frame_jap_heitaro_kimura_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				JAP_samurai_lineage
+				artillery_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_sousaku_suzuki = {
+		name = jap_sousaku_suzuki
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_sousaku_suzuki_army
+				small = GFX_frame_jap_sousaku_suzuki_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				JAP_samurai_lineage
+				infantry_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_mitsuru_ushizima = {
+		name = jap_mitsuru_ushizima
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_mitsuru_ushizima_army
+				small = GFX_frame_jap_mitsuru_ushizima_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+				inflexible_strategist
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	#---# Unhistorical Full General #---#
+
+	jap_yoshio_shinoduka = {
+		name = jap_yoshio_shinoduka
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_yoshio_shinoduka_army
+				small = GFX_frame_jap_yoshio_shinoduka_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				cavalry_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_kiichiro_higuchi = {
+		name = jap_kiichiro_higuchi
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_kiichiro_higuchi_army
+				small = GFX_frame_jap_kiichiro_higuchi_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+				NOT = { has_trait = t_JAP_colonel }
+			}
+		}
+	}
+
+	#-# Imperial way faction / Kōdō-ha (皇道派) #-#
+
+	jap_heisuke_yanagawa = {
+		name = jap_heisuke_yanagawa
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_heisuke_yanagawa_army
+				small = GFX_frame_jap_heisuke_yanagawa_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				cavalry_officer
+				JAP_imperial_way_faction
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_kouhei_kashii = {
+		name = jap_kouhei_kashii
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_kouhei_kashii_army
+				small = GFX_frame_jap_kouhei_kashii_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+				JAP_imperial_way_faction
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	#-# Communist Sympathizer #-#
+
+	jap_communist_sympathizer_general_1 = {
+		portraits = {
+			Army = {
+				large = GFX_Portrait_Japan_Generic_land_1
+			}
+		}
+		corps_commander = {
+			legacy_id = 750
+			skill = 5
+			traits = {
+				JAP_communist_sympathizer
+				trickster
+			}
+			visible = {
+				has_completed_focus = JAP_approach_the_young_officers
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_communist_sympathizer_general_2 = {
+		portraits = {
+			Army = {
+				large = GFX_Portrait_Japan_Generic_land_2
+			}
+		}
+		corps_commander = {
+			legacy_id = 751
+			skill = 5
+			traits = {
+				JAP_communist_sympathizer
+				trait_mountaineer
+				trait_cautious
+			}
+			visible = {
+				has_completed_focus = JAP_approach_the_young_officers
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_communist_sympathizer_general_3 = {
+		portraits = {
+			Army = {
+				large = GFX_Portrait_Japan_Generic_land_3
+			}
+		}
+		corps_commander = {
+			legacy_id = 752
+			skill = 3
+			traits = {
+				JAP_communist_sympathizer
+				trait_reckless
+				politically_connected
+			}
+			visible = {
+				has_completed_focus = JAP_approach_the_young_officers
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_communist_sympathizer_general_4 = {
+		portraits = {
+			Army = {
+				large = GFX_Portrait_Japan_Generic_land_4
+			}
+		}
+		corps_commander = {
+			legacy_id = 753
+			skill = 3
+			traits = {
+				JAP_communist_sympathizer
+			}
+			visible = {
+				has_completed_focus = JAP_approach_the_young_officers
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_communist_sympathizer_general_5 = {
+		portraits = {
+			Army = {
+				large = GFX_Portrait_Japan_Generic_land_5
+			}
+		}
+		corps_commander = {
+			legacy_id = 754
+			skill = 3
+			traits = {
+				JAP_communist_sympathizer
+			}
+			visible = {
+				has_completed_focus = JAP_approach_the_young_officers
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+}
+
+#-----# NAVY #-----#
+characters = {
+
+	jap_tomozaburou_kato = {
+		name = jap_tomozaburou_kato
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_tomozaburou_kato
+				small = GFX_frame_jap_tomozaburou_kato
+			}
+		}
+		advisor = {
+			slot = prime_minister
+			idea_token = jap_tomozaburou_kato_pri
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_navy
+			idea_token = jap_tomozaburou_kato_mna
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_hiroyasu_fushimi = {
+		name = jap_hiroyasu_fushimi
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_hiroyasu_fushimi_navy
+				small = GFX_frame_jap_hiroyasu_fushimi_navy
+			}
+		}
+		advisor = {
+			slot = chief
+			idea_token = jap_hiroyasu_fushimi_chi
+			allowed = {
+				original_tag = JAP
+			}
+			available = {
+				ROOT = {
+					has_idea = JAP_interservice_rivalry_navy_dominant
+				}
+			}
+			traits = {
+
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = jap_hiroyasu_fushimi_nac
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				navy_chief_maneuver_1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				
+				JAP_imperial_family
+				battleship_adherent
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_kantaro_suzuki = {
+		name = jap_kantaro_suzuki
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_kantaro_suzuki_navy
+			}
+			Civilian = {
+				large = GFX_portrait_jap_kantaro_suzuki
+				small = GFX_frame_jap_kantaro_suzuki
+			}
+		}
+		advisor = {
+			slot = prime_minister
+			idea_token = jap_kantaro_suzuki_pri
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign
+			idea_token = jap_kantaro_suzuki_for
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_keisuke_okada = {
+		name = jap_keisuke_okada
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_keisuke_okada
+			}
+			Civilian = {
+				large = GFX_portrait_jap_keisuke_okada
+				small = GFX_frame_jap_keisuke_okada
+			}
+		}
+		advisor = {
+			slot = prime_minister
+			idea_token = jap_keisuke_okada_pri
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_navy
+			idea_token = jap_keisuke_okada_mna
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+
+
+	jap_eisuke_yamamoto = {
+		name = jap_eisuke_yamamoto
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_eisuke_yamamoto_navy
+				small = GFX_frame_jap_eisuke_yamamoto_navy
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				
+				
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_mineo_osumi = {
+		name = jap_mineo_osumi
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_mineo_osumi_navy
+				small = GFX_frame_jap_mineo_osumi_navy
+			}
+		}
+		advisor = {
+			slot = minister_of_navy
+			idea_token = mineo_osumi_mna
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				
+				
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_seizo_kobayashi = {
+		name = jap_seizo_kobayashi
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_seizo_kobayashi_navy
+				small = GFX_frame_jap_seizo_kobayashi_navy
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				
+				
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_kichisaburo_nomura = {
+		name = jap_kichisaburo_nomura
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_kichisaburo_nomura_navy
+				small = GFX_frame_jap_kichisaburo_nomura_navy
+			}
+			Civilian = {
+				large = GFX_portrait_jap_kichisaburo_nomura
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign
+			idea_token = jap_kichisaburo_nomura_for
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				
+				
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_ryouzou_nakamura = {
+		name = jap_ryouzou_nakamura
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_ryouzou_nakamura_navy
+				small = GFX_frame_jap_ryouzou_nakamura_navy
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				
+				
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_nobumasa_suetsugu = {
+		name = jap_nobumasa_suetsugu
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_nobumasa_suetsugu_navy
+				small = GFX_frame_jap_nobumasa_suetsugu_navy
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				
+				seawolf
+				battleship_adherent
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_osami_nagano = {
+		name = jap_osami_nagano
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_osami_nagano_navy
+				small = GFX_frame_jap_osami_nagano_navy
+			}
+		}
+		advisor = {
+			slot = chief
+			idea_token = jap_osami_nagano_chi
+			allowed = {
+				original_tag = JAP
+			}
+			available = {
+				ROOT = {
+					has_idea = JAP_interservice_rivalry_navy_dominant
+				}
+			}
+			traits = {
+
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = jap_osami_nagano_nac
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				navy_chief_commerce_raiding_1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				
+				
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_sankichi_takahashi = {
+		name = jap_sankichi_takahashi
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_sankichi_takahashi_navy
+				small = GFX_frame_jap_sankichi_takahashi_navy
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				
+				
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_hisanori_fujita = {
+		name = jap_hisanori_fujita
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_hisanori_fujita_navy
+				small = GFX_frame_jap_hisanori_fujita_navy
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				
+				
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_mitsumasa_yonai = {
+		name = jap_mitsumasa_yonai
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_mitsumasa_yonai_navy
+				small = GFX_frame_jap_mitsumasa_yonai_navy
+			}
+			Civilian = {
+				large = GFX_portrait_jap_mitsumasa_yonai
+			}
+		}
+		advisor = {
+			slot = prime_minister
+			idea_token = jap_mitsuyuki_yonai_pri
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_navy
+			idea_token = jap_mitsuyuki_yonai_mna
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				
+				
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_gengo_hyakutake = {
+		name = jap_gengo_hyakutake
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_gengo_hyakutake_navy
+				small = GFX_frame_jap_gengo_hyakutake_navy
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				
+				
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_takayoshi_kato = {
+		name = jap_takayoshi_kato
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_takayoshi_kato_navy
+				small = GFX_frame_jap_takayoshi_kato_navy
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				
+				
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_kiyoshi_hasegawa = {
+		name = jap_kiyoshi_hasegawa
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_kiyoshi_hasegawa_navy
+				small = GFX_frame_jap_kiyoshi_hasegawa_navy
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				
+				
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_koshiro_oikawa = {
+		name = jap_koshiro_oikawa
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_koshiro_oikawa_navy
+				small = GFX_frame_jap_koshiro_oikawa_navy
+			}
+		}
+		advisor = {
+			slot = chief
+			idea_token = jap_koshiro_oikawa_chi
+			allowed = {
+				original_tag = JAP
+			}
+			available = {
+				ROOT = {
+					has_idea = JAP_interservice_rivalry_navy_dominant
+				}
+			}
+			traits = {
+
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = jap_koshiro_oikawa_nac
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				navy_chief_decisive_battle_1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				
+				
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_koichi_shiowaza = {
+		name = jap_koichi_shiowaza
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_koichi_shiowaza_navy
+				small = GFX_frame_jap_koichi_shiowaza_navy
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				
+				
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_zengo_yoshida = {
+		name = jap_zengo_yoshida
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_zengo_yoshida_navy
+				small = GFX_frame_jap_zengo_yoshida_navy
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				
+				
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_isoroku_yamamoto = {
+		name = jap_isoroku_yamamoto
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_isoroku_yamamoto_navy
+				small = GFX_frame_jap_isoroku_yamamoto_navy
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				
+				bold
+				aviation_enthusiast
+				spotter
+				air_controller
+				flight_deck_manager
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_shigetaro_shimada = {
+		name = jap_shigetaro_shimada
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_shigetaro_shimada_navy
+				small = GFX_frame_jap_shigetaro_shimada_navy
+			}
+		}
+		advisor = {
+			slot = chief
+			idea_token = jap_shigetaro_shimada_chi
+			allowed = {
+				original_tag = JAP
+			}
+			available = {
+				ROOT = {
+					has_idea = JAP_interservice_rivalry_navy_dominant
+				}
+			}
+			traits = {
+
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = jap_shigetaro_shimada_nac
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				navy_amphibious_assault_1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				
+				
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_teiziro_toyoda = {
+		name = jap_teiziro_toyoda
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_teiziro_toyoda_navy
+				small = GFX_frame_jap_teiziro_toyoda_navy
+			}
+		}
+		advisor = {
+			slot = minister_of_foreign
+			idea_token = jap_teiziro_toyoda_for
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				
+				
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_soemu_toyoda = {
+		name = jap_soemu_toyoda
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_soemu_toyoda_navy
+				small = GFX_frame_jap_soemu_toyoda_navy
+			}
+		}
+		advisor = {
+			slot = chief
+			idea_token = jap_soemu_toyoda_chi
+			allowed = {
+				original_tag = JAP
+			}
+			available = {
+				ROOT = {
+					has_idea = JAP_interservice_rivalry_navy_dominant
+				}
+			}
+			traits = {
+
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = jap_soemu_toyoda_nac
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				navy_chief_old_guard
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				
+				
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_mineichi_koga = {
+		name = jap_mineichi_koga
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_mineichi_koga_navy
+				small = GFX_frame_jap_mineichi_koga_navy
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				
+				
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_nobutake_kondo = {
+		name = jap_nobutake_kondo
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_nobutake_kondo_navy
+				small = GFX_frame_jap_nobutake_kondo_navy
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				
+				
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_shiro_takasu = {
+		name = jap_shiro_takasu
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_shiro_takasu_navy
+				small = GFX_frame_jap_shiro_takasu_navy
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				
+				
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_naokuni_nomura = {
+		name = jap_naokuni_nomura
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_naokuni_nomura_navy
+				small = GFX_frame_jap_naokuni_nomura_navy
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				
+				
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_yorio_sawamoto = {
+		name = jap_yorio_sawamoto
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_yorio_sawamoto_navy
+				small = GFX_frame_jap_yorio_sawamoto_navy
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				
+				
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_yoshikazu_endo = {
+		name = jap_yoshikazu_endo
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_yoshikazu_endo_navy
+				small = GFX_frame_jap_yoshikazu_endo_navy
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				
+				
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_chuichi_nagumo = {
+		name = jap_chuichi_nagumo
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_chuichi_nagumo_navy
+				small = GFX_frame_jap_chuichi_nagumo_navy
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				
+				
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_takeo_takagi = {
+		name = jap_takeo_takagi
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_takeo_takagi_navy
+				small = GFX_frame_jap_takeo_takagi_navy
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				t_JAP_captain
+				
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_masakuni_yamagata = {
+		name = jap_masakuni_yamagata
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_masakuni_yamagata_navy
+				small = GFX_frame_jap_masakuni_yamagata_navy
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				t_JAP_captain
+				
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_seiichi_ito = {
+		name = jap_seiichi_ito
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_seiichi_ito_navy
+				small = GFX_frame_jap_seiichi_ito_navy
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				t_JAP_captain
+				
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_nishizo_tsukahara = {
+		name = jap_nishizo_tsukahara
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_nishizo_tsukahara_navy
+				small = GFX_frame_jap_nishizo_tsukahara_navy
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				
+				
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_shigeyoshi_inoue = {
+		name = jap_shigeyoshi_inoue
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_shigeyoshi_inoue_navy
+				small = GFX_frame_jap_shigeyoshi_inoue_navy
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				
+				
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	#---# Communist Sympathizer #---#
+
+	jap_communist_sympathizer_admiral_1 = {
+		portraits = {
+			Navy = {
+				large = GFX_Portrait_Japan_Generic_navy_1
+			}
+		}
+		navy_leader = {
+			legacy_id = 760
+			skill = 5
+			traits = {
+				JAP_communist_sympathizer
+			}
+			visible = {
+				has_completed_focus = JAP_approach_the_young_officers
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_communist_sympathizer_admiral_2 = {
+		portraits = {
+			Navy = {
+				large = GFX_Portrait_Japan_Generic_navy_2
+			}
+		}
+		navy_leader = {
+			legacy_id = 761
+			skill = 3
+			traits = {
+				JAP_communist_sympathizer
+			}
+			visible = {
+				has_completed_focus = JAP_approach_the_young_officers
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_communist_sympathizer_admiral_3 = {
+		portraits = {
+			Navy = {
+				large = GFX_Portrait_Japan_Generic_navy_3
+			}
+		}
+		navy_leader = {
+			legacy_id = 762
+			skill = 3
+			traits = {
+				JAP_communist_sympathizer
+			}
+			visible = {
+				has_completed_focus = JAP_approach_the_young_officers
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+	
+}
+
+#-----# AIR #-----#
+characters = {
+
+}

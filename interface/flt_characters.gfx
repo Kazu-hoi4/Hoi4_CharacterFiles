@@ -1,0 +1,1511 @@
+#---# POLITICS #---#
+spriteTypes = {
+
+	#-# Emperor Hirohito #-#
+		SpriteType = {
+			name = GFX_portrait_jap_emperor_hirohito_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_emperor_hirohito.dds"
+		}
+		SpriteType = {
+			name = GFX_portrait_jap_emperor_hirohito_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_emperor_hirohito.dds"
+		}
+		SpriteType = {
+			name = GFX_portrait_jap_emperor_hirohito
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_emperor_hirohito.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_emperor_hirohito
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_emperor_hirohito.dds"
+		}
+
+	#-# Takashi Hara #-#
+		SpriteType = {
+			name = GFX_portrait_jap_takashi_hara
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_takashi_hara.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_takashi_hara
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_takashi_hara.dds"
+		}
+
+	#-# Korekiyo Takahashi #-#
+		SpriteType = {
+			name = GFX_portrait_jap_korekiyo_takahashi
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_korekiyo_takahashi.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_korekiyo_takahashi
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_korekiyo_takahashi.dds"
+		}
+
+	#-# Gonbe Yamamoto #-#
+		SpriteType = {
+			name = GFX_portrait_jap_gonbe_yamamoto
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_gonbe_yamamoto.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_gonbe_yamamoto
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_gonbe_yamamoto.dds"
+		}
+
+	#-# Keigo Kiyoura #-#
+		SpriteType = {
+			name = GFX_portrait_jap_keigo_kiyoura
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_keigo_kiyoura.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_keigo_kiyoura
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_keigo_kiyoura.dds"
+		}
+
+	#-# Takaaki Kato #-#
+		SpriteType = {
+			name = GFX_portrait_jap_takaaki_kato
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_takaaki_kato.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_takaaki_kato
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_takaaki_kato.dds"
+		}
+
+	#-# Reijiro Wakatsuki #-#
+		SpriteType = {
+			name = GFX_portrait_jap_reijiro_wakatsuki
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_reijiro_wakatsuki.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_reijiro_wakatsuki
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_reijiro_wakatsuki.dds"
+		}
+
+	#-# Osachi Hamaguchi #-#
+		SpriteType = {
+			name = GFX_portrait_jap_osachi_hamaguchi
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_osachi_hamaguchi.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_osachi_hamaguchi
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_osachi_hamaguchi.dds"
+		}
+
+	#-# Tsuyoshi Inukai #-#
+		SpriteType = {
+			name = GFX_portrait_jap_tsuyoshi_inukai
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_tsuyoshi_inukai.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_tsuyoshi_inukai
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_tsuyoshi_inukai.dds"
+		}
+
+	#-# Makoto Saito #-#
+		SpriteType = {
+			name = GFX_portrait_jap_makoto_saito
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_makoto_saito.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_makoto_saito
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_makoto_saito.dds"
+		}
+
+	#-# Kouki Hirota #-#
+		SpriteType = {
+			name = GFX_portrait_jap_kouki_hirota
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_kouki_hirota.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_kouki_hirota
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_kouki_hirota.dds"
+		}
+
+	#-# Fumimaro Konoe #-#
+		SpriteType = {
+			name = GFX_portrait_jap_fumimaro_konoe
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_fumimaro_konoe.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_fumimaro_konoe
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_fumimaro_konoe.dds"
+		}
+
+	#-# Kiichirou Hiranuma #-#
+		SpriteType = {
+			name = GFX_portrait_jap_kiichirou_hiranuma
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_kiichirou_hiranuma.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_kiichirou_hiranuma
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_kiichirou_hiranuma.dds"
+		}
+
+	#-# Mitsuyuki Yonai #-#
+		SpriteType = {
+			name = GFX_portrait_jap_mitsuyuki_yonai
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_mitsuyuki_yonai.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_mitsuyuki_yonai
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_mitsuyuki_yonai.dds"
+		}
+
+	#-# Kantaro Suzuki #-#
+		SpriteType = {
+			name = GFX_portrait_jap_kantaro_suzuki
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_kantaro_suzuki.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_kantaro_suzuki
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_kantaro_suzuki.dds"
+		}
+
+	#-# Kijuro Shidehara #-#
+		SpriteType = {
+			name = GFX_portrait_jap_kijuro_shidehara
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_kijuro_shidehara.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_kijuro_shidehara
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_kijuro_shidehara.dds"
+		}
+
+	#-# Shigeru Takeuchi #-#
+		SpriteType = {
+			name = GFX_portrait_jap_shigeru_takeuchi
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_shigeru_takeuchi.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_shigeru_takeuchi
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_shigeru_takeuchi.dds"
+		}
+
+	#-# Tetsu Katayama #-#
+		SpriteType = {
+			name = GFX_portrait_jap_tetsu_katayama
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_tetsu_katayama.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_tetsu_katayama
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_tetsu_katayama.dds"
+		}
+
+	#-# Hitoshi Ashida #-#
+		SpriteType = {
+			name = GFX_portrait_jap_hitoshi_ashida
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_hitoshi_ashida.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_hitoshi_ashida
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_hitoshi_ashida.dds"
+		}
+
+	#-# Ichiro Hatoyama #-#
+		SpriteType = {
+			name = GFX_portrait_jap_ichiro_hatoyama
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_ichiro_hatoyama.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_ichiro_hatoyama
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_ichiro_hatoyama.dds"
+		}
+
+	#-# Tanzan Ishibashi #-#
+		SpriteType = {
+			name = GFX_portrait_jap_tanzan_ishibashi
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_tanzan_ishibashi.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_tanzan_ishibashi
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_tanzan_ishibashi.dds"
+		}
+
+	#-# Nobusuke Kishi #-#
+		SpriteType = {
+			name = GFX_portrait_jap_nobusuke_kishi
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_nobusuke_kishi.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_nobusuke_kishi
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_nobusuke_kishi.dds"
+		}
+
+
+	#-# Takejiro Tokonami #-#
+		SpriteType = {
+			name = GFX_portrait_jap_takejiro_tokonami
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_takejiro_tokonami.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_takejiro_tokonami
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_takejiro_tokonami.dds"
+		}
+
+	#-# Rentaro Mizuno #-#
+		SpriteType = {
+			name = GFX_portrait_jap_rentaro_mizuno
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_rentaro_mizuno.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_rentaro_mizuno
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_rentaro_mizuno.dds"
+		}
+
+	#-# Shinpei Goto #-#
+		SpriteType = {
+			name = GFX_portrait_jap_shinpei_goto
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_shinpei_goto.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_shinpei_goto
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_shinpei_goto.dds"
+		}
+
+	#-# Kisaburo Suzuki #-#
+		SpriteType = {
+			name = GFX_portrait_jap_kisaburo_suzuki
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_kisaburo_suzuki.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_kisaburo_suzuki
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_kisaburo_suzuki.dds"
+		}
+
+	#-# Keisuke Mochiduki #-#
+		SpriteType = {
+			name = GFX_portrait_jap_keisuke_mochiduki
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_keisuke_mochiduki.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_keisuke_mochiduki
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_keisuke_mochiduki.dds"
+		}
+
+	#-# Kenzo Adachi #-#
+		SpriteType = {
+			name = GFX_portrait_jap_kenzo_adachi
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_kenzo_adachi.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_kenzo_adachi
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_kenzo_adachi.dds"
+		}
+
+	#-# Tokugoro Nakabashi #-#
+		SpriteType = {
+			name = GFX_portrait_jap_tokugoro_nakabashi
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_tokugoro_nakabashi.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_tokugoro_nakabashi
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_tokugoro_nakabashi.dds"
+		}
+
+	#-# Tatsuo Yamamoto #-#
+		SpriteType = {
+			name = GFX_portrait_jap_tatsuo_yamamoto
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_tatsuo_yamamoto.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_tatsuo_yamamoto
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_tatsuo_yamamoto.dds"
+		}
+
+	#-# Fumio Goto #-#
+		SpriteType = {
+			name = GFX_portrait_jap_fumio_goto
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_fumio_goto.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_fumio_goto
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_fumio_goto.dds"
+		}
+
+	#-# Shigenosuke Ushio #-#
+		SpriteType = {
+			name = GFX_portrait_jap_shigenosuke_ushio
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_shigenosuke_ushio.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_shigenosuke_ushio
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_shigenosuke_ushio.dds"
+		}
+
+	#-# Kakichi Kawarada #-#
+		SpriteType = {
+			name = GFX_portrait_jap_kakichi_kawarada
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_kakichi_kawarada.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_kakichi_kawarada
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_kakichi_kawarada.dds"
+		}
+
+	#-# Koichi Kido #-#
+		SpriteType = {
+			name = GFX_portrait_jap_koichi_kido
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_koichi_kido.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_koichi_kido
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_koichi_kido.dds"
+		}
+
+	#-# Naoshi Ohara #-#
+		SpriteType = {
+			name = GFX_portrait_jap_naoshi_ohara
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_naoshi_ohara.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_naoshi_ohara
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_naoshi_ohara.dds"
+		}
+
+	#-# Hideo Kodama #-#
+		SpriteType = {
+			name = GFX_portrait_jap_hideo_kodama
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_hideo_kodama.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_hideo_kodama
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_hideo_kodama.dds"
+		}
+
+	#-# Eiji Yasui #-#
+		SpriteType = {
+			name = GFX_portrait_jap_eiji_yasui
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_eiji_yasui.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_eiji_yasui
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_eiji_yasui.dds"
+		}
+
+	#-# Harumichi Tanabe #-#
+		SpriteType = {
+			name = GFX_portrait_jap_harumichi_tanabe
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_harumichi_tanabe.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_harumichi_tanabe
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_harumichi_tanabe.dds"
+		}
+
+	#-# Michio Yuzawa #-#
+		SpriteType = {
+			name = GFX_portrait_jap_michio_yuzawa
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_michio_yuzawa.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_michio_yuzawa
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_michio_yuzawa.dds"
+		}
+
+	#-# Kisaburo Ando #-#
+		SpriteType = {
+			name = GFX_portrait_jap_kisaburo_ando
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_kisaburo_ando.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_kisaburo_ando
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_kisaburo_ando.dds"
+		}
+
+	#-# Shigeo Odachi #-#
+		SpriteType = {
+			name = GFX_portrait_jap_shigeo_odachi
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_shigeo_odachi.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_shigeo_odachi
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_shigeo_odachi.dds"
+		}
+
+	#-# Genki Abe #-#
+		SpriteType = {
+			name = GFX_portrait_jap_genki_abe
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_genki_abe.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_genki_abe
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_genki_abe.dds"
+		}
+
+	#-# Iwao Yamazaki #-#
+		SpriteType = {
+			name = GFX_portrait_jap_iwao_yamazaki
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_iwao_yamazaki.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_iwao_yamazaki
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_iwao_yamazaki.dds"
+		}
+
+	#-# Horikiri Zejuro #-#
+		SpriteType = {
+			name = GFX_portrait_jap_horikiri_zejuro
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_horikiri_zejuro.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_horikiri_zejuro
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_horikiri_zejuro.dds"
+		}
+
+	#-# Seiichi Omura #-#
+		SpriteType = {
+			name = GFX_portrait_jap_seiichi_omura
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_seiichi_omura.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_seiichi_omura
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_seiichi_omura.dds"
+		}
+
+	#-# Etsujiro Uehara #-#
+		SpriteType = {
+			name = GFX_portrait_jap_etsujiro_uehara
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_etsujiro_uehara.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_etsujiro_uehara
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_etsujiro_uehara.dds"
+		}
+
+	#-# Kozaemon Kimura #-#
+		SpriteType = {
+			name = GFX_portrait_jap_kozaemon_kimura
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_kozaemon_kimura.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_kozaemon_kimura
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_kozaemon_kimura.dds"
+		}
+
+	#-# Kyuichi Tokuda #-#
+		SpriteType = {
+			name = GFX_portrait_jap_kyuichi_tokuda
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_kyuichi_tokuda.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_kyuichi_tokuda
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_kyuichi_tokuda.dds"
+		}
+
+	#-# Sanzo Nosaka #-#
+		SpriteType = {
+			name = GFX_portrait_jap_sanzo_nosaka
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_sanzo_nosaka.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_sanzo_nosaka
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_sanzo_nosaka.dds"
+		}
+
+	#-# Chuji Machida #-#
+		SpriteType = {
+			name = GFX_portrait_jap_chuji_machida
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_chuji_machida.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_chuji_machida
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_chuji_machida.dds"
+		}
+
+	#-# Takao Saito #-#
+		SpriteType = {
+			name = GFX_portrait_jap_takao_saito
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_takao_saito.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_takao_saito
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_takao_saito.dds"
+		}		
+
+}
+
+#---# ARMY #---#
+spriteTypes = {
+
+	#-# Kotohito Kanin #-#
+		SpriteType = {
+			name = GFX_portrait_jap_kotohito_kanin_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_kotohito_kanin.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_kotohito_kanin_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_kotohito_kanin.dds"
+		}
+
+	#-# Giichi Tanaka #-#
+		SpriteType = {
+			name = GFX_portrait_jap_giichi_tanaka_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_giichi_tanaka.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_giichi_tanaka_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_giichi_tanaka.dds"
+		}
+		SpriteType = {
+			name = GFX_portrait_jap_giichi_tanaka
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_giichi_tanaka.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_giichi_tanaka
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_giichi_tanaka.dds"
+		}
+
+	#-# Morimasa Nashimoto #-#
+		SpriteType = {
+			name = GFX_portrait_jap_morimasa_nashimoto_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_morimasa_nashimoto.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_morimasa_nashimoto_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_morimasa_nashimoto.dds"
+		}
+
+	#-# Jiro Minami #-#
+		SpriteType = {
+			name = GFX_portrait_jap_jiro_minami_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_jiro_minami.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_jiro_minami_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_jiro_minami.dds"
+		}
+
+	#-# Jotaro Watanabe #-#
+		SpriteType = {
+			name = GFX_portrait_jap_jotaro_watanabe_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_jotaro_watanabe.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_jotaro_watanabe_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_jotaro_watanabe.dds"
+		}
+
+	#-# Senjuro Hayashi #-#
+		SpriteType = {
+			name = GFX_portrait_jap_senjuro_hayashi_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_senjuro_hayashi.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_senjuro_hayashi_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_senjuro_hayashi.dds"
+		}
+
+	#-# Nobuyuki Abe #-#
+		SpriteType = {
+			name = GFX_portrait_jap_nobuyuki_abe_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_nobuyuki_abe.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_nobuyuki_abe_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_nobuyuki_abe.dds"
+		}
+
+	#-# Jinzaburo Masaki #-#
+		SpriteType = {
+			name = GFX_portrait_jap_jinzaburo_masaki_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_jinzaburo_masaki.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_jinzaburo_masaki_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_jinzaburo_masaki.dds"
+		}
+
+	#-# Shigeru Honjo #-#
+		SpriteType = {
+			name = GFX_portrait_jap_shigeru_honjo_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_shigeru_honjo.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_shigeru_honjo_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_shigeru_honjo.dds"
+		}
+
+	#-# Iwane Matsui #-#
+		SpriteType = {
+			name = GFX_portrait_jap_iwane_matsui_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_iwane_matsui.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_iwane_matsui_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_iwane_matsui.dds"
+		}
+
+	#-# Sadao Araki #-#
+		SpriteType = {
+			name = GFX_portrait_jap_sadao_araki_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_sadao_araki.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_sadao_araki_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_sadao_araki.dds"
+		}
+
+	#-# Yoshiyuki Kawashima #-#
+		SpriteType = {
+			name = GFX_portrait_jap_yoshiyuki_kawashima_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_yoshiyuki_kawashima.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_yoshiyuki_kawashima_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_yoshiyuki_kawashima.dds"
+		}
+
+	#-# Yoshikazu Nishi #-#
+		SpriteType = {
+			name = GFX_portrait_jap_yoshikazu_nishi_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_yoshikazu_nishi.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_yoshikazu_nishi_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_yoshikazu_nishi.dds"
+		}
+
+	#-# Kenkichi Ueda #-#
+		SpriteType = {
+			name = GFX_portrait_jap_kenkichi_ueda_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_kenkichi_ueda.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_kenkichi_ueda_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_kenkichi_ueda.dds"
+		}
+
+	#-# Hisaichi Terauchi #-#
+		SpriteType = {
+			name = GFX_portrait_jap_hisaichi_terauchi_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_hisaichi_terauchi.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_hisaichi_terauchi_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_hisaichi_terauchi.dds"
+		}
+
+	#-# Ayao Kishimoto #-#
+		SpriteType = {
+			name = GFX_portrait_jap_ayao_kishimoto_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_ayao_kishimoto.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_ayao_kishimoto_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_ayao_kishimoto.dds"
+		}
+
+	#-# Hajime Sugiyama #-#
+		SpriteType = {
+			name = GFX_portrait_jap_hajime_sugiyama_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_hajime_sugiyama.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_hajime_sugiyama_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_hajime_sugiyama.dds"
+		}
+
+	#-# Shunroku Hata #-#
+		SpriteType = {
+			name = GFX_portrait_jap_shunroku_hata_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_shunroku_hata.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_shunroku_hata_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_shunroku_hata.dds"
+		}
+
+	#-# Kuniaki Koiso #-#
+		SpriteType = {
+			name = GFX_portrait_jap_kuniaki_koiso_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_kuniaki_koiso.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_kuniaki_koiso_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_kuniaki_koiso.dds"
+		}
+
+	#-# Koutaro Nakamura #-#
+		SpriteType = {
+			name = GFX_portrait_jap_koutaro_nakamura_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_koutaro_nakamura.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_koutaro_nakamura_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_koutaro_nakamura.dds"
+		}
+
+	#-# Motoo Furusho #-#
+		SpriteType = {
+			name = GFX_portrait_jap_motoo_furusho_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_motoo_furusho.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_motoo_furusho_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_motoo_furusho.dds"
+		}
+
+	#-# Toshizo Nishio #-#
+		SpriteType = {
+			name = GFX_portrait_jap_toshizo_nishio_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_toshizo_nishio.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_toshizo_nishio_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_toshizo_nishio.dds"
+		}
+
+	#-# Yasuhiko Asaka #-#
+		SpriteType = {
+			name = GFX_portrait_jap_yasuhiko_asaka_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_yasuhiko_asaka.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_yasuhiko_asaka_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_yasuhiko_asaka.dds"
+		}
+
+	#-# Naruhiko Higashikuni #-#
+		SpriteType = {
+			name = GFX_portrait_jap_naruhiko_higashikuni_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_naruhiko_higashikuni.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_naruhiko_higashikuni_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_naruhiko_higashikuni.dds"
+		}
+
+	#-# Otozo Yamada #-#
+		SpriteType = {
+			name = GFX_portrait_jap_otozo_yamada_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_otozo_yamada.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_otozo_yamada_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_otozo_yamada.dds"
+		}
+
+	#-# Yoshijiro Umezu #-#
+		SpriteType = {
+			name = GFX_portrait_jap_yoshijiro_umezu_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_yoshijiro_umezu.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_yoshijiro_umezu_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_yoshijiro_umezu.dds"
+		}
+
+	#-# Shigru Hasunuma #-#
+		SpriteType = {
+			name = GFX_portrait_jap_shigru_hasunuma_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_shigru_hasunuma.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_shigru_hasunuma_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_shigru_hasunuma.dds"
+		}
+
+	#-# Yasuji Okamura #-#
+		SpriteType = {
+			name = GFX_portrait_jap_yasuji_okamura_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_yasuji_okamura.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_yasuji_okamura_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_yasuji_okamura.dds"
+		}
+
+	#-# Kenji Doihara #-#
+		SpriteType = {
+			name = GFX_portrait_jap_kenji_doihara_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_kenji_doihara.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_kenji_doihara_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_kenji_doihara.dds"
+		}
+
+	#-# Hayao Tada #-#
+		SpriteType = {
+			name = GFX_portrait_jap_hayao_tada_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_hayao_tada.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_hayao_tada_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_hayao_tada.dds"
+		}
+
+	#-# Seishiro Itagaki #-#
+		SpriteType = {
+			name = GFX_portrait_jap_seishiro_itagaki_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_seishiro_itagaki.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_seishiro_itagaki_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_seishiro_itagaki.dds"
+		}
+
+	#-# Hideki Tojo #-#
+		SpriteType = {
+			name = GFX_portrait_jap_hideki_tojo_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_hideki_tojo.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_hideki_tojo_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_hideki_tojo.dds"
+		}
+
+	#-# Jun Ushiroku #-#
+		SpriteType = {
+			name = GFX_portrait_jap_jun_ushiroku_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_jun_ushiroku.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_jun_ushiroku_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_jun_ushiroku.dds"
+		}
+
+	#-# Toshinari Maeda #-#
+		SpriteType = {
+			name = GFX_portrait_jap_toshinari_maeda_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_toshinari_maeda.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_toshinari_maeda_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_toshinari_maeda.dds"
+		}
+
+	#-# Osamu Tsukada #-#
+		SpriteType = {
+			name = GFX_portrait_jap_osamu_tsukada_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_osamu_tsukada.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_osamu_tsukada_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_osamu_tsukada.dds"
+		}
+
+	#-# Tomoyuki Yamashita #-#
+		SpriteType = {
+			name = GFX_portrait_jap_tomoyuki_yamashita_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_tomoyuki_yamashita.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_tomoyuki_yamashita_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_tomoyuki_yamashita.dds"
+		}
+
+	#-# Naozaburo Okabe #-#
+		SpriteType = {
+			name = GFX_portrait_jap_naozaburo_okabe_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_naozaburo_okabe.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_naozaburo_okabe_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_naozaburo_okabe.dds"
+		}
+
+	#-# Keisuke Fujie #-#
+		SpriteType = {
+			name = GFX_portrait_jap_keisuke_fujie_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_keisuke_fujie.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_keisuke_fujie_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_keisuke_fujie.dds"
+		}
+
+	#-# Korechika Anami #-#
+		SpriteType = {
+			name = GFX_portrait_jap_korechika_anami_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_korechika_anami.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_korechika_anami_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_korechika_anami.dds"
+		}
+
+	#-# Hisashi Imamura #-#
+		SpriteType = {
+			name = GFX_portrait_jap_hisashi_imamura_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_hisashi_imamura.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_hisashi_imamura_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_hisashi_imamura.dds"
+		}
+
+	#-# Shizuichi Tanaka #-#
+		SpriteType = {
+			name = GFX_portrait_jap_shizuichi_tanaka_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_shizuichi_tanaka.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_shizuichi_tanaka_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_shizuichi_tanaka.dds"
+		}
+
+	#-# Nobumasa Tominaga #-#
+		SpriteType = {
+			name = GFX_portrait_jap_nobumasa_tominaga_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_nobumasa_tominaga.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_nobumasa_tominaga_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_nobumasa_tominaga.dds"
+		}
+
+	#-# Rikichi Ando #-#
+		SpriteType = {
+			name = GFX_portrait_jap_rikichi_ando_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_rikichi_ando.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_rikichi_ando_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_rikichi_ando.dds"
+		}
+
+	#-# Masataka Yamawaki #-#
+		SpriteType = {
+			name = GFX_portrait_jap_masataka_yamawaki_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_masataka_yamawaki.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_masataka_yamawaki_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_masataka_yamawaki.dds"
+		}
+
+	#-# Hideyoshi Obata #-#
+		SpriteType = {
+			name = GFX_portrait_jap_hideyoshi_obata_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_hideyoshi_obata.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_hideyoshi_obata_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_hideyoshi_obata.dds"
+		}
+
+	#-# Masakazu Kawabe #-#
+		SpriteType = {
+			name = GFX_portrait_jap_masakazu_kawabe_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_masakazu_kawabe.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_masakazu_kawabe_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_masakazu_kawabe.dds"
+		}
+
+	#-# Seiichi Kita #-#
+		SpriteType = {
+			name = GFX_portrait_jap_seiichi_kita_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_seiichi_kita.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_seiichi_kita_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_seiichi_kita.dds"
+		}
+
+	#-# Tadammichi Kuribayashi #-#
+		SpriteType = {
+			name = GFX_portrait_jap_tadammichi_kuribayashi_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_tadammichi_kuribayashi.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_tadammichi_kuribayashi_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_tadammichi_kuribayashi.dds"
+		}
+
+	#-# Sadamu Shimomura #-#
+		SpriteType = {
+			name = GFX_portrait_jap_sadamu_shimomura_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_sadamu_shimomura.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_sadamu_shimomura_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_sadamu_shimomura.dds"
+		}
+
+	#-# Teiichi Yoshimoto #-#
+		SpriteType = {
+			name = GFX_portrait_jap_teiichi_yoshimoto_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_teiichi_yoshimoto.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_teiichi_yoshimoto_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_teiichi_yoshimoto.dds"
+		}
+
+	#-# Heitaro Kimura #-#
+		SpriteType = {
+			name = GFX_portrait_jap_heitaro_kimura_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_heitaro_kimura.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_heitaro_kimura_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_heitaro_kimura.dds"
+		}
+
+	#-# Sousaku Suzuki #-#
+		SpriteType = {
+			name = GFX_portrait_jap_sousaku_suzuki_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_sousaku_suzuki.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_sousaku_suzuki_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_sousaku_suzuki.dds"
+		}
+
+	#-# Mitsuru Ushizima #-#
+		SpriteType = {
+			name = GFX_portrait_jap_mitsuru_ushizima_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_mitsuru_ushizima.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_mitsuru_ushizima_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_mitsuru_ushizima.dds"
+		}
+
+	#-# Yoshio Shinoduka #-#
+		SpriteType = {
+			name = GFX_portrait_jap_yoshio_shinoduka_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_yoshio_shinoduka.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_yoshio_shinoduka_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_yoshio_shinoduka.dds"
+		}
+
+	#-# Heisuke_Yanagawa #-#
+		SpriteType = {
+			name = GFX_portrait_jap_heisuke_yanagawa_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_heisuke_yanagawa.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_heisuke_yanagawa_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_heisuke_yanagawa.dds"
+		}
+	
+	#-# Kouhei Kashii #-#
+		SpriteType = {
+			name = GFX_portrait_jap_kouhei_kashii_army
+			texturefile = "gfx/leaders/JAP/Army/portrait_jap_kouhei_kashii.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_kouhei_kashii_army
+			texturefile = "gfx/interface/ideas/personal/JAP/Army/jap_kouhei_kashii.dds"
+		}
+}
+
+#---# NAVY #---#
+spriteTypes = {
+
+	#-# Heihachiro Togo #-#
+		SpriteType = {
+			name = GFX_portrait_jap_heihachiro_togo_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_heihachiro_togo.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_heihachiro_togo_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_heihachiro_togo.dds"
+		}
+
+	#-# Tomozaburou Kato #-#
+		SpriteType = {
+			name = GFX_portrait_jap_tomozaburou_kato_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_tomozaburou_kato.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_tomozaburou_kato_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_tomozaburou_kato.dds"
+		}
+		SpriteType = {
+			name = GFX_portrait_jap_tomozaburou_kato
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_tomozaburou_kato.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_tomozaburou_kato
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_tomozaburou_kato.dds"
+		}
+
+	#-# Hiroyasu Fushimi #-#
+		SpriteType = {
+			name = GFX_portrait_jap_hiroyasu_fushimi_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_hiroyasu_fushimi.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_hiroyasu_fushimi_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_hiroyasu_fushimi.dds"
+		}
+
+	#-# Keisuke Okada #-#
+		SpriteType = {
+			name = GFX_portrait_jap_keisuke_okada_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_keisuke_okada.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_keisuke_okada_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_keisuke_okada.dds"
+		}
+		SpriteType = {
+			name = GFX_portrait_jap_keisuke_okada
+			texturefile = "gfx/leaders/JAP/Civilian/portrait_jap_keisuke_okada.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_keisuke_okada
+			texturefile = "gfx/interface/ideas/personal/JAP/Civilian/jap_keisuke_okada.dds"
+		}
+
+	#-# Eisuke Yamamoto #-#
+		SpriteType = {
+			name = GFX_portrait_jap_eisuke_yamamoto_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_eisuke_yamamoto.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_eisuke_yamamoto_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_eisuke_yamamoto.dds"
+		}
+
+	#-# Mineo Osumi #-#
+		SpriteType = {
+			name = GFX_portrait_jap_mineo_osumi_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_mineo_osumi.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_mineo_osumi_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_mineo_osumi.dds"
+		}
+
+	#-# Seizo Kobayashi #-#
+		SpriteType = {
+			name = GFX_portrait_jap_seizo_kobayashi_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_seizo_kobayashi.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_seizo_kobayashi_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_seizo_kobayashi.dds"
+		}
+
+	#-# Kichisaburo Nomura #-#
+		SpriteType = {
+			name = GFX_portrait_jap_kichisaburo_nomura_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_kichisaburo_nomura.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_kichisaburo_nomura_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_kichisaburo_nomura.dds"
+		}
+
+	#-# Ryouzou Nakamura #-#
+		SpriteType = {
+			name = GFX_portrait_jap_ryouzou_nakamura_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_ryouzou_nakamura.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_ryouzou_nakamura_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_ryouzou_nakamura.dds"
+		}
+
+	#-# Nobumasa Suetsugu #-#
+		SpriteType = {
+			name = GFX_portrait_jap_nobumasa_suetsugu_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_nobumasa_suetsugu.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_nobumasa_suetsugu_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_nobumasa_suetsugu.dds"
+		}
+
+	#-# Osami Nagano #-#
+		SpriteType = {
+			name = GFX_portrait_jap_osami_nagano_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_osami_nagano.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_osami_nagano_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_osami_nagano.dds"
+		}
+
+	#-# Sankichi Takahashi #-#
+		SpriteType = {
+			name = GFX_portrait_jap_sankichi_takahashi_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_sankichi_takahashi.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_sankichi_takahashi_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_sankichi_takahashi.dds"
+		}
+
+	#-# Hisanori Fujita #-#
+		SpriteType = {
+			name = GFX_portrait_jap_hisanori_fujita_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_hisanori_fujita.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_hisanori_fujita_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_hisanori_fujita.dds"
+		}
+
+	#-# Mitsumasa Yonai #-#
+		SpriteType = {
+			name = GFX_portrait_jap_mitsumasa_yonai_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_mitsumasa_yonai.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_mitsumasa_yonai_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_mitsumasa_yonai.dds"
+		}
+
+	#-# Gengo Hyakutake #-#
+		SpriteType = {
+			name = GFX_portrait_jap_gengo_hyakutake_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_gengo_hyakutake.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_gengo_hyakutake_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_gengo_hyakutake.dds"
+		}
+
+	#-# Takayoshi Kato #-#
+		SpriteType = {
+			name = GFX_portrait_jap_takayoshi_kato_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_takayoshi_kato.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_takayoshi_kato_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_takayoshi_kato.dds"
+		}
+
+	#-# Kiyoshi Hasegawa #-#
+		SpriteType = {
+			name = GFX_portrait_jap_kiyoshi_hasegawa_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_kiyoshi_hasegawa.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_kiyoshi_hasegawa_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_kiyoshi_hasegawa.dds"
+		}
+
+	#-# Koshiro Oikawa #-#
+		SpriteType = {
+			name = GFX_portrait_jap_koshiro_oikawa_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_koshiro_oikawa.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_koshiro_oikawa_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_koshiro_oikawa.dds"
+		}
+
+	#-# Koichi Shiowaza #-#
+		SpriteType = {
+			name = GFX_portrait_jap_koichi_shiowaza_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_koichi_shiowaza.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_koichi_shiowaza_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_koichi_shiowaza.dds"
+		}
+
+	#-# Zengo Yoshida #-#
+		SpriteType = {
+			name = GFX_portrait_jap_zengo_yoshida_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_zengo_yoshida.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_zengo_yoshida_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_zengo_yoshida.dds"
+		}
+
+	#-# Isoroku Yamamoto #-#
+		SpriteType = {
+			name = GFX_portrait_jap_isoroku_yamamoto_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_isoroku_yamamoto.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_isoroku_yamamoto_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_isoroku_yamamoto.dds"
+		}
+
+	#-# Shigetaro Shimada #-#
+		SpriteType = {
+			name = GFX_portrait_jap_shigetaro_shimada_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_shigetaro_shimada.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_shigetaro_shimada_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_shigetaro_shimada.dds"
+		}
+
+	#-# Teiziro Toyoda #-#
+		SpriteType = {
+			name = GFX_portrait_jap_teiziro_toyoda_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_teiziro_toyoda.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_teiziro_toyoda_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_teiziro_toyoda.dds"
+		}
+
+	#-# Soemu Toyoda #-#
+		SpriteType = {
+			name = GFX_portrait_jap_soemu_toyoda_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_soemu_toyoda.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_soemu_toyoda_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_soemu_toyoda.dds"
+		}
+
+	#-# Mineichi Koga #-#
+		SpriteType = {
+			name = GFX_portrait_jap_mineichi_koga_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_mineichi_koga.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_mineichi_koga_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_mineichi_koga.dds"
+		}
+
+	#-# Nobutake Kondo #-#
+		SpriteType = {
+			name = GFX_portrait_jap_nobutake_kondo_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_nobutake_kondo.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_nobutake_kondo_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_nobutake_kondo.dds"
+		}
+
+	#-# Shiro Takasu #-#
+		SpriteType = {
+			name = GFX_portrait_jap_shiro_takasu_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_shiro_takasu.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_shiro_takasu_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_shiro_takasu.dds"
+		}
+
+	#-# Naokuni Nomura #-#
+		SpriteType = {
+			name = GFX_portrait_jap_naokuni_nomura_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_naokuni_nomura.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_naokuni_nomura_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_naokuni_nomura.dds"
+		}
+
+	#-# Yorio Sawamoto #-#
+		SpriteType = {
+			name = GFX_portrait_jap_yorio_sawamoto_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_yorio_sawamoto.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_yorio_sawamoto_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_yorio_sawamoto.dds"
+		}
+
+	#-# Yoshikazu Endo #-#
+		SpriteType = {
+			name = GFX_portrait_jap_yoshikazu_endo_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_yoshikazu_endo.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_yoshikazu_endo_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_yoshikazu_endo.dds"
+		}
+
+	#-# Chuichi Nagumo #-#
+		SpriteType = {
+			name = GFX_portrait_jap_chuichi_nagumo_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_chuichi_nagumo.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_chuichi_nagumo_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_chuichi_nagumo.dds"
+		}
+
+	#-# Takeo Takagi #-#
+		SpriteType = {
+			name = GFX_portrait_jap_takeo_takagi_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_takeo_takagi.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_takeo_takagi_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_takeo_takagi.dds"
+		}
+
+	#-# Masakuni Yamagata #-#
+		SpriteType = {
+			name = GFX_portrait_jap_masakuni_yamagata_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_masakuni_yamagata.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_masakuni_yamagata_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_masakuni_yamagata.dds"
+		}
+
+	#-# Seiichi Ito #-#
+		SpriteType = {
+			name = GFX_portrait_jap_seiichi_ito_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_seiichi_ito.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_seiichi_ito_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_seiichi_ito.dds"
+		}
+
+	#-# Nishizo Tsukahara #-#
+		SpriteType = {
+			name = GFX_portrait_jap_nishizo_tsukahara_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_nishizo_tsukahara.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_nishizo_tsukahara_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_nishizo_tsukahara.dds"
+		}
+
+	#-# Shigeyoshi Inoue #-#
+		SpriteType = {
+			name = GFX_portrait_jap_shigeyoshi_inoue_navy
+			texturefile = "gfx/leaders/JAP/Navy/portrait_jap_shigeyoshi_inoue.dds"
+		}
+		SpriteType = {
+			name = GFX_frame_jap_shigeyoshi_inoue_navy
+			texturefile = "gfx/interface/ideas/personal/JAP/Navy/jap_shigeyoshi_inoue.dds"
+		}
+
+}
+
+#---# SPY #---#
+spriteTypes = {
+
+	#-# Xianyu Aisin Gioro #-#
+		SpriteType = {
+			name = GFX_portrait_man_xianyu_aisin_gioro
+			texturefile = "gfx/leaders/JAP/portrait_JAP_yoshiko_kawashima.dds"
+		}
+
+	#-# Takeo Yoshikawa #-#
+		SpriteType = {
+			name = GFX_portrait_jap_takeo_yoshikawa
+			texturefile = "gfx/leaders/JAP/portrait_JAP_takeo_yoshikawa.dds"
+		}
+
+	#-# Ignatius Timothy Trebitsch Lincoln #-#
+		SpriteType = {
+			name = GFX_portrait_hun_ignatius_timothy_trebitsch_lincoln
+			texturefile = "gfx/leaders/JAP/portrait_JAP_ignatius_timothy_trebitsch_lincoln.dds"
+		}
+
+	#-# John Semer Farnsworth #-#
+		SpriteType = {
+			name = GFX_portrait_usa_john_semer_farnsworth
+			texturefile = "gfx/leaders/JAP/portrait_JAP_john_semer_farnsworth.dds"
+		}
+
+	#-# Patrick Stanley Vaughan Heenan #-#
+		SpriteType = {
+			name = GFX_portrait_eng_patrick_stanley_vaughan_heenan
+			texturefile = "gfx/leaders/JAP/portrait_JAP_patrick_vaughan_heenan.dds"
+		}
+
+}

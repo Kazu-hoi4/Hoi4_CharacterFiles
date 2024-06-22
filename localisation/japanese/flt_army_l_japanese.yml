@@ -1,0 +1,6 @@
+﻿l_japanese:
+  COMMANDER_ROSTER_ARMY_BUTTON: "軍司令官"
+  COMMANDER_ROSTER_ARMY_TOOLTIP: "§H軍司令官§!"
+  COMMANDER_ROSTER_ARMY_TOOLTIP_DELAYED: "スキルレベルが40以上で、適切な特性を持つ$cc_leader$や$fm_leader$は、顧問としての役割を与えられ、軍の最高司令官や陸軍大臣として将校団への加入させることができる。"
+  COMMANDER_ROSTER_NAVY_TOOLTIP_DELAYED: "スキルレベルが40以上で、適切な特性を持つ提督は、顧問の役割を与えられ、最高司令官や海軍長官として将校団への加入させることができる。"
+  ARMY_LEADER_PREFERRED_TACTIC_DESC: "この人物の優先戦術は、$cc_leader$の場合は戦闘中に$ARMY_GENERAL_CHANCE|H$の確率で、$fm_leader$の場合は$FIELD_MARSHAL_CHANCE|H$の確率で選択されるようになる。"

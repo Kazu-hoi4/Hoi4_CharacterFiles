@@ -1,0 +1,28 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = GFX_trait_artillery_officer
+		texturefile = "gfx/interface/traits/trait_artillery_officer.dds"
+	}
+
+	SpriteType = {
+		name = GFX_trait_artillery_officer
+		texturefile = "gfx/interface/traits/trait_artillery_officer.dds"
+	}
+
+	SpriteType = {
+		name = GFX_trait_JAP_imperial_family
+		texturefile = "gfx/interface/traits/trait_JAP_imperial_family.dds"
+	}
+
+	SpriteType = {
+		name = GFX_trait_JAP_imperial_way_faction
+		texturefile = "gfx/interface/traits/trait_JAP_imperial_way_faction.dds"
+	}
+
+	SpriteType = {
+		name = GFX_trait_JAP_manshu_function
+		texturefile = "gfx/interface/traits/trait_JAP_manshu_function.dds"
+	}
+	
+}

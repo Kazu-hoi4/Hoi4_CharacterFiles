@@ -1,0 +1,71 @@
+leader_traits = {
+
+	JAP_sakura_kai = {
+		type = all
+		trait_type = personality_trait
+		gain_xp = {
+			always = no
+		}
+		allowed = {
+			FROM = { tag = JAP }
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	JAP_imperial_way_faction = {
+		type = all
+		trait_type = personality_trait
+		gain_xp = {
+			always = no
+		}
+		allowed = {
+			FROM = { tag = JAP }
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	JAP_manshu_function = {
+		type = all
+		trait_type = personality_trait
+		gain_xp = {
+			always = no
+		}
+		allowed = {
+			FROM = { tag = JAP }
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	JAP_imperial_family = {
+		type = all
+		trait_type = personality_trait
+		gain_xp = {
+			always = no
+		}
+		allowed = {
+			FROM = { tag = JAP }
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

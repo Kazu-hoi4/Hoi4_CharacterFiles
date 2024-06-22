@@ -1,0 +1,707 @@
+leader_coordination_skills = {
+
+
+	#-----# NAVY #-----#
+
+	1 = {
+		cost = 10
+		type = navy
+		modifier = {
+			naval_coordination = 0.001
+		}
+	}
+	2 = {
+		cost = 20
+		type = navy
+		modifier = {
+			naval_coordination = 0.002
+		}
+	}
+	3 = {
+		cost = 30
+		type = navy
+		modifier = {
+			naval_coordination = 0.003
+		}
+	}
+	4 = {
+		cost = 40
+		type = navy
+		modifier = {
+			naval_coordination = 0.004
+		}
+	}
+	5 = {
+		cost = 50
+		type = navy
+		modifier = {
+			naval_coordination = 0.005
+		}
+	}
+	6 = {
+		cost = 60
+		type = navy
+		modifier = {
+			naval_coordination = 0.006
+		}
+	}
+	7 = {
+		cost = 70
+		type = navy
+		modifier = {
+			naval_coordination = 0.007
+		}
+	}
+	8 = {
+		cost = 80
+		type = navy
+		modifier = {
+			naval_coordination = 0.008
+		}
+	}
+	9 = {
+		cost = 90
+		type = navy
+		modifier = {
+			naval_coordination = 0.009
+		}
+	}
+	10 = {
+		cost = 100
+		type = navy
+		modifier = {
+			naval_coordination = 0.01
+		}
+	}
+	11 = {
+		cost = 110
+		type = navy
+		modifier = {
+			naval_coordination = 0.012
+		}
+	}
+	12 = {
+		cost = 120
+		type = navy
+		modifier = {
+			naval_coordination = 0.014
+		}
+	}
+	13 = {
+		cost = 130
+		type = navy
+		modifier = {
+			naval_coordination = 0.016
+		}
+	}
+	14 = {
+		cost = 140
+		type = navy
+		modifier = {
+			naval_coordination = 0.018
+		}
+	}
+	15 = {
+		cost = 150
+		type = navy
+		modifier = {
+			naval_coordination = 0.02
+		}
+	}
+	16 = {
+		cost = 160
+		type = navy
+		modifier = {
+			naval_coordination = 0.022
+		}
+	}
+	17 = {
+		cost = 170
+		type = navy
+		modifier = {
+			naval_coordination = 0.024
+		}
+	}
+	18 = {
+		cost = 180
+		type = navy
+		modifier = {
+			naval_coordination = 0.026
+		}
+	}
+	19 = {
+		cost = 190
+		type = navy
+		modifier = {
+			naval_coordination = 0.028
+		}
+	}
+	20 = {
+		cost = 200
+		type = navy
+		modifier = {
+			naval_coordination = 0.03
+		}
+	}
+	21 = {
+		cost = 220
+		type = navy
+		modifier = {
+			naval_coordination = 0.032
+		}
+	}
+	22 = {
+		cost = 240
+		type = navy
+		modifier = {
+			naval_coordination = 0.034
+		}
+	}
+	23 = {
+		cost = 260
+		type = navy
+		modifier = {
+			naval_coordination = 0.036
+		}
+	}
+	24 = {
+		cost = 280
+		type = navy
+		modifier = {
+			naval_coordination = 0.038
+		}
+	}
+	25 = {
+		cost = 300
+		type = navy
+		modifier = {
+			naval_coordination = 0.04
+		}
+	}
+	26 = {
+		cost = 320
+		type = navy
+		modifier = {
+			naval_coordination = 0.042
+		}
+	}
+	27 = {
+		cost = 340
+		type = navy
+		modifier = {
+			naval_coordination = 0.044
+		}
+	}
+	28 = {
+		cost = 360
+		type = navy
+		modifier = {
+			naval_coordination = 0.046
+		}
+	}
+	29 = {
+		cost = 380
+		type = navy
+		modifier = {
+			naval_coordination = 0.048
+		}
+	}
+	30 = {
+		cost = 400
+		type = navy
+		modifier = {
+			naval_coordination = 0.05
+		}
+	}
+	31 = {
+		cost = 440
+		type = navy
+		modifier = {
+			naval_coordination = 0.052
+		}
+	}
+	32 = {
+		cost = 480
+		type = navy
+		modifier = {
+			naval_coordination = 0.054
+		}
+	}
+	33 = {
+		cost = 520
+		type = navy
+		modifier = {
+			naval_coordination = 0.056
+		}
+	}
+	34 = {
+		cost = 560
+		type = navy
+		modifier = {
+			naval_coordination = 0.058
+		}
+	}
+	35 = {
+		cost = 600
+		type = navy
+		modifier = {
+			naval_coordination = 0.06
+		}
+	}
+	36 = {
+		cost = 640
+		type = navy
+		modifier = {
+			naval_coordination = 0.062
+		}
+	}
+	37 = {
+		cost = 680
+		type = navy
+		modifier = {
+			naval_coordination = 0.064
+		}
+	}
+	38 = {
+		cost = 720
+		type = navy
+		modifier = {
+			naval_coordination = 0.066
+		}
+	}
+	39 = {
+		cost = 760
+		type = navy
+		modifier = {
+			naval_coordination = 0.068
+		}
+	}
+	40 = {
+		cost = 800
+		type = navy
+		modifier = {
+			naval_coordination = 0.07
+		}
+	}
+	41 = {
+		cost = 880
+		type = navy
+		modifier = {
+			naval_coordination = 0.072
+		}
+	}
+	42 = {
+		cost = 960
+		type = navy
+		modifier = {
+			naval_coordination = 0.074
+		}
+	}
+	43 = {
+		cost = 1040
+		type = navy
+		modifier = {
+			naval_coordination = 0.076
+		}
+	}
+	44 = {
+		cost = 1120
+		type = navy
+		modifier = {
+			naval_coordination = 0.078
+		}
+	}
+	45 = {
+		cost = 1200
+		type = navy
+		modifier = {
+			naval_coordination = 0.08
+		}
+	}
+	46 = {
+		cost = 1280
+		type = navy
+		modifier = {
+			naval_coordination = 0.082
+		}
+	}
+	47 = {
+		cost = 1360
+		type = navy
+		modifier = {
+			naval_coordination = 0.084
+		}
+	}
+	48 = {
+		cost = 1440
+		type = navy
+		modifier = {
+			naval_coordination = 0.086
+		}
+	}
+	49 = {
+		cost = 1520
+		type = navy
+		modifier = {
+			naval_coordination = 0.088
+		}
+	}
+	50 = {
+		cost = 1600
+		type = navy
+		modifier = {
+			naval_coordination = 0.09
+		}
+	}
+	51 = {
+		cost = 1760
+		type = navy
+		modifier = {
+			naval_coordination = 0.093
+		}
+	}
+	52 = {
+		cost = 1920
+		type = navy
+		modifier = {
+			naval_coordination = 0.096
+		}
+	}
+	53 = {
+		cost = 2080
+		type = navy
+		modifier = {
+			naval_coordination = 0.099
+		}
+	}
+	54 = {
+		cost = 2240
+		type = navy
+		modifier = {
+			naval_coordination = 0.102
+		}
+	}
+	55 = {
+		cost = 2400
+		type = navy
+		modifier = {
+			naval_coordination = 0.105
+		}
+	}
+	56 = {
+		cost = 2560
+		type = navy
+		modifier = {
+			naval_coordination = 0.108
+		}
+	}
+	57 = {
+		cost = 2720
+		type = navy
+		modifier = {
+			naval_coordination = 0.111
+		}
+	}
+	58 = {
+		cost = 2880
+		type = navy
+		modifier = {
+			naval_coordination = 0.114
+		}
+	}
+	59 = {
+		cost = 3040
+		type = navy
+		modifier = {
+			naval_coordination = 0.117
+		}
+	}
+	60 = {
+		cost = 3200
+		type = navy
+		modifier = {
+			naval_coordination = 0.12
+		}
+	}
+	61 = {
+		cost = 3520
+		type = navy
+		modifier = {
+			naval_coordination = 0.122
+		}
+	}
+	62 = {
+		cost = 3840
+		type = navy
+		modifier = {
+			naval_coordination = 0.124
+		}
+	}
+	63 = {
+		cost = 4160
+		type = navy
+		modifier = {
+			naval_coordination = 0.126
+		}
+	}
+	64 = {
+		cost = 4480
+		type = navy
+		modifier = {
+			naval_coordination = 0.128
+		}
+	}
+	65 = {
+		cost = 4800
+		type = navy
+		modifier = {
+			naval_coordination = 0.13
+		}
+	}
+	66 = {
+		cost = 5120
+		type = navy
+		modifier = {
+			naval_coordination = 0.132
+		}
+	}
+	67 = {
+		cost = 5440
+		type = navy
+		modifier = {
+			naval_coordination = 0.134
+		}
+	}
+	68 = {
+		cost = 5760
+		type = navy
+		modifier = {
+			naval_coordination = 0.136
+		}
+	}
+	69 = {
+		cost = 6080
+		type = navy
+		modifier = {
+			naval_coordination = 0.138
+		}
+	}
+	70 = {
+		cost = 6400
+		type = navy
+		modifier = {
+			naval_coordination = 0.14
+		}
+	}
+	71 = {
+		cost = 7040
+		type = navy
+		modifier = {
+			naval_coordination = 0.142
+		}
+	}
+	72 = {
+		cost = 7680
+		type = navy
+		modifier = {
+			naval_coordination = 0.144
+		}
+	}
+	73 = {
+		cost = 8320
+		type = navy
+		modifier = {
+			naval_coordination = 0.146
+		}
+	}
+	74 = {
+		cost = 8960
+		type = navy
+		modifier = {
+			naval_coordination = 0.148
+		}
+	}
+	75 = {
+		cost = 9600
+		type = navy
+		modifier = {
+			naval_coordination = 0.15
+		}
+	}
+	76 = {
+		cost = 10240
+		type = navy
+		modifier = {
+			naval_coordination = 0.152
+		}
+	}
+	77 = {
+		cost = 10880
+		type = navy
+		modifier = {
+			naval_coordination = 0.154
+		}
+	}
+	78 = {
+		cost = 11520
+		type = navy
+		modifier = {
+			naval_coordination = 0.156
+		}
+	}
+	79 = {
+		cost = 12160
+		type = navy
+		modifier = {
+			naval_coordination = 0.158
+		}
+	}
+	80 = {
+		cost = 12800
+		type = navy
+		modifier = {
+			naval_coordination = 0.16
+		}
+	}
+	81 = {
+		cost = 14080
+		type = navy
+		modifier = {
+			naval_coordination = 0.162
+		}
+	}
+	82 = {
+		cost = 15360
+		type = navy
+		modifier = {
+			naval_coordination = 0.164
+		}
+	}
+	83 = {
+		cost = 16640
+		type = navy
+		modifier = {
+			naval_coordination = 0.166
+		}
+	}
+	84 = {
+		cost = 17920
+		type = navy
+		modifier = {
+			naval_coordination = 0.168
+		}
+	}
+	85 = {
+		cost = 19200
+		type = navy
+		modifier = {
+			naval_coordination = 0.17
+		}
+	}
+	86 = {
+		cost = 20480
+		type = navy
+		modifier = {
+			naval_coordination = 0.172
+		}
+	}
+	87 = {
+		cost = 21760
+		type = navy
+		modifier = {
+			naval_coordination = 0.174
+		}
+	}
+	88 = {
+		cost = 23040
+		type = navy
+		modifier = {
+			naval_coordination = 0.176
+		}
+	}
+	89 = {
+		cost = 24320
+		type = navy
+		modifier = {
+			naval_coordination = 0.178
+		}
+	}
+	90 = {
+		cost = 25600
+		type = navy
+		modifier = {
+			naval_coordination = 0.18
+		}
+	}
+	91 = {
+		cost = 28160
+		type = navy
+		modifier = {
+			naval_coordination = 0.182
+		}
+	}
+	92 = {
+		cost = 30720
+		type = navy
+		modifier = {
+			naval_coordination = 0.184
+		}
+	}
+	93 = {
+		cost = 33280
+		type = navy
+		modifier = {
+			naval_coordination = 0.186
+		}
+	}
+	94 = {
+		cost = 35840
+		type = navy
+		modifier = {
+			naval_coordination = 0.188
+		}
+	}
+	95 = {
+		cost = 38400
+		type = navy
+		modifier = {
+			naval_coordination = 0.19
+		}
+	}
+	96 = {
+		cost = 40960
+		type = navy
+		modifier = {
+			naval_coordination = 0.192
+		}
+	}
+	97 = {
+		cost = 43520
+		type = navy
+		modifier = {
+			naval_coordination = 0.194
+		}
+	}
+	98 = {
+		cost = 46080
+		type = navy
+		modifier = {
+			naval_coordination = 0.196
+		}
+	}
+	99 = {
+		cost = 48640
+		type = navy
+		modifier = {
+			naval_coordination = 0.198
+		}
+	}
+	100 = {
+		cost = 51200
+		type = navy
+		modifier = {
+			naval_coordination = 0.2
+		}
+	}
+
+}

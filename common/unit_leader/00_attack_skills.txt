@@ -1,0 +1,2114 @@
+leader_attack_skills = {
+
+	#-----# NAVY #-----#
+
+	1 = {
+		cost = 10
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.005
+		}
+	}
+	2 = {
+		cost = 20
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.01
+		}
+	}
+	3 = {
+		cost = 30
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.015
+		}
+	}
+	4 = {
+		cost = 40
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.02
+		}
+	}
+	5 = {
+		cost = 50
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.025
+		}
+	}
+	6 = {
+		cost = 60
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.03
+		}
+	}
+	7 = {
+		cost = 70
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.035
+		}
+	}
+	8 = {
+		cost = 80
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.04
+		}
+	}
+	9 = {
+		cost = 90
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.045
+		}
+	}
+	10 = {
+		cost = 100
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.05
+		}
+	}
+	11 = {
+		cost = 110
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.055
+		}
+	}
+	12 = {
+		cost = 120
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.06
+		}
+	}
+	13 = {
+		cost = 130
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.065
+		}
+	}
+	14 = {
+		cost = 140
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.07
+		}
+	}
+	15 = {
+		cost = 150
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.075
+		}
+	}
+	16 = {
+		cost = 160
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.08
+		}
+	}
+	17 = {
+		cost = 170
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.085
+		}
+	}
+	18 = {
+		cost = 180
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.09
+		}
+	}
+	19 = {
+		cost = 190
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.095
+		}
+	}
+	20 = {
+		cost = 200
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.1
+		}
+	}
+	21 = {
+		cost = 220
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.105
+		}
+	}
+	22 = {
+		cost = 240
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.11
+		}
+	}
+	23 = {
+		cost = 260
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.115
+		}
+	}
+	24 = {
+		cost = 280
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.12
+		}
+	}
+	25 = {
+		cost = 300
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.125
+		}
+	}
+	26 = {
+		cost = 320
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.13
+		}
+	}
+	27 = {
+		cost = 340
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.135
+		}
+	}
+	28 = {
+		cost = 360
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.14
+		}
+	}
+	29 = {
+		cost = 380
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.145
+		}
+	}
+	30 = {
+		cost = 400
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.15
+		}
+	}
+	31 = {
+		cost = 440
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.155
+		}
+	}
+	32 = {
+		cost = 480
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.16
+		}
+	}
+	33 = {
+		cost = 520
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.165
+		}
+	}
+	34 = {
+		cost = 560
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.17
+		}
+	}
+	35 = {
+		cost = 600
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.175
+		}
+	}
+	36 = {
+		cost = 640
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.18
+		}
+	}
+	37 = {
+		cost = 680
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.185
+		}
+	}
+	38 = {
+		cost = 720
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.19
+		}
+	}
+	39 = {
+		cost = 760
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.195
+		}
+	}
+	40 = {
+		cost = 800
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.2
+		}
+	}
+	41 = {
+		cost = 880
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.205
+		}
+	}
+	42 = {
+		cost = 960
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.21
+		}
+	}
+	43 = {
+		cost = 1040
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.215
+		}
+	}
+	44 = {
+		cost = 1120
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.22
+		}
+	}
+	45 = {
+		cost = 1200
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.225
+		}
+	}
+	46 = {
+		cost = 1280
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.23
+		}
+	}
+	47 = {
+		cost = 1360
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.235
+		}
+	}
+	48 = {
+		cost = 1440
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.24
+		}
+	}
+	49 = {
+		cost = 1520
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.245
+		}
+	}
+	50 = {
+		cost = 1600
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.25
+		}
+	}
+	51 = {
+		cost = 1760
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.255
+		}
+	}
+	52 = {
+		cost = 1920
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.26
+		}
+	}
+	53 = {
+		cost = 2080
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.265
+		}
+	}
+	54 = {
+		cost = 2240
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.27
+		}
+	}
+	55 = {
+		cost = 2400
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.275
+		}
+	}
+	56 = {
+		cost = 2560
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.28
+		}
+	}
+	57 = {
+		cost = 2720
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.285
+		}
+	}
+	58 = {
+		cost = 2880
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.29
+		}
+	}
+	59 = {
+		cost = 3040
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.295
+		}
+	}
+	60 = {
+		cost = 3200
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.3
+		}
+	}
+	61 = {
+		cost = 3520
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.305
+		}
+	}
+	62 = {
+		cost = 3840
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.31
+		}
+	}
+	63 = {
+		cost = 4160
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.315
+		}
+	}
+	64 = {
+		cost = 4480
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.32
+		}
+	}
+	65 = {
+		cost = 4800
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.325
+		}
+	}
+	66 = {
+		cost = 5120
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.33
+		}
+	}
+	67 = {
+		cost = 5440
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.335
+		}
+	}
+	68 = {
+		cost = 5760
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.34
+		}
+	}
+	69 = {
+		cost = 6080
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.345
+		}
+	}
+	70 = {
+		cost = 6400
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.35
+		}
+	}
+	71 = {
+		cost = 7040
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.355
+		}
+	}
+	72 = {
+		cost = 7680
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.36
+		}
+	}
+	73 = {
+		cost = 8320
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.365
+		}
+	}
+	74 = {
+		cost = 8960
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.37
+		}
+	}
+	75 = {
+		cost = 9600
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.375
+		}
+	}
+	76 = {
+		cost = 10240
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.38
+		}
+	}
+	77 = {
+		cost = 10880
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.385
+		}
+	}
+	78 = {
+		cost = 11520
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.39
+		}
+	}
+	79 = {
+		cost = 12160
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.395
+		}
+	}
+	80 = {
+		cost = 12800
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.4
+		}
+	}
+	81 = {
+		cost = 14080
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.405
+		}
+	}
+	82 = {
+		cost = 15360
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.41
+		}
+	}
+	83 = {
+		cost = 16640
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.415
+		}
+	}
+	84 = {
+		cost = 17920
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.42
+		}
+	}
+	85 = {
+		cost = 19200
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.425
+		}
+	}
+	86 = {
+		cost = 20480
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.43
+		}
+	}
+	87 = {
+		cost = 21760
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.435
+		}
+	}
+	88 = {
+		cost = 23040
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.44
+		}
+	}
+	89 = {
+		cost = 24320
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.445
+		}
+	}
+	90 = {
+		cost = 25600
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.45
+		}
+	}
+	91 = {
+		cost = 28160
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.455
+		}
+	}
+	92 = {
+		cost = 30720
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.46
+		}
+	}
+	93 = {
+		cost = 33280
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.465
+		}
+	}
+	94 = {
+		cost = 35840
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.47
+		}
+	}
+	95 = {
+		cost = 38400
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.475
+		}
+	}
+	96 = {
+		cost = 40960
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.48
+		}
+	}
+	97 = {
+		cost = 43520
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.485
+		}
+	}
+	98 = {
+		cost = 46080
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.49
+		}
+	}
+	99 = {
+		cost = 48640
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.495
+		}
+	}
+	100 = {
+		cost = 51200
+		type = navy
+		modifier = {
+			naval_damage_factor = 0.5
+		}
+	}
+
+	
+	#-----# Corps Commander #-----#
+
+	1 = {
+		cost = 10
+		type = corps_commander
+		modifier = {
+			offence = 0.005
+		}
+	}
+	2 = {
+		cost = 20
+		type = corps_commander
+		modifier = {
+			offence = 0.01
+		}
+	}
+	3 = {
+		cost = 30
+		type = corps_commander
+		modifier = {
+			offence = 0.015
+		}
+	}
+	4 = {
+		cost = 40
+		type = corps_commander
+		modifier = {
+			offence = 0.02
+		}
+	}
+	5 = {
+		cost = 50
+		type = corps_commander
+		modifier = {
+			offence = 0.025
+		}
+	}
+	6 = {
+		cost = 60
+		type = corps_commander
+		modifier = {
+			offence = 0.03
+		}
+	}
+	7 = {
+		cost = 70
+		type = corps_commander
+		modifier = {
+			offence = 0.035
+		}
+	}
+	8 = {
+		cost = 80
+		type = corps_commander
+		modifier = {
+			offence = 0.04
+		}
+	}
+	9 = {
+		cost = 90
+		type = corps_commander
+		modifier = {
+			offence = 0.045
+		}
+	}
+	10 = {
+		cost = 100
+		type = corps_commander
+		modifier = {
+			offence = 0.05
+		}
+	}
+	11 = {
+		cost = 110
+		type = corps_commander
+		modifier = {
+			offence = 0.055
+		}
+	}
+	12 = {
+		cost = 120
+		type = corps_commander
+		modifier = {
+			offence = 0.06
+		}
+	}
+	13 = {
+		cost = 130
+		type = corps_commander
+		modifier = {
+			offence = 0.065
+		}
+	}
+	14 = {
+		cost = 140
+		type = corps_commander
+		modifier = {
+			offence = 0.07
+		}
+	}
+	15 = {
+		cost = 150
+		type = corps_commander
+		modifier = {
+			offence = 0.075
+		}
+	}
+	16 = {
+		cost = 160
+		type = corps_commander
+		modifier = {
+			offence = 0.08
+		}
+	}
+	17 = {
+		cost = 170
+		type = corps_commander
+		modifier = {
+			offence = 0.085
+		}
+	}
+	18 = {
+		cost = 180
+		type = corps_commander
+		modifier = {
+			offence = 0.09
+		}
+	}
+	19 = {
+		cost = 190
+		type = corps_commander
+		modifier = {
+			offence = 0.095
+		}
+	}
+	20 = {
+		cost = 200
+		type = corps_commander
+		modifier = {
+			offence = 0.1
+		}
+	}
+	21 = {
+		cost = 220
+		type = corps_commander
+		modifier = {
+			offence = 0.105
+		}
+	}
+	22 = {
+		cost = 240
+		type = corps_commander
+		modifier = {
+			offence = 0.11
+		}
+	}
+	23 = {
+		cost = 260
+		type = corps_commander
+		modifier = {
+			offence = 0.115
+		}
+	}
+	24 = {
+		cost = 280
+		type = corps_commander
+		modifier = {
+			offence = 0.12
+		}
+	}
+	25 = {
+		cost = 300
+		type = corps_commander
+		modifier = {
+			offence = 0.125
+		}
+	}
+	26 = {
+		cost = 320
+		type = corps_commander
+		modifier = {
+			offence = 0.13
+		}
+	}
+	27 = {
+		cost = 340
+		type = corps_commander
+		modifier = {
+			offence = 0.135
+		}
+	}
+	28 = {
+		cost = 360
+		type = corps_commander
+		modifier = {
+			offence = 0.14
+		}
+	}
+	29 = {
+		cost = 380
+		type = corps_commander
+		modifier = {
+			offence = 0.145
+		}
+	}
+	30 = {
+		cost = 400
+		type = corps_commander
+		modifier = {
+			offence = 0.15
+		}
+	}
+	31 = {
+		cost = 440
+		type = corps_commander
+		modifier = {
+			offence = 0.155
+		}
+	}
+	32 = {
+		cost = 480
+		type = corps_commander
+		modifier = {
+			offence = 0.16
+		}
+	}
+	33 = {
+		cost = 520
+		type = corps_commander
+		modifier = {
+			offence = 0.165
+		}
+	}
+	34 = {
+		cost = 560
+		type = corps_commander
+		modifier = {
+			offence = 0.17
+		}
+	}
+	35 = {
+		cost = 600
+		type = corps_commander
+		modifier = {
+			offence = 0.175
+		}
+	}
+	36 = {
+		cost = 640
+		type = corps_commander
+		modifier = {
+			offence = 0.18
+		}
+	}
+	37 = {
+		cost = 680
+		type = corps_commander
+		modifier = {
+			offence = 0.185
+		}
+	}
+	38 = {
+		cost = 720
+		type = corps_commander
+		modifier = {
+			offence = 0.19
+		}
+	}
+	39 = {
+		cost = 760
+		type = corps_commander
+		modifier = {
+			offence = 0.195
+		}
+	}
+	40 = {
+		cost = 800
+		type = corps_commander
+		modifier = {
+			offence = 0.2
+		}
+	}
+	41 = {
+		cost = 880
+		type = corps_commander
+		modifier = {
+			offence = 0.205
+		}
+	}
+	42 = {
+		cost = 960
+		type = corps_commander
+		modifier = {
+			offence = 0.21
+		}
+	}
+	43 = {
+		cost = 1040
+		type = corps_commander
+		modifier = {
+			offence = 0.215
+		}
+	}
+	44 = {
+		cost = 1120
+		type = corps_commander
+		modifier = {
+			offence = 0.22
+		}
+	}
+	45 = {
+		cost = 1200
+		type = corps_commander
+		modifier = {
+			offence = 0.225
+		}
+	}
+	46 = {
+		cost = 1280
+		type = corps_commander
+		modifier = {
+			offence = 0.23
+		}
+	}
+	47 = {
+		cost = 1360
+		type = corps_commander
+		modifier = {
+			offence = 0.235
+		}
+	}
+	48 = {
+		cost = 1440
+		type = corps_commander
+		modifier = {
+			offence = 0.24
+		}
+	}
+	49 = {
+		cost = 1520
+		type = corps_commander
+		modifier = {
+			offence = 0.245
+		}
+	}
+	50 = {
+		cost = 1600
+		type = corps_commander
+		modifier = {
+			offence = 0.25
+		}
+	}
+	51 = {
+		cost = 1760
+		type = corps_commander
+		modifier = {
+			offence = 0.255
+		}
+	}
+	52 = {
+		cost = 1920
+		type = corps_commander
+		modifier = {
+			offence = 0.26
+		}
+	}
+	53 = {
+		cost = 2080
+		type = corps_commander
+		modifier = {
+			offence = 0.265
+		}
+	}
+	54 = {
+		cost = 2240
+		type = corps_commander
+		modifier = {
+			offence = 0.27
+		}
+	}
+	55 = {
+		cost = 2400
+		type = corps_commander
+		modifier = {
+			offence = 0.275
+		}
+	}
+	56 = {
+		cost = 2560
+		type = corps_commander
+		modifier = {
+			offence = 0.28
+		}
+	}
+	57 = {
+		cost = 2720
+		type = corps_commander
+		modifier = {
+			offence = 0.285
+		}
+	}
+	58 = {
+		cost = 2880
+		type = corps_commander
+		modifier = {
+			offence = 0.29
+		}
+	}
+	59 = {
+		cost = 3040
+		type = corps_commander
+		modifier = {
+			offence = 0.295
+		}
+	}
+	60 = {
+		cost = 3200
+		type = corps_commander
+		modifier = {
+			offence = 0.3
+		}
+	}
+	61 = {
+		cost = 3520
+		type = corps_commander
+		modifier = {
+			offence = 0.305
+		}
+	}
+	62 = {
+		cost = 3840
+		type = corps_commander
+		modifier = {
+			offence = 0.31
+		}
+	}
+	63 = {
+		cost = 4160
+		type = corps_commander
+		modifier = {
+			offence = 0.315
+		}
+	}
+	64 = {
+		cost = 4480
+		type = corps_commander
+		modifier = {
+			offence = 0.32
+		}
+	}
+	65 = {
+		cost = 4800
+		type = corps_commander
+		modifier = {
+			offence = 0.325
+		}
+	}
+	66 = {
+		cost = 5120
+		type = corps_commander
+		modifier = {
+			offence = 0.33
+		}
+	}
+	67 = {
+		cost = 5440
+		type = corps_commander
+		modifier = {
+			offence = 0.335
+		}
+	}
+	68 = {
+		cost = 5760
+		type = corps_commander
+		modifier = {
+			offence = 0.34
+		}
+	}
+	69 = {
+		cost = 6080
+		type = corps_commander
+		modifier = {
+			offence = 0.345
+		}
+	}
+	70 = {
+		cost = 6400
+		type = corps_commander
+		modifier = {
+			offence = 0.35
+		}
+	}
+	71 = {
+		cost = 7040
+		type = corps_commander
+		modifier = {
+			offence = 0.355
+		}
+	}
+	72 = {
+		cost = 7680
+		type = corps_commander
+		modifier = {
+			offence = 0.36
+		}
+	}
+	73 = {
+		cost = 8320
+		type = corps_commander
+		modifier = {
+			offence = 0.365
+		}
+	}
+	74 = {
+		cost = 8960
+		type = corps_commander
+		modifier = {
+			offence = 0.37
+		}
+	}
+	75 = {
+		cost = 9600
+		type = corps_commander
+		modifier = {
+			offence = 0.375
+		}
+	}
+	76 = {
+		cost = 10240
+		type = corps_commander
+		modifier = {
+			offence = 0.38
+		}
+	}
+	77 = {
+		cost = 10880
+		type = corps_commander
+		modifier = {
+			offence = 0.385
+		}
+	}
+	78 = {
+		cost = 11520
+		type = corps_commander
+		modifier = {
+			offence = 0.39
+		}
+	}
+	79 = {
+		cost = 12160
+		type = corps_commander
+		modifier = {
+			offence = 0.395
+		}
+	}
+	80 = {
+		cost = 12800
+		type = corps_commander
+		modifier = {
+			offence = 0.4
+		}
+	}
+	81 = {
+		cost = 14080
+		type = corps_commander
+		modifier = {
+			offence = 0.405
+		}
+	}
+	82 = {
+		cost = 15360
+		type = corps_commander
+		modifier = {
+			offence = 0.41
+		}
+	}
+	83 = {
+		cost = 16640
+		type = corps_commander
+		modifier = {
+			offence = 0.415
+		}
+	}
+	84 = {
+		cost = 17920
+		type = corps_commander
+		modifier = {
+			offence = 0.42
+		}
+	}
+	85 = {
+		cost = 19200
+		type = corps_commander
+		modifier = {
+			offence = 0.425
+		}
+	}
+	86 = {
+		cost = 20480
+		type = corps_commander
+		modifier = {
+			offence = 0.43
+		}
+	}
+	87 = {
+		cost = 21760
+		type = corps_commander
+		modifier = {
+			offence = 0.435
+		}
+	}
+	88 = {
+		cost = 23040
+		type = corps_commander
+		modifier = {
+			offence = 0.44
+		}
+	}
+	89 = {
+		cost = 24320
+		type = corps_commander
+		modifier = {
+			offence = 0.445
+		}
+	}
+	90 = {
+		cost = 25600
+		type = corps_commander
+		modifier = {
+			offence = 0.45
+		}
+	}
+	91 = {
+		cost = 28160
+		type = corps_commander
+		modifier = {
+			offence = 0.455
+		}
+	}
+	92 = {
+		cost = 30720
+		type = corps_commander
+		modifier = {
+			offence = 0.46
+		}
+	}
+	93 = {
+		cost = 33280
+		type = corps_commander
+		modifier = {
+			offence = 0.465
+		}
+	}
+	94 = {
+		cost = 35840
+		type = corps_commander
+		modifier = {
+			offence = 0.47
+		}
+	}
+	95 = {
+		cost = 38400
+		type = corps_commander
+		modifier = {
+			offence = 0.475
+		}
+	}
+	96 = {
+		cost = 40960
+		type = corps_commander
+		modifier = {
+			offence = 0.48
+		}
+	}
+	97 = {
+		cost = 43520
+		type = corps_commander
+		modifier = {
+			offence = 0.485
+		}
+	}
+	98 = {
+		cost = 46080
+		type = corps_commander
+		modifier = {
+			offence = 0.49
+		}
+	}
+	99 = {
+		cost = 48640
+		type = corps_commander
+		modifier = {
+			offence = 0.495
+		}
+	}
+	100 = {
+		cost = 51200
+		type = corps_commander
+		modifier = {
+			offence = 0.5
+		}
+	}
+
+
+	#-----# Field Marshal #-----#
+
+	1 = {
+		cost = 10
+		type = field_marshal
+		modifier = {
+			offence = 0.005
+		}
+	}
+	2 = {
+		cost = 20
+		type = field_marshal
+		modifier = {
+			offence = 0.01
+		}
+	}
+	3 = {
+		cost = 30
+		type = field_marshal
+		modifier = {
+			offence = 0.015
+		}
+	}
+	4 = {
+		cost = 40
+		type = field_marshal
+		modifier = {
+			offence = 0.02
+		}
+	}
+	5 = {
+		cost = 50
+		type = field_marshal
+		modifier = {
+			offence = 0.025
+		}
+	}
+	6 = {
+		cost = 60
+		type = field_marshal
+		modifier = {
+			offence = 0.03
+		}
+	}
+	7 = {
+		cost = 70
+		type = field_marshal
+		modifier = {
+			offence = 0.035
+		}
+	}
+	8 = {
+		cost = 80
+		type = field_marshal
+		modifier = {
+			offence = 0.04
+		}
+	}
+	9 = {
+		cost = 90
+		type = field_marshal
+		modifier = {
+			offence = 0.045
+		}
+	}
+	10 = {
+		cost = 100
+		type = field_marshal
+		modifier = {
+			offence = 0.05
+		}
+	}
+	11 = {
+		cost = 110
+		type = field_marshal
+		modifier = {
+			offence = 0.055
+		}
+	}
+	12 = {
+		cost = 120
+		type = field_marshal
+		modifier = {
+			offence = 0.06
+		}
+	}
+	13 = {
+		cost = 130
+		type = field_marshal
+		modifier = {
+			offence = 0.065
+		}
+	}
+	14 = {
+		cost = 140
+		type = field_marshal
+		modifier = {
+			offence = 0.07
+		}
+	}
+	15 = {
+		cost = 150
+		type = field_marshal
+		modifier = {
+			offence = 0.075
+		}
+	}
+	16 = {
+		cost = 160
+		type = field_marshal
+		modifier = {
+			offence = 0.08
+		}
+	}
+	17 = {
+		cost = 170
+		type = field_marshal
+		modifier = {
+			offence = 0.085
+		}
+	}
+	18 = {
+		cost = 180
+		type = field_marshal
+		modifier = {
+			offence = 0.09
+		}
+	}
+	19 = {
+		cost = 190
+		type = field_marshal
+		modifier = {
+			offence = 0.095
+		}
+	}
+	20 = {
+		cost = 200
+		type = field_marshal
+		modifier = {
+			offence = 0.1
+		}
+	}
+	21 = {
+		cost = 220
+		type = field_marshal
+		modifier = {
+			offence = 0.105
+		}
+	}
+	22 = {
+		cost = 240
+		type = field_marshal
+		modifier = {
+			offence = 0.11
+		}
+	}
+	23 = {
+		cost = 260
+		type = field_marshal
+		modifier = {
+			offence = 0.115
+		}
+	}
+	24 = {
+		cost = 280
+		type = field_marshal
+		modifier = {
+			offence = 0.12
+		}
+	}
+	25 = {
+		cost = 300
+		type = field_marshal
+		modifier = {
+			offence = 0.125
+		}
+	}
+	26 = {
+		cost = 320
+		type = field_marshal
+		modifier = {
+			offence = 0.13
+		}
+	}
+	27 = {
+		cost = 340
+		type = field_marshal
+		modifier = {
+			offence = 0.135
+		}
+	}
+	28 = {
+		cost = 360
+		type = field_marshal
+		modifier = {
+			offence = 0.14
+		}
+	}
+	29 = {
+		cost = 380
+		type = field_marshal
+		modifier = {
+			offence = 0.145
+		}
+	}
+	30 = {
+		cost = 400
+		type = field_marshal
+		modifier = {
+			offence = 0.15
+		}
+	}
+	31 = {
+		cost = 440
+		type = field_marshal
+		modifier = {
+			offence = 0.155
+		}
+	}
+	32 = {
+		cost = 480
+		type = field_marshal
+		modifier = {
+			offence = 0.16
+		}
+	}
+	33 = {
+		cost = 520
+		type = field_marshal
+		modifier = {
+			offence = 0.165
+		}
+	}
+	34 = {
+		cost = 560
+		type = field_marshal
+		modifier = {
+			offence = 0.17
+		}
+	}
+	35 = {
+		cost = 600
+		type = field_marshal
+		modifier = {
+			offence = 0.175
+		}
+	}
+	36 = {
+		cost = 640
+		type = field_marshal
+		modifier = {
+			offence = 0.18
+		}
+	}
+	37 = {
+		cost = 680
+		type = field_marshal
+		modifier = {
+			offence = 0.185
+		}
+	}
+	38 = {
+		cost = 720
+		type = field_marshal
+		modifier = {
+			offence = 0.19
+		}
+	}
+	39 = {
+		cost = 760
+		type = field_marshal
+		modifier = {
+			offence = 0.195
+		}
+	}
+	40 = {
+		cost = 800
+		type = field_marshal
+		modifier = {
+			offence = 0.2
+		}
+	}
+	41 = {
+		cost = 880
+		type = field_marshal
+		modifier = {
+			offence = 0.205
+		}
+	}
+	42 = {
+		cost = 960
+		type = field_marshal
+		modifier = {
+			offence = 0.21
+		}
+	}
+	43 = {
+		cost = 1040
+		type = field_marshal
+		modifier = {
+			offence = 0.215
+		}
+	}
+	44 = {
+		cost = 1120
+		type = field_marshal
+		modifier = {
+			offence = 0.22
+		}
+	}
+	45 = {
+		cost = 1200
+		type = field_marshal
+		modifier = {
+			offence = 0.225
+		}
+	}
+	46 = {
+		cost = 1280
+		type = field_marshal
+		modifier = {
+			offence = 0.23
+		}
+	}
+	47 = {
+		cost = 1360
+		type = field_marshal
+		modifier = {
+			offence = 0.235
+		}
+	}
+	48 = {
+		cost = 1440
+		type = field_marshal
+		modifier = {
+			offence = 0.24
+		}
+	}
+	49 = {
+		cost = 1520
+		type = field_marshal
+		modifier = {
+			offence = 0.245
+		}
+	}
+	50 = {
+		cost = 1600
+		type = field_marshal
+		modifier = {
+			offence = 0.25
+		}
+	}
+	51 = {
+		cost = 1760
+		type = field_marshal
+		modifier = {
+			offence = 0.255
+		}
+	}
+	52 = {
+		cost = 1920
+		type = field_marshal
+		modifier = {
+			offence = 0.26
+		}
+	}
+	53 = {
+		cost = 2080
+		type = field_marshal
+		modifier = {
+			offence = 0.265
+		}
+	}
+	54 = {
+		cost = 2240
+		type = field_marshal
+		modifier = {
+			offence = 0.27
+		}
+	}
+	55 = {
+		cost = 2400
+		type = field_marshal
+		modifier = {
+			offence = 0.275
+		}
+	}
+	56 = {
+		cost = 2560
+		type = field_marshal
+		modifier = {
+			offence = 0.28
+		}
+	}
+	57 = {
+		cost = 2720
+		type = field_marshal
+		modifier = {
+			offence = 0.285
+		}
+	}
+	58 = {
+		cost = 2880
+		type = field_marshal
+		modifier = {
+			offence = 0.29
+		}
+	}
+	59 = {
+		cost = 3040
+		type = field_marshal
+		modifier = {
+			offence = 0.295
+		}
+	}
+	60 = {
+		cost = 3200
+		type = field_marshal
+		modifier = {
+			offence = 0.3
+		}
+	}
+	61 = {
+		cost = 3520
+		type = field_marshal
+		modifier = {
+			offence = 0.305
+		}
+	}
+	62 = {
+		cost = 3840
+		type = field_marshal
+		modifier = {
+			offence = 0.31
+		}
+	}
+	63 = {
+		cost = 4160
+		type = field_marshal
+		modifier = {
+			offence = 0.315
+		}
+	}
+	64 = {
+		cost = 4480
+		type = field_marshal
+		modifier = {
+			offence = 0.32
+		}
+	}
+	65 = {
+		cost = 4800
+		type = field_marshal
+		modifier = {
+			offence = 0.325
+		}
+	}
+	66 = {
+		cost = 5120
+		type = field_marshal
+		modifier = {
+			offence = 0.33
+		}
+	}
+	67 = {
+		cost = 5440
+		type = field_marshal
+		modifier = {
+			offence = 0.335
+		}
+	}
+	68 = {
+		cost = 5760
+		type = field_marshal
+		modifier = {
+			offence = 0.34
+		}
+	}
+	69 = {
+		cost = 6080
+		type = field_marshal
+		modifier = {
+			offence = 0.345
+		}
+	}
+	70 = {
+		cost = 6400
+		type = field_marshal
+		modifier = {
+			offence = 0.35
+		}
+	}
+	71 = {
+		cost = 7040
+		type = field_marshal
+		modifier = {
+			offence = 0.355
+		}
+	}
+	72 = {
+		cost = 7680
+		type = field_marshal
+		modifier = {
+			offence = 0.36
+		}
+	}
+	73 = {
+		cost = 8320
+		type = field_marshal
+		modifier = {
+			offence = 0.365
+		}
+	}
+	74 = {
+		cost = 8960
+		type = field_marshal
+		modifier = {
+			offence = 0.37
+		}
+	}
+	75 = {
+		cost = 9600
+		type = field_marshal
+		modifier = {
+			offence = 0.375
+		}
+	}
+	76 = {
+		cost = 10240
+		type = field_marshal
+		modifier = {
+			offence = 0.38
+		}
+	}
+	77 = {
+		cost = 10880
+		type = field_marshal
+		modifier = {
+			offence = 0.385
+		}
+	}
+	78 = {
+		cost = 11520
+		type = field_marshal
+		modifier = {
+			offence = 0.39
+		}
+	}
+	79 = {
+		cost = 12160
+		type = field_marshal
+		modifier = {
+			offence = 0.395
+		}
+	}
+	80 = {
+		cost = 12800
+		type = field_marshal
+		modifier = {
+			offence = 0.4
+		}
+	}
+	81 = {
+		cost = 14080
+		type = field_marshal
+		modifier = {
+			offence = 0.405
+		}
+	}
+	82 = {
+		cost = 15360
+		type = field_marshal
+		modifier = {
+			offence = 0.41
+		}
+	}
+	83 = {
+		cost = 16640
+		type = field_marshal
+		modifier = {
+			offence = 0.415
+		}
+	}
+	84 = {
+		cost = 17920
+		type = field_marshal
+		modifier = {
+			offence = 0.42
+		}
+	}
+	85 = {
+		cost = 19200
+		type = field_marshal
+		modifier = {
+			offence = 0.425
+		}
+	}
+	86 = {
+		cost = 20480
+		type = field_marshal
+		modifier = {
+			offence = 0.43
+		}
+	}
+	87 = {
+		cost = 21760
+		type = field_marshal
+		modifier = {
+			offence = 0.435
+		}
+	}
+	88 = {
+		cost = 23040
+		type = field_marshal
+		modifier = {
+			offence = 0.44
+		}
+	}
+	89 = {
+		cost = 24320
+		type = field_marshal
+		modifier = {
+			offence = 0.445
+		}
+	}
+	90 = {
+		cost = 25600
+		type = field_marshal
+		modifier = {
+			offence = 0.45
+		}
+	}
+	91 = {
+		cost = 28160
+		type = field_marshal
+		modifier = {
+			offence = 0.455
+		}
+	}
+	92 = {
+		cost = 30720
+		type = field_marshal
+		modifier = {
+			offence = 0.46
+		}
+	}
+	93 = {
+		cost = 33280
+		type = field_marshal
+		modifier = {
+			offence = 0.465
+		}
+	}
+	94 = {
+		cost = 35840
+		type = field_marshal
+		modifier = {
+			offence = 0.47
+		}
+	}
+	95 = {
+		cost = 38400
+		type = field_marshal
+		modifier = {
+			offence = 0.475
+		}
+	}
+	96 = {
+		cost = 40960
+		type = field_marshal
+		modifier = {
+			offence = 0.48
+		}
+	}
+	97 = {
+		cost = 43520
+		type = field_marshal
+		modifier = {
+			offence = 0.485
+		}
+	}
+	98 = {
+		cost = 46080
+		type = field_marshal
+		modifier = {
+			offence = 0.49
+		}
+	}
+	99 = {
+		cost = 48640
+		type = field_marshal
+		modifier = {
+			offence = 0.495
+		}
+	}
+	100 = {
+		cost = 51200
+		type = field_marshal
+		modifier = {
+			offence = 0.5
+		}
+	}
+
+}

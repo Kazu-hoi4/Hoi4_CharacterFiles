@@ -1,0 +1,13 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			JAP = {
+				every_country_division = {
+					add_divisional_commander_xp = 100000
+				}
+			}
+		}
+	}
+
+}
