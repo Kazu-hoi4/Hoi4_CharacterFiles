@@ -172,7 +172,16 @@
 		recruit_character = jap_rikichi_ando
 		recruit_character = jap_masataka_yamawaki
 
-		recruit_character = jap_yoshio_shinoduka
+		recruit_character = jap_eitaro_uchiyama
+
+		recruit_character = jap_jou_iimura
+		recruit_character = jap_yoshio_koduki
+		recruit_character = jap_tasuku_okada
+		recruit_character = jap_shigenori_kurota
+		recruit_character = jap_aketo_nakamura
+		recruit_character = jap_hiroshi_nemoto
+		recruit_character = jap_kiichiro_higuchi
+		recruit_character = jap_isami_yokoyama
 
 		recruit_character = jap_heisuke_yanagawa
 		recruit_character = jap_kouhei_kashii

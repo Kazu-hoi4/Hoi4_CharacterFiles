@@ -3880,19 +3880,139 @@ characters = {
 
 	#---# Unhistorical Full General #---#
 
-	jap_yoshio_shinoduka = {
-		name = jap_yoshio_shinoduka
+	jap_eitaro_uchiyama = {
+		name = jap_eitaro_uchiyama
 		portraits = {
 			Army = {
-				large = GFX_portrait_jap_yoshio_shinoduka_army
-				small = GFX_frame_jap_yoshio_shinoduka_army
+				large = GFX_portrait_jap_eitaro_uchiyama_army
+				small = GFX_frame_jap_eitaro_uchiyama_army
 			}
 		}
 		corps_commander = {
 			legacy_id = 0
 			skill = 1
 			traits = {
-				cavalry_officer
+				artillery_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+	
+	jap_jou_iimura = {
+		name = jap_jou_iimura
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_jou_iimura_army
+				small = GFX_frame_jap_jou_iimura_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_yoshio_koduki = {
+		name = jap_yoshio_koduki
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_yoshio_koduki_army
+				small = GFX_frame_jap_yoshio_koduki_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_tasuku_okada = {
+		name = jap_tasuku_okada
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_tasuku_okada_army
+				small = GFX_frame_jap_tasuku_okada_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_shigenori_kurota = {
+		name = jap_shigenori_kurota
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_shigenori_kurota_army
+				small = GFX_frame_jap_shigenori_kurota_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_aketo_nakamura = {
+		name = jap_aketo_nakamura
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_aketo_nakamura_army
+				small = GFX_frame_jap_aketo_nakamura_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_hiroshi_nemoto = {
+		name = jap_hiroshi_nemoto
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_hiroshi_nemoto_army
+				small = GFX_frame_jap_hiroshi_nemoto_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
@@ -3916,7 +4036,26 @@ characters = {
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
-				NOT = { has_trait = t_JAP_colonel }
+			}
+		}
+	}
+
+	jap_isami_yokoyama = {
+		name = jap_isami_yokoyama
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_isami_yokoyama_army
+				small = GFX_frame_jap_isami_yokoyama_army
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				infantry_officer
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
 			}
 		}
 	}
