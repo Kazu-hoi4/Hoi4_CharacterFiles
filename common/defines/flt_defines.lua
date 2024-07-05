@@ -12,9 +12,6 @@ NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 1000;
 NDefines.NMilitary.MAX_AIR_EXPERIENCE = 1000;
 
 NDefines.NCharacter.OFFICER_CORP_HIGH_COMMAND_SLOTS_IN_MENU = 4;
-NDefines.NCharacter.SPECIALIST_ADVISOR_MIN_RANK = 40;
-NDefines.NCharacter.EXPERT_ADVISOR_MIN_RANK = 60;
-NDefines.NCharacter.GENIUS_ADVISOR_MIN_RANK = 80;
 NDefines.NCharacter.OFFICER_CORP_ADVISOR_ENTRIES_IN_MENU = {
 	"high_command",
 	"theorist",

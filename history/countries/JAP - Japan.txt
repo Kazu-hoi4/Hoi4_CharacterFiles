@@ -26,16 +26,16 @@
 
 		recruit_character = jap_emperor_hirohito
 		
-		recruit_character = jap_takashi_hara
+		##recruit_character = jap_takashi_hara
 		recruit_character = jap_korekiyo_takahashi
-		recruit_character = jap_tomozaburou_kato
-		recruit_character = jap_gonbe_yamamoto
+		##recruit_character = jap_tomozaburou_kato
+		##recruit_character = jap_gonbe_yamamoto
 		recruit_character = jap_keigo_kiyoura
-		recruit_character = jap_takaaki_kato
+		##recruit_character = jap_takaaki_kato
 		recruit_character = jap_reijiro_wakatsuki
-		recruit_character = jap_giichi_tanaka
-		recruit_character = jap_osachi_hamaguchi
-		recruit_character = jap_tsuyoshi_inukai
+		##recruit_character = jap_giichi_tanaka
+		##recruit_character = jap_osachi_hamaguchi
+		##recruit_character = jap_tsuyoshi_inukai
 		recruit_character = jap_makoto_saito
 		recruit_character = jap_keisuke_okada
 		recruit_character = jap_kouki_hirota
@@ -54,9 +54,6 @@
 		recruit_character = jap_ichiro_hatoyama
 		recruit_character = jap_tanzan_ishibashi
 		recruit_character = jap_nobusuke_kishi
-
-		recruit_character = jap_kyuichi_tokuda
-
 
 		recruit_character = jap_takejiro_tokonami
 		recruit_character = jap_rentaro_mizuno
@@ -84,7 +81,6 @@
 		recruit_character = jap_etsujiro_uehara
 		recruit_character = jap_kozaemon_kimura
 
-
 		recruit_character = jap_kazue_shouda
 		recruit_character = jap_otohiko_ichiki
 		recruit_character = jap_junnosuke_inoue
@@ -105,7 +101,6 @@
 		recruit_character = jap_juichi_tsushima
 		recruit_character = jap_toyosaku_hirose
 		recruit_character = jap_keizo_shibusawa
-
 
 		recruit_character = jap_kousai_uchida
 		recruit_character = jap_hikoichi_ijuin
@@ -130,7 +125,10 @@
 		recruit_character = jap_hiroshi_oshima
 		recruit_character = jap_teiichi_suzuki
 		recruit_character = jap_yoshisuke_ayukawa
+
+		recruit_character = jap_kyuichi_tokuda
 		recruit_character = jap_sanzo_nosaka
+		recruit_character = jap_hotsumi_ozaki
 		
 		recruit_character = jap_kotohito_kanin
 		recruit_character = jap_morimasa_nashimoto
@@ -183,14 +181,17 @@
 		recruit_character = jap_kiichiro_higuchi
 		recruit_character = jap_isami_yokoyama
 
+		recruit_character = jap_tsunenori_kaya
+		recruit_character = jap_haruhito_kanin
+
 		recruit_character = jap_heisuke_yanagawa
 		recruit_character = jap_kouhei_kashii
 
-		recruit_character = jap_communist_sympathizer_general_1
-		recruit_character = jap_communist_sympathizer_general_2
-		recruit_character = jap_communist_sympathizer_general_3
-		recruit_character = jap_communist_sympathizer_general_4
-		recruit_character = jap_communist_sympathizer_general_5
+		recruit_character = jap_sakou_tanemura
+		recruit_character = jap_shigeharu_asaeda
+		recruit_character = jap_ryuzo_sejima
+		recruit_character = jap_masaji_shii
+		recruit_character = jap_seiki_asahara
 
 		recruit_character = jap_hiroyasu_fushimi
 		recruit_character = jap_eisuke_yamamoto

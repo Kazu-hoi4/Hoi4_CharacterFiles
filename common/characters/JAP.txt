@@ -54,7 +54,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -67,7 +67,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -83,7 +83,7 @@ characters = {
 				has_character_flag = HE_IS_A_SURVIVOR
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -109,7 +109,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -129,9 +129,9 @@ characters = {
 			}
 		}
 	}
-	
+
 	##jap_tomozaburou_kato = {} # Navy Characters
-	
+
 	jap_gonbe_yamamoto = {
 		name = jap_gonbe_yamamoto
 		portraits = {
@@ -147,7 +147,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -160,14 +160,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_keigo_kiyoura = {
 		name = jap_keigo_kiyoura
 		portraits = {
@@ -183,7 +183,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -196,7 +196,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -209,14 +209,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_takaaki_kato = {
 		name = jap_takaaki_kato
 		portraits = {
@@ -232,7 +232,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -245,7 +245,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -268,7 +268,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -281,7 +281,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -294,16 +294,16 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	##jap_giichi_tanaka = {} # Army Characters
-	
+
 	jap_osachi_hamaguchi = {
 		name = jap_osachi_hamaguchi
 		portraits = {
@@ -319,7 +319,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -332,7 +332,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -345,14 +345,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_tsuyoshi_inukai = {
 		name = jap_tsuyoshi_inukai
 		portraits = {
@@ -368,7 +368,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -381,7 +381,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -394,14 +394,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_makoto_saito = {
 		name = jap_makoto_saito
 		portraits = {
@@ -427,9 +427,9 @@ characters = {
 			}
 		}
 	}
-	
+
 	##jap_keisuke_okada = {} # Navy Characters
-	
+
 	jap_kouki_hirota = {
 		name = jap_kouki_hirota
 		portraits = {
@@ -445,7 +445,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -458,16 +458,16 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	##jap_senjuro_hayashi = {} # Army Characters
-	
+
 	jap_fumimaro_konoe = {
 		name = jap_fumimaro_konoe
 		portraits = {
@@ -483,7 +483,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -496,7 +496,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -509,14 +509,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_kiichirou_hiranuma = {
 		name = jap_kiichirou_hiranuma
 		portraits = {
@@ -552,17 +552,17 @@ characters = {
 			}
 		}
 	}
-	
+
 	##jap_nobuyuki_abe = {} # Army Characters
-	
+
 	##jap_mitsuyuki_yonai = {} # Navy Characters
-	
+
 	##jap_hideki_tojo = {} # Army Characters
-	
+
 	##jap_kuniaki_koiso = {} # Army Characters
-	
+
 	##jap_kantaro_suzuki = {} # Navy Characters
-	
+
 	##jap_naruhiko_higashikuni # Army Characters
 
 	jap_kijuro_shidehara = {
@@ -580,7 +580,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -593,14 +593,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_shigeru_takeuchi = {
 		name = jap_shigeru_takeuchi
 		portraits = {
@@ -616,7 +616,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -629,14 +629,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_tetsu_katayama = {
 		name = jap_tetsu_katayama
 		portraits = {
@@ -652,7 +652,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -665,14 +665,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_hitoshi_ashida = {
 		name = jap_hitoshi_ashida
 		portraits = {
@@ -688,7 +688,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -701,14 +701,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_ichiro_hatoyama = {
 		name = jap_ichiro_hatoyama
 		portraits = {
@@ -724,14 +724,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_tanzan_ishibashi = {
 		name = jap_tanzan_ishibashi
 		portraits = {
@@ -747,7 +747,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -760,7 +760,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -773,14 +773,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_nobusuke_kishi = {
 		name = jap_nobusuke_kishi
 		portraits = {
@@ -796,7 +796,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -809,7 +809,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -842,14 +842,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	#-# MINISTER OF SECURITY (内務大臣) #-#
 
 	jap_takejiro_tokonami = {
@@ -867,14 +867,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_rentaro_mizuno = {
 		name = jap_rentaro_mizuno
 		portraits = {
@@ -890,14 +890,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_shinpei_goto = {
 		name = jap_shinpei_goto
 		portraits = {
@@ -913,7 +913,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -926,14 +926,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_kisaburo_suzuki = {
 		name = jap_kisaburo_suzuki
 		portraits = {
@@ -949,14 +949,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_keisuke_mochiduki = {
 		name = jap_keisuke_mochiduki
 		portraits = {
@@ -972,14 +972,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_kenzo_adachi = {
 		name = jap_kenzo_adachi
 		portraits = {
@@ -995,14 +995,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_tokugoro_nakabashi = {
 		name = jap_tokugoro_nakabashi
 		portraits = {
@@ -1018,14 +1018,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_tatsuo_yamamoto = {
 		name = jap_tatsuo_yamamoto
 		portraits = {
@@ -1041,14 +1041,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_fumio_goto = {
 		name = jap_fumio_goto
 		portraits = {
@@ -1064,7 +1064,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -1077,14 +1077,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_shigenosuke_ushio = {
 		name = jap_shigenosuke_ushio
 		portraits = {
@@ -1100,14 +1100,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_kakichi_kawarada = {
 		name = jap_kakichi_kawarada
 		portraits = {
@@ -1123,14 +1123,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_koichi_kido = {
 		name = jap_koichi_kido
 		portraits = {
@@ -1146,7 +1146,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -1163,7 +1163,7 @@ characters = {
 			}
 		}
 	}
-	
+
 	jap_naoshi_ohara = {
 		name = jap_naoshi_ohara
 		portraits = {
@@ -1179,14 +1179,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_hideo_kodama = {
 		name = jap_hideo_kodama
 		portraits = {
@@ -1202,14 +1202,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_eiji_yasui = {
 		name = jap_eiji_yasui
 		portraits = {
@@ -1225,14 +1225,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_harumichi_tanabe = {
 		name = jap_harumichi_tanabe
 		portraits = {
@@ -1248,14 +1248,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_michio_yuzawa = {
 		name = jap_michio_yuzawa
 		portraits = {
@@ -1271,14 +1271,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_kisaburo_ando = {
 		name = jap_kisaburo_ando
 		portraits = {
@@ -1294,14 +1294,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_shigeo_odachi = {
 		name = jap_shigeo_odachi
 		portraits = {
@@ -1317,14 +1317,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_genki_abe = {
 		name = jap_genki_abe
 		portraits = {
@@ -1340,14 +1340,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_iwao_yamazaki = {
 		name = jap_iwao_yamazaki
 		portraits = {
@@ -1363,14 +1363,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_horikiri_zejuro = {
 		name = jap_horikiri_zejuro
 		portraits = {
@@ -1386,14 +1386,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_seiichi_omura = {
 		name = jap_seiichi_omura
 		portraits = {
@@ -1409,14 +1409,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_etsujiro_uehara = {
 		name = jap_etsujiro_uehara
 		portraits = {
@@ -1432,14 +1432,14 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-	
+
 	jap_kozaemon_kimura = {
 		name = jap_kozaemon_kimura
 		portraits = {
@@ -1455,7 +1455,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -1464,7 +1464,7 @@ characters = {
 	}
 
 	#-# MINISTER OF FINANCE (大蔵大臣) #-#
-	
+
 	jap_kazue_shouda = {
 		name = jap_kazue_shouda
 		portraits = {
@@ -1480,7 +1480,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -1503,7 +1503,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -1526,7 +1526,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -1549,7 +1549,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -1572,7 +1572,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -1595,7 +1595,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -1618,7 +1618,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -1641,7 +1641,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -1664,7 +1664,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -1687,7 +1687,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -1710,7 +1710,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -1733,7 +1733,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -1756,7 +1756,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -1779,7 +1779,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -1802,7 +1802,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -1825,7 +1825,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -1848,7 +1848,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -1871,7 +1871,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -1894,7 +1894,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -1917,7 +1917,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -1942,7 +1942,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -1955,7 +1955,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -1978,7 +1978,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -2001,7 +2001,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -2024,7 +2024,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -2047,7 +2047,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -2070,7 +2070,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -2097,7 +2097,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -2122,7 +2122,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -2145,7 +2145,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -2168,7 +2168,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -2191,7 +2191,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -2214,7 +2214,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -2314,7 +2314,7 @@ characters = {
 				}
 			}
 			traits = {
-				the_railway_king
+				gifted_shipping_magnate
 			}
 			ai_will_do = {
 				factor = 10
@@ -2361,8 +2361,6 @@ characters = {
 			}
 		}
 	}
-
-
 
 	#-# FASCIST #-#
 
@@ -2486,6 +2484,29 @@ characters = {
 		}
 	}
 
+	jap_hotsumi_ozaki = {
+		name = jap_hotsumi_ozaki
+		portraits = {
+			Civilian = {
+				large = GFX_portrait_jap_hotsumi_ozaki
+				small = GFX_frame_jap_hotsumi_ozaki
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = jap_hotsumi_ozaki
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				communism_journalist
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
 }
 
 #-----# ARMY #-----#
@@ -2522,7 +2543,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -2535,7 +2556,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -2631,7 +2652,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -2696,7 +2717,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -2731,7 +2752,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -2744,7 +2765,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -2869,7 +2890,7 @@ characters = {
 			ai_will_do = {
 				factor = 10
 			}
-		}	
+		}
 		corps_commander = {
 			legacy_id = 0
 			skill = 1
@@ -3024,6 +3045,19 @@ characters = {
 				small = GFX_frame_jap_shunroku_hata_army
 			}
 		}
+		advisor = {
+			slot = minister_of_army
+			idea_token = jap_shunroku_hata_mar
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
 		corps_commander = {
 			legacy_id = 0
 			skill = 1
@@ -3051,7 +3085,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -3078,6 +3112,19 @@ characters = {
 			Army = {
 				large = GFX_portrait_jap_koutaro_nakamura_army
 				small = GFX_frame_jap_koutaro_nakamura_army
+			}
+		}
+		advisor = {
+			slot = minister_of_army
+			idea_token = jap_koutaro_nakamura_mar
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+
+			}
+			ai_will_do = {
+				factor = 10
 			}
 		}
 		corps_commander = {
@@ -3172,7 +3219,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -3185,7 +3232,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -3360,6 +3407,19 @@ characters = {
 				small = GFX_frame_jap_seishiro_itagaki_army
 			}
 		}
+		advisor = {
+			slot = minister_of_army
+			idea_token = jap_seishiro_itagaki_mar
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
 		corps_commander = {
 			legacy_id = 0
 			skill = 1
@@ -3391,7 +3451,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -3404,7 +3464,20 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = minister_of_army
+			idea_token = jap_hideki_tojo_mar
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -3576,6 +3649,19 @@ characters = {
 			Army = {
 				large = GFX_portrait_jap_korechika_anami_army
 				small = GFX_frame_jap_korechika_anami_army
+			}
+		}
+		advisor = {
+			slot = minister_of_army
+			idea_token = jap_korechika_anami_mar
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+
+			}
+			ai_will_do = {
+				factor = 10
 			}
 		}
 		corps_commander = {
@@ -3783,6 +3869,19 @@ characters = {
 				small = GFX_frame_jap_sadamu_shimomura_army
 			}
 		}
+		advisor = {
+			slot = minister_of_army
+			idea_token = jap_sadamu_shimomura_mar
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
 		corps_commander = {
 			legacy_id = 0
 			skill = 1
@@ -3899,7 +3998,7 @@ characters = {
 			}
 		}
 	}
-	
+
 	jap_jou_iimura = {
 		name = jap_jou_iimura
 		portraits = {
@@ -4060,6 +4159,54 @@ characters = {
 		}
 	}
 
+	jap_tsunenori_kaya = {
+		name = jap_tsunenori_kaya
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_tsunenori_kaya_army
+				small = GFX_frame_jap_tsunenori_kaya_army
+			}
+			Civilian = {
+				large = GFX_portrait_jap_tsunenori_kaya
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				cavalry_officer
+				JAP_imperial_family
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
+	jap_haruhito_kanin = {
+		name = jap_haruhito_kanin
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_haruhito_kanin_army
+				small = GFX_frame_jap_haruhito_kanin_army
+			}
+			Civilian = {
+				large = GFX_portrait_jap_haruhito_kanin
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				cavalry_officer
+				JAP_imperial_family
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+	}
+
 	#-# Imperial way faction / Kōdō-ha (皇道派) #-#
 
 	jap_heisuke_yanagawa = {
@@ -4106,7 +4253,8 @@ characters = {
 
 	#-# Communist Sympathizer #-#
 
-	jap_communist_sympathizer_general_1 = {
+	jap_sakou_tanemura = {
+		name = jap_sakou_tanemura
 		portraits = {
 			Army = {
 				large = GFX_Portrait_Japan_Generic_land_1
@@ -4120,13 +4268,17 @@ characters = {
 				trickster
 			}
 			visible = {
-				has_completed_focus = JAP_approach_the_young_officers
+				OR = {
+					has_completed_focus = JAP_approach_the_young_officers
+					has_government = communism
+				}
 				NOT = { has_character_flag = reserve_force_personal }
 			}
 		}
 	}
 
-	jap_communist_sympathizer_general_2 = {
+	jap_shigeharu_asaeda = {
+		name = jap_shigeharu_asaeda
 		portraits = {
 			Army = {
 				large = GFX_Portrait_Japan_Generic_land_2
@@ -4141,13 +4293,17 @@ characters = {
 				trait_cautious
 			}
 			visible = {
-				has_completed_focus = JAP_approach_the_young_officers
+				OR = {
+					has_completed_focus = JAP_approach_the_young_officers
+					has_government = communism
+				}
 				NOT = { has_character_flag = reserve_force_personal }
 			}
 		}
 	}
 
-	jap_communist_sympathizer_general_3 = {
+	jap_ryuzo_sejima = {
+		name = jap_ryuzo_sejima
 		portraits = {
 			Army = {
 				large = GFX_Portrait_Japan_Generic_land_3
@@ -4162,13 +4318,17 @@ characters = {
 				politically_connected
 			}
 			visible = {
-				has_completed_focus = JAP_approach_the_young_officers
+				OR = {
+					has_completed_focus = JAP_approach_the_young_officers
+					has_government = communism
+				}
 				NOT = { has_character_flag = reserve_force_personal }
 			}
 		}
 	}
 
-	jap_communist_sympathizer_general_4 = {
+	jap_masaji_shii = {
+		name = jap_masaji_shii
 		portraits = {
 			Army = {
 				large = GFX_Portrait_Japan_Generic_land_4
@@ -4176,18 +4336,22 @@ characters = {
 		}
 		corps_commander = {
 			legacy_id = 753
-			skill = 3
+			skill = 1
 			traits = {
 				JAP_communist_sympathizer
 			}
 			visible = {
-				has_completed_focus = JAP_approach_the_young_officers
+				OR = {
+					has_completed_focus = JAP_approach_the_young_officers
+					has_government = communism
+				}
 				NOT = { has_character_flag = reserve_force_personal }
 			}
 		}
 	}
 
-	jap_communist_sympathizer_general_5 = {
+	jap_seiki_asahara = {
+		name = jap_seiki_asahara
 		portraits = {
 			Army = {
 				large = GFX_Portrait_Japan_Generic_land_5
@@ -4195,12 +4359,16 @@ characters = {
 		}
 		corps_commander = {
 			legacy_id = 754
-			skill = 3
+			skill = 1
 			traits = {
 				JAP_communist_sympathizer
+				harsh_leader
 			}
 			visible = {
-				has_completed_focus = JAP_approach_the_young_officers
+				OR = {
+					has_completed_focus = JAP_approach_the_young_officers
+					has_government = communism
+				}
 				NOT = { has_character_flag = reserve_force_personal }
 			}
 		}
@@ -4226,7 +4394,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -4239,7 +4407,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -4290,7 +4458,7 @@ characters = {
 			legacy_id = 0
 			skill = 1
 			traits = {
-				
+
 				JAP_imperial_family
 				battleship_adherent
 			}
@@ -4318,7 +4486,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -4331,7 +4499,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -4357,7 +4525,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -4370,7 +4538,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -4392,8 +4560,8 @@ characters = {
 			legacy_id = 0
 			skill = 1
 			traits = {
-				
-				
+
+
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
@@ -4426,8 +4594,8 @@ characters = {
 			legacy_id = 0
 			skill = 1
 			traits = {
-				
-				
+
+
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
@@ -4447,8 +4615,8 @@ characters = {
 			legacy_id = 0
 			skill = 1
 			traits = {
-				
-				
+
+
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
@@ -4474,7 +4642,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -4484,8 +4652,8 @@ characters = {
 			legacy_id = 0
 			skill = 1
 			traits = {
-				
-				
+
+
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
@@ -4505,8 +4673,8 @@ characters = {
 			legacy_id = 0
 			skill = 1
 			traits = {
-				
-				
+
+
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
@@ -4526,7 +4694,7 @@ characters = {
 			legacy_id = 0
 			skill = 1
 			traits = {
-				
+
 				seawolf
 				battleship_adherent
 			}
@@ -4579,8 +4747,8 @@ characters = {
 			legacy_id = 0
 			skill = 1
 			traits = {
-				
-				
+
+
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
@@ -4600,8 +4768,8 @@ characters = {
 			legacy_id = 0
 			skill = 1
 			traits = {
-				
-				
+
+
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
@@ -4621,8 +4789,8 @@ characters = {
 			legacy_id = 0
 			skill = 1
 			traits = {
-				
-				
+
+
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
@@ -4648,7 +4816,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -4661,7 +4829,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -4671,8 +4839,8 @@ characters = {
 			legacy_id = 0
 			skill = 1
 			traits = {
-				
-				
+
+
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
@@ -4692,8 +4860,8 @@ characters = {
 			legacy_id = 0
 			skill = 1
 			traits = {
-				
-				
+
+
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
@@ -4713,8 +4881,8 @@ characters = {
 			legacy_id = 0
 			skill = 1
 			traits = {
-				
-				
+
+
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
@@ -4734,8 +4902,8 @@ characters = {
 			legacy_id = 0
 			skill = 1
 			traits = {
-				
-				
+
+
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
@@ -4786,8 +4954,8 @@ characters = {
 			legacy_id = 0
 			skill = 1
 			traits = {
-				
-				
+
+
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
@@ -4807,8 +4975,8 @@ characters = {
 			legacy_id = 0
 			skill = 1
 			traits = {
-				
-				
+
+
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
@@ -4828,8 +4996,8 @@ characters = {
 			legacy_id = 0
 			skill = 1
 			traits = {
-				
-				
+
+
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
@@ -4849,7 +5017,7 @@ characters = {
 			legacy_id = 0
 			skill = 1
 			traits = {
-				
+
 				bold
 				aviation_enthusiast
 				spotter
@@ -4905,8 +5073,8 @@ characters = {
 			legacy_id = 0
 			skill = 1
 			traits = {
-				
-				
+
+
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
@@ -4929,7 +5097,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				
+
 			}
 			ai_will_do = {
 				factor = 10
@@ -4939,8 +5107,8 @@ characters = {
 			legacy_id = 0
 			skill = 1
 			traits = {
-				
-				
+
+
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
@@ -4991,8 +5159,8 @@ characters = {
 			legacy_id = 0
 			skill = 1
 			traits = {
-				
-				
+
+
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
@@ -5012,8 +5180,8 @@ characters = {
 			legacy_id = 0
 			skill = 1
 			traits = {
-				
-				
+
+
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
@@ -5033,8 +5201,8 @@ characters = {
 			legacy_id = 0
 			skill = 1
 			traits = {
-				
-				
+
+
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
@@ -5054,8 +5222,8 @@ characters = {
 			legacy_id = 0
 			skill = 1
 			traits = {
-				
-				
+
+
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
@@ -5075,8 +5243,8 @@ characters = {
 			legacy_id = 0
 			skill = 1
 			traits = {
-				
-				
+
+
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
@@ -5096,8 +5264,8 @@ characters = {
 			legacy_id = 0
 			skill = 1
 			traits = {
-				
-				
+
+
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
@@ -5117,8 +5285,8 @@ characters = {
 			legacy_id = 0
 			skill = 1
 			traits = {
-				
-				
+
+
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
@@ -5138,8 +5306,8 @@ characters = {
 			legacy_id = 0
 			skill = 1
 			traits = {
-				
-				
+
+
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
@@ -5160,7 +5328,7 @@ characters = {
 			skill = 1
 			traits = {
 				t_JAP_captain
-				
+
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
@@ -5181,7 +5349,7 @@ characters = {
 			skill = 1
 			traits = {
 				t_JAP_captain
-				
+
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
@@ -5202,7 +5370,7 @@ characters = {
 			skill = 1
 			traits = {
 				t_JAP_captain
-				
+
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
@@ -5222,8 +5390,8 @@ characters = {
 			legacy_id = 0
 			skill = 1
 			traits = {
-				
-				
+
+
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
@@ -5243,8 +5411,8 @@ characters = {
 			legacy_id = 0
 			skill = 1
 			traits = {
-				
-				
+
+
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
@@ -5310,7 +5478,7 @@ characters = {
 			}
 		}
 	}
-	
+
 }
 
 #-----# AIR #-----#
