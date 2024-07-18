@@ -38,10 +38,6 @@ characters = {
 
 	#-----# POLITICIAN #-----#
 
-	#---# PRIME MINISTER (内閣総理大臣) #---#
-
-	#-# HISTORICAL #-#
-
 	jap_takashi_hara = {
 		name = jap_takashi_hara
 		portraits = {
@@ -60,19 +56,6 @@ characters = {
 				small = GFX_frame_jap_korekiyo_takahashi
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = jap_korekiyo_takahashi
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-				financial_expert
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	##jap_tomozaburou_kato = {} # Navy Characters
@@ -85,32 +68,6 @@ characters = {
 				small = GFX_frame_jap_gonbe_yamamoto
 			}
 		}
-		advisor = {
-			slot = prime_minister
-			idea_token = jap_gonbe_yamamoto_pri
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_foreign
-			idea_token = jap_gonbe_yamamoto_for
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_keigo_kiyoura = {
@@ -119,32 +76,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_keigo_kiyoura
 				small = GFX_frame_jap_keigo_kiyoura
-			}
-		}
-		advisor = {
-			slot = prime_minister
-			idea_token = jap_keigo_kiyoura_pri
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_security
-			idea_token = jap_keigo_kiyoura_sec
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 		advisor = {
@@ -170,32 +101,6 @@ characters = {
 				small = GFX_frame_jap_takaaki_kato
 			}
 		}
-		advisor = {
-			slot = prime_minister
-			idea_token = jap_takaaki_kato_pri
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_foreign
-			idea_token = jap_takaaki_kato_for
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_reijiro_wakatsuki = {
@@ -204,45 +109,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_reijiro_wakatsuki
 				small = GFX_frame_jap_reijiro_wakatsuki
-			}
-		}
-		advisor = {
-			slot = prime_minister
-			idea_token = jap_reijiro_wakatsuki_pri
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_finance
-			idea_token = jap_reijiro_wakatsuki_fin
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_foreign
-			idea_token = jap_reijiro_wakatsuki_for
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 	}
@@ -257,45 +123,6 @@ characters = {
 				small = GFX_frame_jap_osachi_hamaguchi
 			}
 		}
-		advisor = {
-			slot = prime_minister
-			idea_token = jap_osachi_hamaguchi_pri
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_finance
-			idea_token = jap_osachi_hamaguchi_fin
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_security
-			idea_token = jap_osachi_hamaguchi_sec
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_tsuyoshi_inukai = {
@@ -306,72 +133,9 @@ characters = {
 				small = GFX_frame_jap_tsuyoshi_inukai
 			}
 		}
-		advisor = {
-			slot = prime_minister
-			idea_token = jap_tsuyoshi_inukai_pri
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_foreign
-			idea_token = jap_tsuyoshi_inukai_for
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_security
-			idea_token = jap_tsuyoshi_inukai_sec
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
-	jap_makoto_saito = {
-		name = jap_makoto_saito
-		portraits = {
-			Navy = {
-				large = GFX_portrait_jap_makoto_saito
-			}
-			Civilian = {
-				large = GFX_portrait_jap_makoto_saito
-				small = GFX_frame_jap_makoto_saito
-			}
-		}
-		advisor = {
-			slot = prime_minister
-			idea_token = jap_makoto_saito_pri
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-				retired_officer
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-	}
+	##jap_makoto_saito = {} # Navy Characters
 
 	##jap_keisuke_okada = {} # Navy Characters
 
@@ -381,32 +145,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_kouki_hirota
 				small = GFX_frame_jap_kouki_hirota
-			}
-		}
-		advisor = {
-			slot = prime_minister
-			idea_token = jap_kouki_hirota_pri
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_foreign
-			idea_token = jap_kouki_hirota_for
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 	}
@@ -421,45 +159,6 @@ characters = {
 				small = GFX_frame_jap_fumimaro_konoe
 			}
 		}
-		advisor = {
-			slot = prime_minister
-			idea_token = jap_fumimaro_konoe_pri
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_foreign
-			idea_token = jap_fumimaro_konoe_for
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = jap_fumimaro_konoe
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_kiichirou_hiranuma = {
@@ -468,32 +167,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_kiichirou_hiranuma
 				small = GFX_frame_jap_kiichirou_hiranuma
-			}
-		}
-		advisor = {
-			slot = prime_minister
-			idea_token = jap_kiichirou_hiranuma_pri
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-				incompetent_leader
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_security
-			idea_token = jap_kiichirou_hiranuma_sec
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 	}
@@ -518,32 +191,6 @@ characters = {
 				small = GFX_frame_jap_kijuro_shidehara
 			}
 		}
-		advisor = {
-			slot = prime_minister
-			idea_token = jap_kijuro_shidehara_pri
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_foreign
-			idea_token = jap_kijuro_shidehara_for
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_shigeru_takeuchi = {
@@ -552,32 +199,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_shigeru_takeuchi
 				small = GFX_frame_jap_shigeru_takeuchi
-			}
-		}
-		advisor = {
-			slot = prime_minister
-			idea_token = jap_shigeru_takeuchi_pri
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_foreign
-			idea_token = jap_shigeru_takeuchi_for
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 	}
@@ -590,32 +211,6 @@ characters = {
 				small = GFX_frame_jap_tetsu_katayama
 			}
 		}
-		advisor = {
-			slot = prime_minister
-			idea_token = jap_tetsu_katayama_pri
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_foreign
-			idea_token = jap_tetsu_katayama_for
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_hitoshi_ashida = {
@@ -624,32 +219,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_hitoshi_ashida
 				small = GFX_frame_jap_hitoshi_ashida
-			}
-		}
-		advisor = {
-			slot = prime_minister
-			idea_token = jap_hitoshi_ashida_pri
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_foreign
-			idea_token = jap_hitoshi_ashida_for
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 	}
@@ -662,19 +231,6 @@ characters = {
 				small = GFX_frame_jap_ichiro_hatoyama
 			}
 		}
-		advisor = {
-			slot = prime_minister
-			idea_token = jap_ichiro_hatoyama_pri
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_tanzan_ishibashi = {
@@ -685,45 +241,6 @@ characters = {
 				small = GFX_frame_jap_tanzan_ishibashi
 			}
 		}
-		advisor = {
-			slot = prime_minister
-			idea_token = jap_tanzan_ishibashi_pri
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_finance
-			idea_token = jap_tanzan_ishibashi_fin
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_foreign
-			idea_token = jap_tanzan_ishibashi_for
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_nobusuke_kishi = {
@@ -732,32 +249,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_nobusuke_kishi
 				small = GFX_frame_jap_nobusuke_kishi
-			}
-		}
-		advisor = {
-			slot = prime_minister
-			idea_token = jap_nobusuke_kishi_pri
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_foreign
-			idea_token = jap_nobusuke_kishi_for
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 	}
@@ -780,19 +271,6 @@ characters = {
 				ideological_crusader
 			}
 		}
-		advisor = {
-			slot = prime_minister
-			idea_token = jap_kyuichi_tokuda_pri
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	#-# MINISTER OF SECURITY (内務大臣) #-#
@@ -805,19 +283,6 @@ characters = {
 				small = GFX_frame_jap_takejiro_tokonami
 			}
 		}
-		advisor = {
-			slot = minister_of_security
-			idea_token = jap_takejiro_tokonami_sec
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_rentaro_mizuno = {
@@ -826,19 +291,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_rentaro_mizuno
 				small = GFX_frame_jap_rentaro_mizuno
-			}
-		}
-		advisor = {
-			slot = minister_of_security
-			idea_token = jap_rentaro_mizuno_sec
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 	}
@@ -851,32 +303,6 @@ characters = {
 				small = GFX_frame_jap_shinpei_goto
 			}
 		}
-		advisor = {
-			slot = minister_of_security
-			idea_token = jap_shinpei_goto_sec
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_foreign
-			idea_token = jap_shinpei_goto_for
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_kisaburo_suzuki = {
@@ -885,19 +311,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_kisaburo_suzuki
 				small = GFX_frame_jap_kisaburo_suzuki
-			}
-		}
-		advisor = {
-			slot = minister_of_security
-			idea_token = jap_kisaburo_suzuki_sec
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 	}
@@ -910,19 +323,6 @@ characters = {
 				small = GFX_frame_jap_keisuke_mochiduki
 			}
 		}
-		advisor = {
-			slot = minister_of_security
-			idea_token = jap_keisuke_mochiduki_sec
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_kenzo_adachi = {
@@ -931,19 +331,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_kenzo_adachi
 				small = GFX_frame_jap_kenzo_adachi
-			}
-		}
-		advisor = {
-			slot = minister_of_security
-			idea_token = jap_kenzo_adachi_sec
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 	}
@@ -956,19 +343,6 @@ characters = {
 				small = GFX_frame_jap_tokugoro_nakabashi
 			}
 		}
-		advisor = {
-			slot = minister_of_security
-			idea_token = jap_tokugoro_nakabashi_sec
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_tatsuo_yamamoto = {
@@ -977,19 +351,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_tatsuo_yamamoto
 				small = GFX_frame_jap_tatsuo_yamamoto
-			}
-		}
-		advisor = {
-			slot = minister_of_security
-			idea_token = jap_tatsuo_yamamoto_sec
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 	}
@@ -1002,32 +363,6 @@ characters = {
 				small = GFX_frame_jap_fumio_goto
 			}
 		}
-		advisor = {
-			slot = prime_minister
-			idea_token = jap_fumio_goto_pri
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_security
-			idea_token = jap_fumio_goto_sec
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_shigenosuke_ushio = {
@@ -1038,19 +373,6 @@ characters = {
 				small = GFX_frame_jap_shigenosuke_ushio
 			}
 		}
-		advisor = {
-			slot = minister_of_security
-			idea_token = jap_shigenosuke_ushio_sec
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_kakichi_kawarada = {
@@ -1059,19 +381,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_kakichi_kawarada
 				small = GFX_frame_jap_kakichi_kawarada
-			}
-		}
-		advisor = {
-			slot = minister_of_security
-			idea_token = jap_kakichi_kawarada_sec
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 	}
@@ -1085,21 +394,8 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = minister_of_security
-			idea_token = jap_koichi_kido_sec
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
 			slot = political_advisor
-			idea_token = jap_koichi_kido_minobe
+			idea_token = jap_koichi_kido
 			traits = {
 				silent_workhorse
 			}
@@ -1117,19 +413,6 @@ characters = {
 				small = GFX_frame_jap_naoshi_ohara
 			}
 		}
-		advisor = {
-			slot = minister_of_security
-			idea_token = jap_naoshi_ohara_sec
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_hideo_kodama = {
@@ -1138,19 +421,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_hideo_kodama
 				small = GFX_frame_jap_hideo_kodama
-			}
-		}
-		advisor = {
-			slot = minister_of_security
-			idea_token = jap_hideo_kodama_sec
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 	}
@@ -1163,19 +433,6 @@ characters = {
 				small = GFX_frame_jap_eiji_yasui
 			}
 		}
-		advisor = {
-			slot = minister_of_security
-			idea_token = jap_eiji_yasui_sec
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_harumichi_tanabe = {
@@ -1184,19 +441,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_harumichi_tanabe
 				small = GFX_frame_jap_harumichi_tanabe
-			}
-		}
-		advisor = {
-			slot = minister_of_security
-			idea_token = jap_harumichi_tanabe_sec
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 	}
@@ -1209,19 +453,6 @@ characters = {
 				small = GFX_frame_jap_michio_yuzawa
 			}
 		}
-		advisor = {
-			slot = minister_of_security
-			idea_token = jap_michio_yuzawa_sec
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_kisaburo_ando = {
@@ -1232,19 +463,6 @@ characters = {
 				small = GFX_frame_jap_kisaburo_ando
 			}
 		}
-		advisor = {
-			slot = minister_of_security
-			idea_token = jap_kisaburo_ando_sec
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_shigeo_odachi = {
@@ -1253,19 +471,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_shigeo_odachi
 				small = GFX_frame_jap_shigeo_odachi
-			}
-		}
-		advisor = {
-			slot = minister_of_security
-			idea_token = jap_shigeo_odachi_sec
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 	}
@@ -1279,13 +484,10 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = minister_of_security
-			idea_token = jap_genki_abe_sec
-			allowed = {
-				original_tag = JAP
-			}
+			slot = political_advisor
+			idea_token = jap_koichi_kido_minobe
 			traits = {
-
+				prince_of_terror
 			}
 			ai_will_do = {
 				factor = 10
@@ -1301,19 +503,6 @@ characters = {
 				small = GFX_frame_jap_iwao_yamazaki
 			}
 		}
-		advisor = {
-			slot = minister_of_security
-			idea_token = jap_iwao_yamazaki_sec
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_horikiri_zejuro = {
@@ -1322,19 +511,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_horikiri_zejuro
 				small = GFX_frame_jap_horikiri_zejuro
-			}
-		}
-		advisor = {
-			slot = minister_of_security
-			idea_token = jap_horikiri_zejuro_sec
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 	}
@@ -1347,19 +523,6 @@ characters = {
 				small = GFX_frame_jap_seiichi_omura
 			}
 		}
-		advisor = {
-			slot = minister_of_security
-			idea_token = jap_seiichi_omura_sec
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_etsujiro_uehara = {
@@ -1370,19 +533,6 @@ characters = {
 				small = GFX_frame_jap_etsujiro_uehara
 			}
 		}
-		advisor = {
-			slot = minister_of_security
-			idea_token = jap_etsujiro_uehara_sec
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_kozaemon_kimura = {
@@ -1391,19 +541,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_kozaemon_kimura
 				small = GFX_frame_jap_kozaemon_kimura
-			}
-		}
-		advisor = {
-			slot = minister_of_security
-			idea_token = jap_kozaemon_kimura_sec
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 	}
@@ -1418,19 +555,6 @@ characters = {
 				small = GFX_frame_jap_kazue_shouda
 			}
 		}
-		advisor = {
-			slot = minister_of_finance
-			idea_token = jap_kazue_shouda_fin
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_otohiko_ichiki = {
@@ -1439,19 +563,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_otohiko_ichiki
 				small = GFX_frame_jap_otohiko_ichiki
-			}
-		}
-		advisor = {
-			slot = minister_of_finance
-			idea_token = jap_otohiko_ichiki_fin
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 	}
@@ -1464,19 +575,6 @@ characters = {
 				small = GFX_frame_jap_junnosuke_inoue
 			}
 		}
-		advisor = {
-			slot = minister_of_finance
-			idea_token = jap_junnosuke_inoue_fin
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_seiji_hayami = {
@@ -1485,19 +583,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_seiji_hayami
 				small = GFX_frame_jap_seiji_hayami
-			}
-		}
-		advisor = {
-			slot = minister_of_finance
-			idea_token = jap_seiji_hayami_fin
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 	}
@@ -1510,19 +595,6 @@ characters = {
 				small = GFX_frame_jap_naoharu_kataoka
 			}
 		}
-		advisor = {
-			slot = minister_of_finance
-			idea_token = jap_naoharu_kataoka_fin
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_chuzo_mitsuchi = {
@@ -1531,19 +603,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_chuzo_mitsuchi
 				small = GFX_frame_jap_chuzo_mitsuchi
-			}
-		}
-		advisor = {
-			slot = minister_of_finance
-			idea_token = jap_chuzo_mitsuchi_fin
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 	}
@@ -1556,19 +615,6 @@ characters = {
 				small = GFX_frame_jap_sadanobu_fujii
 			}
 		}
-		advisor = {
-			slot = minister_of_finance
-			idea_token = jap_sadanobu_fujii_fin
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_chuji_machida = {
@@ -1577,19 +623,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_chuji_machida
 				small = GFX_frame_jap_chuji_machida
-			}
-		}
-		advisor = {
-			slot = minister_of_finance
-			idea_token = jap_chuji_machida_fin
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 	}
@@ -1602,19 +635,6 @@ characters = {
 				small = GFX_frame_jap_eiichi_baba
 			}
 		}
-		advisor = {
-			slot = minister_of_finance
-			idea_token = jap_eiichi_baba_fin
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_toyutaro_yuuki = {
@@ -1623,19 +643,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_toyutaro_yuuki
 				small = GFX_frame_jap_toyutaro_yuuki
-			}
-		}
-		advisor = {
-			slot = minister_of_finance
-			idea_token = jap_toyutaro_yuuki_fin
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 	}
@@ -1648,19 +655,6 @@ characters = {
 				small = GFX_frame_jap_okinori_kaya
 			}
 		}
-		advisor = {
-			slot = minister_of_finance
-			idea_token = jap_okinori_kaya_fin
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_shigeaki_ikeda = {
@@ -1669,19 +663,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_shigeaki_ikeda
 				small = GFX_frame_jap_shigeaki_ikeda
-			}
-		}
-		advisor = {
-			slot = minister_of_finance
-			idea_token = jap_shigeaki_ikeda_fin
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 	}
@@ -1694,19 +675,6 @@ characters = {
 				small = GFX_frame_jap_soutaro_ishiwata
 			}
 		}
-		advisor = {
-			slot = minister_of_finance
-			idea_token = jap_soutaro_ishiwata_fin
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_kazuo_aoki = {
@@ -1715,19 +683,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_kazuo_aoki
 				small = GFX_frame_jap_kazuo_aoki
-			}
-		}
-		advisor = {
-			slot = minister_of_finance
-			idea_token = jap_kazuo_aoki_fin
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 	}
@@ -1740,19 +695,6 @@ characters = {
 				small = GFX_frame_jap_yukio_sakurauchi
 			}
 		}
-		advisor = {
-			slot = minister_of_finance
-			idea_token = jap_yukio_sakurauchi_fin
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_isao_kawada = {
@@ -1761,19 +703,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_isao_kawada
 				small = GFX_frame_jap_isao_kawada
-			}
-		}
-		advisor = {
-			slot = minister_of_finance
-			idea_token = jap_isao_kawada_fin
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 	}
@@ -1786,19 +715,6 @@ characters = {
 				small = GFX_frame_jap_masatsune_ogura
 			}
 		}
-		advisor = {
-			slot = minister_of_finance
-			idea_token = jap_masatsune_ogura_fin
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_juichi_tsushima = {
@@ -1807,19 +723,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_juichi_tsushima
 				small = GFX_frame_jap_juichi_tsushima
-			}
-		}
-		advisor = {
-			slot = minister_of_finance
-			idea_token = jap_juichi_tsushima_fin
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 	}
@@ -1832,19 +735,6 @@ characters = {
 				small = GFX_frame_jap_toyosaku_hirose
 			}
 		}
-		advisor = {
-			slot = minister_of_finance
-			idea_token = jap_toyosaku_hirose_fin
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_keizo_shibusawa = {
@@ -1853,19 +743,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_keizo_shibusawa
 				small = GFX_frame_jap_keizo_shibusawa
-			}
-		}
-		advisor = {
-			slot = minister_of_finance
-			idea_token = jap_keizo_shibusawa_fin
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 	}
@@ -1880,32 +757,6 @@ characters = {
 				small = GFX_frame_jap_kousai_uchida
 			}
 		}
-		advisor = {
-			slot = prime_minister
-			idea_token = jap_kousai_uchida_pri
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_foreign
-			idea_token = jap_kousai_uchida_for
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_hikoichi_ijuin = {
@@ -1914,19 +765,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_hikoichi_ijuin
 				small = GFX_frame_jap_hikoichi_ijuin
-			}
-		}
-		advisor = {
-			slot = minister_of_foreign
-			idea_token = jap_hikoichi_ijuin_for
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 	}
@@ -1939,19 +777,6 @@ characters = {
 				small = GFX_frame_jap_keishiro_matsui
 			}
 		}
-		advisor = {
-			slot = minister_of_foreign
-			idea_token = jap_keishiro_matsui_for
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_kenkichi_yoshizawa = {
@@ -1960,19 +785,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_kenkichi_yoshizawa
 				small = GFX_frame_jap_kenkichi_yoshizawa
-			}
-		}
-		advisor = {
-			slot = minister_of_foreign
-			idea_token = jap_kenkichi_yoshizawa_for
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 	}
@@ -1985,19 +797,6 @@ characters = {
 				small = GFX_frame_jap_hachiro_arita
 			}
 		}
-		advisor = {
-			slot = minister_of_foreign
-			idea_token = jap_hachiro_arita_for
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_naotake_sato = {
@@ -2006,19 +805,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_naotake_sato
 				small = GFX_frame_jap_naotake_sato
-			}
-		}
-		advisor = {
-			slot = minister_of_foreign
-			idea_token = jap_naotake_sato_for
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 	}
@@ -2035,19 +821,6 @@ characters = {
 				small = GFX_frame_jap_yousuke_matsuoka
 			}
 		}
-		advisor = {
-			slot = minister_of_foreign
-			idea_token = jap_yousuke_matsuoka_for
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	##jap_teiziro_toyoda = {} # Navy Characters
@@ -2060,19 +833,6 @@ characters = {
 				small = GFX_frame_jap_shigenori_togo
 			}
 		}
-		advisor = {
-			slot = minister_of_foreign
-			idea_token = jap_shigenori_togo_for
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_masayuji_tani = {
@@ -2081,19 +841,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_masayuji_tani
 				small = GFX_frame_jap_masayuji_tani
-			}
-		}
-		advisor = {
-			slot = minister_of_foreign
-			idea_token = jap_masayuji_tani_for
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 	}
@@ -2106,19 +853,6 @@ characters = {
 				small = GFX_frame_jap_mamoru_shigemitsu
 			}
 		}
-		advisor = {
-			slot = minister_of_foreign
-			idea_token = jap_mamoru_shigemitsu_for
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_katsuo_okazaki = {
@@ -2129,19 +863,6 @@ characters = {
 				small = GFX_frame_jap_katsuo_okazaki
 			}
 		}
-		advisor = {
-			slot = minister_of_foreign
-			idea_token = jap_katsuo_okazaki_for
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_aiichiro_fujiyama = {
@@ -2150,19 +871,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_aiichiro_fujiyama
 				small = GFX_frame_jap_aiichiro_fujiyama
-			}
-		}
-		advisor = {
-			slot = minister_of_foreign
-			idea_token = jap_aiichiro_fujiyama_for
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 	}
@@ -2343,11 +1051,8 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = jap_hiroshi_oshima
-			available = {
-				has_government = fascism
-			}
 			traits = {
-				prince_of_terror
+				nazi_sympathizer
 			}
 			ai_will_do = {
 				factor = 10
@@ -2516,45 +1221,6 @@ characters = {
 				small = GFX_frame_jap_giichi_tanaka
 			}
 		}
-		advisor = {
-			slot = prime_minister
-			idea_token = jap_giichi_tanaka_pri
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-				retired_officer
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_foreign
-			idea_token = jap_giichi_tanaka_for
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_security
-			idea_token = jap_giichi_tanaka_sec
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_kotohito_kanin = {
@@ -2563,19 +1229,6 @@ characters = {
 			Army = {
 				large = GFX_portrait_jap_kotohito_kanin_army
 				small = GFX_frame_jap_kotohito_kanin_army
-			}
-		}
-		advisor = {
-			slot = chief
-			idea_token = jap_kotohito_kanin_chi
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 		advisor = {
@@ -2639,19 +1292,6 @@ characters = {
 				small = GFX_frame_jap_kazushige_ugaki
 			}
 		}
-		advisor = {
-			slot = minister_of_foreign
-			idea_token = jap_kazushige_ugaki_for
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_jiro_minami = {
@@ -2704,19 +1344,6 @@ characters = {
 				small = GFX_frame_jap_senjuro_hayashi_army
 			}
 		}
-		advisor = {
-			slot = prime_minister
-			idea_token = jap_senjuro_hayashi_pri
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 		corps_commander = {
 			legacy_id = 0
 			skill = 1
@@ -2737,32 +1364,6 @@ characters = {
 			Army = {
 				large = GFX_portrait_jap_nobuyuki_abe_army
 				small = GFX_frame_jap_nobuyuki_abe_army
-			}
-		}
-		advisor = {
-			slot = prime_minister
-			idea_token = jap_nobuyuki_abe_pri
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_foreign
-			idea_token = jap_nobuyuki_for
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 		corps_commander = {
@@ -2870,19 +1471,6 @@ characters = {
 			Army = {
 				large = GFX_portrait_jap_yoshiyuki_kawashima_army
 				small = GFX_frame_jap_yoshiyuki_kawashima_army
-			}
-		}
-		advisor = {
-			slot = minister_of_army
-			idea_token = jap_yoshiyuki_kawashima_mar
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 		corps_commander = {
@@ -3006,19 +1594,6 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = chief
-			idea_token = jap_hajime_sugiyama_chi
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
 			slot = army_chief
 			idea_token = jap_hajime_sugiyama_arc
 			cost = @GENIUS
@@ -3058,13 +1633,14 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = minister_of_army
-			idea_token = jap_shunroku_hata_mar
+			slot = high_command
+			idea_token = jap_shunroku_hata_com
+			cost = @EXPERT
 			allowed = {
 				original_tag = JAP
 			}
 			traits = {
-
+				army_concealment_2
 			}
 			ai_will_do = {
 				factor = 10
@@ -3090,19 +1666,6 @@ characters = {
 				small = GFX_frame_jap_kuniaki_koiso_army
 			}
 		}
-		advisor = {
-			slot = prime_minister
-			idea_token = jap_kuniaki_koiso_pri
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 		corps_commander = {
 			legacy_id = 0
 			skill = 1
@@ -3124,19 +1687,6 @@ characters = {
 			Army = {
 				large = GFX_portrait_jap_koutaro_nakamura_army
 				small = GFX_frame_jap_koutaro_nakamura_army
-			}
-		}
-		advisor = {
-			slot = minister_of_army
-			idea_token = jap_koutaro_nakamura_mar
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 		corps_commander = {
@@ -3224,32 +1774,6 @@ characters = {
 				large = GFX_portrait_jap_naruhiko_higashikuni
 			}
 		}
-		advisor = {
-			slot = prime_minister
-			idea_token = jap_naruhiko_higashikuni_pri
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_army
-			idea_token = jap_naruhiko_higashikuni_mar
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 		corps_commander = {
 			legacy_id = 0
 			skill = 1
@@ -3289,19 +1813,6 @@ characters = {
 			Army = {
 				large = GFX_portrait_jap_yoshijiro_umezu_army
 				small = GFX_frame_jap_yoshijiro_umezu_army
-			}
-		}
-		advisor = {
-			slot = chief
-			idea_token = jap_yoshijiro_umezu_chi
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 		advisor = {
@@ -3356,6 +1867,20 @@ characters = {
 			Army = {
 				large = GFX_portrait_jap_yasuji_okamura_army
 				small = GFX_frame_jap_yasuji_okamura_army
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = jap_yasuji_okamura_com
+			cost = @EXPERT
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				army_infantry_2
+			}
+			ai_will_do = {
+				factor = 10
 			}
 		}
 		corps_commander = {
@@ -3420,19 +1945,6 @@ characters = {
 				small = GFX_frame_jap_seishiro_itagaki_army
 			}
 		}
-		advisor = {
-			slot = minister_of_army
-			idea_token = jap_seishiro_itagaki_mar
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 		corps_commander = {
 			legacy_id = 0
 			skill = 1
@@ -3458,66 +1970,14 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = prime_minister
-			idea_token = jap_hideki_tojo_pri
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_security
-			idea_token = jap_hideki_tojo_sec
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_army
-			idea_token = jap_hideki_tojo_mar
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = chief
-			idea_token = jap_hideki_tojo_chi
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
 			slot = army_chief
 			idea_token = jap_hideki_tojo_arc
-			cost = @SPECIALIST
+			cost = @EXPERT
 			allowed = {
 				original_tag = JAP
 			}
 			traits = {
-				army_chief_morale_1
+				army_chief_morale_2
 			}
 			ai_will_do = {
 				factor = 10
@@ -3679,19 +2139,6 @@ characters = {
 				small = GFX_frame_jap_korechika_anami_army
 			}
 		}
-		advisor = {
-			slot = minister_of_army
-			idea_token = jap_korechika_anami_mar
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 		corps_commander = {
 			legacy_id = 0
 			skill = 1
@@ -3710,6 +2157,20 @@ characters = {
 			Army = {
 				large = GFX_portrait_jap_hisashi_imamura_army
 				small = GFX_frame_jap_hisashi_imamura_army
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = jap_hisashi_imamura_com
+			cost = @EXPERT
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				army_logistics_2
+			}
+			ai_will_do = {
+				factor = 10
 			}
 		}
 		corps_commander = {
@@ -3895,19 +2356,6 @@ characters = {
 			Army = {
 				large = GFX_portrait_jap_sadamu_shimomura_army
 				small = GFX_frame_jap_sadamu_shimomura_army
-			}
-		}
-		advisor = {
-			slot = minister_of_army
-			idea_token = jap_sadamu_shimomura_mar
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 		corps_commander = {
@@ -4246,6 +2694,7 @@ characters = {
 		advisor = {
 			slot = high_command
 			idea_token = jap_shin_yoshida_com
+			cost = @SPECIALIST
 			allowed = {
 				original_tag = JAP
 			}
@@ -4262,12 +2711,49 @@ characters = {
 			traits = {
 				armor_officer
 				cavalry_officer
-				
+
 			}
 			visible = {
 				NOT = { has_character_flag = reserve_force_personal }
 			}
 		}
+	}
+
+	jap_torashiro_kawabe = {
+		name = jap_torashiro_kawabe
+		portraits = {
+			Army = {
+				large = GFX_portrait_jap_torashiro_kawabe_army
+				small = GFX_frame_jap_torashiro_kawabe_air
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = jap_torashiro_kawabe_aic
+			cost = @SPECIALIST
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				air_chief_night_operations_1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		corps_commander = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+				artillery_officer
+				##airforce_officer
+
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
+			}
+		}
+
 	}
 
 	#-# Imperial way faction / Kōdō-ha (皇道派) #-#
@@ -4437,10 +2923,165 @@ characters = {
 		}
 	}
 
+	#---# HIGH COMMAND #---#
+
+	jap_isamu_chou = {
+		name = jap_isamu_chou
+		portraits = {
+			Army = {
+				small = GFX_frame_jap_isamu_chou_army
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = jap_isamu_chou_com
+			cost = @SPECIALIST
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				army_commando_1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_takeichi_nishi = {
+		name = jap_takeichi_nishi
+		portraits = {
+			Army = {
+				small = GFX_frame_jap_takeichi_nishi_army
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = jap_takeichi_nishi_com
+			cost = @EXPERT
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				army_cavalry_2
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_seiichi_kume = {
+		name = jap_seiichi_kume
+		portraits = {
+			Army = {
+				small = GFX_frame_jap_seiichi_kume_army
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = jap_seiichi_kume_com
+			cost = @SPECIALIST
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				air_airborne_1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_tateo_kato = {
+		name = jap_seiichi_kume
+		portraits = {
+			Army = {
+				small = GFX_frame_jap_tateo_kato_army
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = jap_tateo_kato_com
+			cost = @GENIUS
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				air_air_combat_training_3
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	#---# THEORIST #---#
+
+	jap_kumazo_hino = {
+		name = jap_kumazo_hino
+		portraits = {
+			Army = {
+				small = GFX_frame_jap_kumazo_hino_air
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = jap_kumazo_hino_the
+			cost = @tir2
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				air_warfare_theorist
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_yoshitoshi_tokugawa = {
+		name = jap_yoshitoshi_tokugawa
+		portraits = {
+			Army = {
+				small = GFX_frame_jap_yoshitoshi_tokugawa_air
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = jap_yoshitoshi_tokugawa_the
+			cost = @tir3
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				assault_avaition
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
 }
 
 #-----# NAVY #-----#
 characters = {
+
+	jap_makoto_saito = {
+		name = jap_makoto_saito
+		portraits = {
+			Navy = {
+				large = GFX_portrait_jap_makoto_saito
+			}
+			Civilian = {
+				large = GFX_portrait_jap_makoto_saito
+				small = GFX_frame_jap_makoto_saito
+			}
+		}
+	}
 
 	jap_tomozaburou_kato = {
 		name = jap_tomozaburou_kato
@@ -4448,32 +3089,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_tomozaburou_kato
 				small = GFX_frame_jap_tomozaburou_kato
-			}
-		}
-		advisor = {
-			slot = prime_minister
-			idea_token = jap_tomozaburou_kato_pri
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_navy
-			idea_token = jap_tomozaburou_kato_mna
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 	}
@@ -4487,24 +3102,6 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = chief
-			idea_token = jap_hiroyasu_fushimi_chi
-			allowed = {
-				original_tag = JAP
-			}
-			available = {
-				ROOT = {
-					has_idea = JAP_interservice_rivalry_navy_dominant
-				}
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
 			slot = navy_chief
 			idea_token = jap_hiroyasu_fushimi_nac
 			cost = @SPECIALIST
@@ -4512,7 +3109,7 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				navy_chief_maneuver_1
+				navy_chief_old_guard
 			}
 			ai_will_do = {
 				factor = 10
@@ -4543,32 +3140,6 @@ characters = {
 				small = GFX_frame_jap_kantaro_suzuki
 			}
 		}
-		advisor = {
-			slot = prime_minister
-			idea_token = jap_kantaro_suzuki_pri
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_foreign
-			idea_token = jap_kantaro_suzuki_for
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
 
 	jap_keisuke_okada = {
@@ -4582,35 +3153,7 @@ characters = {
 				small = GFX_frame_jap_keisuke_okada
 			}
 		}
-		advisor = {
-			slot = prime_minister
-			idea_token = jap_keisuke_okada_pri
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_navy
-			idea_token = jap_keisuke_okada_mna
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 	}
-
-
 
 	jap_eisuke_yamamoto = {
 		name = jap_eisuke_yamamoto
@@ -4639,19 +3182,6 @@ characters = {
 			Navy = {
 				large = GFX_portrait_jap_mineo_osumi_navy
 				small = GFX_frame_jap_mineo_osumi_navy
-			}
-		}
-		advisor = {
-			slot = minister_of_navy
-			idea_token = jap_mineo_osumi_mna
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 		navy_leader = {
@@ -4699,32 +3229,7 @@ characters = {
 				large = GFX_portrait_jap_kichisaburo_nomura
 			}
 		}
-		advisor = {
-			slot = minister_of_foreign
-			idea_token = jap_kichisaburo_nomura_for
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
 
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_navy
-			idea_token = jap_kichisaburo_nomura_mna
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 		navy_leader = {
 			legacy_id = 0
 			skill = 1
@@ -4787,37 +3292,6 @@ characters = {
 			Navy = {
 				large = GFX_portrait_jap_osami_nagano_navy
 				small = GFX_frame_jap_osami_nagano_navy
-			}
-		}
-		advisor = {
-			slot = minister_of_navy
-			idea_token = jap_osami_nagano_mna
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = chief
-			idea_token = jap_osami_nagano_chi
-			allowed = {
-				original_tag = JAP
-			}
-			available = {
-				ROOT = {
-					has_idea = JAP_interservice_rivalry_navy_dominant
-				}
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 		advisor = {
@@ -4898,32 +3372,6 @@ characters = {
 			Civilian = {
 				large = GFX_portrait_jap_mitsumasa_yonai
 				small = GFX_frame_jap_mitsumasa_yonai
-			}
-		}
-		advisor = {
-			slot = prime_minister
-			idea_token = jap_mitsuyuki_yonai_pri
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = minister_of_navy
-			idea_token = jap_mitsuyuki_yonai_mna
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 		navy_leader = {
@@ -5011,45 +3459,14 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = minister_of_navy
-			idea_token = jap_koshiro_oikawa_mna
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = chief
-			idea_token = jap_koshiro_oikawa_chi
-			allowed = {
-				original_tag = JAP
-			}
-			available = {
-				ROOT = {
-					has_idea = JAP_interservice_rivalry_navy_dominant
-				}
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
 			slot = navy_chief
 			idea_token = jap_koshiro_oikawa_nac
-			cost = @SPECIALIST
+			cost = @EXPERT
 			allowed = {
 				original_tag = JAP
 			}
 			traits = {
-				navy_chief_decisive_battle_1
+				navy_chief_decisive_battle_2
 			}
 			ai_will_do = {
 				factor = 10
@@ -5095,19 +3512,6 @@ characters = {
 			Navy = {
 				large = GFX_portrait_jap_zengo_yoshida_navy
 				small = GFX_frame_jap_zengo_yoshida_navy
-			}
-		}
-		advisor = {
-			slot = minister_of_navy
-			idea_token = jap_zengo_yoshida_mna
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
 			}
 		}
 		navy_leader = {
@@ -5184,45 +3588,14 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = minister_of_navy
-			idea_token = jap_osami_nagano_mna
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
-			slot = chief
-			idea_token = jap_shigetaro_shimada_chi
-			allowed = {
-				original_tag = JAP
-			}
-			available = {
-				ROOT = {
-					has_idea = JAP_interservice_rivalry_navy_dominant
-				}
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
 			slot = navy_chief
 			idea_token = jap_shigetaro_shimada_nac
-			cost = @SPECIALIST
+			cost = @EXPERT
 			allowed = {
 				original_tag = JAP
 			}
 			traits = {
-				navy_chief_reform_1
+				navy_amphibious_assault_2
 			}
 			ai_will_do = {
 				factor = 10
@@ -5249,19 +3622,6 @@ characters = {
 				small = GFX_frame_jap_teiziro_toyoda_navy
 			}
 		}
-		advisor = {
-			slot = minister_of_foreign
-			idea_token = jap_teiziro_toyoda_for
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
 		navy_leader = {
 			legacy_id = 0
 			skill = 1
@@ -5284,24 +3644,6 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = chief
-			idea_token = jap_soemu_toyoda_chi
-			allowed = {
-				original_tag = JAP
-			}
-			available = {
-				ROOT = {
-					has_idea = JAP_interservice_rivalry_navy_dominant
-				}
-			}
-			traits = {
-
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		advisor = {
 			slot = navy_chief
 			idea_token = jap_soemu_toyoda_nac
 			cost = @SPECIALIST
@@ -5309,7 +3651,21 @@ characters = {
 				original_tag = JAP
 			}
 			traits = {
-				navy_chief_old_guard
+				navy_chief_maneuver_1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = jap_soemu_toyoda_com
+			cost = @SPECIALIST
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				navy_capital_ship_1
 			}
 			ai_will_do = {
 				factor = 10
@@ -5400,16 +3756,28 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = minister_of_navy
-			idea_token = jap_naokuni_nomura_mna
+			slot = navy_chief
+			idea_token = jap_naokuni_nomura_nac
+			cost = @SPECIALIST
 			allowed = {
 				original_tag = JAP
 			}
 			traits = {
-				
+				navy_chief_commerce_raiding_1
 			}
 			ai_will_do = {
 				factor = 10
+			}
+		}
+		navy_leader = {
+			legacy_id = 0
+			skill = 1
+			traits = {
+
+
+			}
+			visible = {
+				NOT = { has_character_flag = reserve_force_personal }
 			}
 		}
 		navy_leader = {
@@ -5473,6 +3841,20 @@ characters = {
 			Navy = {
 				large = GFX_portrait_jap_chuichi_nagumo_navy
 				small = GFX_frame_jap_chuichi_nagumo_navy
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = jap_chuichi_nagumo_com
+			cost = @EXPERT
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				navy_carrier_2
+			}
+			ai_will_do = {
+				factor = 10
 			}
 		}
 		navy_leader = {
@@ -5557,6 +3939,20 @@ characters = {
 			Navy = {
 				large = GFX_portrait_jap_nishizo_tsukahara_navy
 				small = GFX_frame_jap_nishizo_tsukahara_navy
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = jap_nishizo_tsukahara_com
+			cost = @SPECIALIST
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				air_naval_strike_1
+			}
+			ai_will_do = {
+				factor = 10
 			}
 		}
 		navy_leader = {
@@ -5779,7 +4175,55 @@ characters = {
 			}
 		}
 	}
-	
+
+	#---# HIGH COMMAND #---#
+
+	jap_mitsuo_fuchida = {
+		name = jap_mitsuo_fuchida
+		portraits = {
+			Navy = {
+				small = GFX_frame_jap_mitsuo_fuchida_navy
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = jap_mitsuo_fuchida_com
+			cost = @EXPERT
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				navy_carrier_2
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	jap_matoi_ugaki = {
+		name = jap_matoi_ugaki
+		portraits = {
+			Navy = {
+				small = GFX_frame_jap_matoi_ugaki_navy
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = jap_matoi_ugaki_com
+			cost = @EXPERT
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				navy_naval_air_defense_2
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
 	#---# THEORIST #---#
 
 	jap_minoru_genda = {
@@ -5804,55 +4248,10 @@ characters = {
 			}
 		}
 	}
+
 }
 
 #-----# AIR #-----#
 characters = {
 
-	jap_kumazo_hino = {
-		name = jap_kumazo_hino
-		portraits = {
-			Army = {
-				small = GFX_frame_jap_kumazo_hino_air
-			}
-		}
-		advisor = {
-			slot = theorist
-			idea_token = jap_kumazo_hino_the
-			cost = @tir2
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-				air_warfare_theorist
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-	}
-
-	jap_yoshitoshi_tokugawa = {
-		name = jap_yoshitoshi_tokugawa
-		portraits = {
-			Army = {
-				small = GFX_frame_jap_yoshitoshi_tokugawa_air
-			}
-		}
-		advisor = {
-			slot = theorist
-			idea_token = jap_yoshitoshi_tokugawa_the
-			cost = @tir3
-			allowed = {
-				original_tag = JAP
-			}
-			traits = {
-				assault_avaition
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-	}
-	
 }

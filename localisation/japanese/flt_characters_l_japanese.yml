@@ -168,9 +168,10 @@
   jap_hiroshi_nemoto:3 "根本博"
   jap_kiichiro_higuchi:3 "樋口季一郎"
   jap_isami_yokoyama:3 "横山勇"
-
   jap_tsunenori_kaya:3 "賀陽宮恒憲王"
   jap_haruhito_kanin:3 "閑院宮春仁王"
+  jap_shin_yoshida:3 "吉田㥲"
+	jap_torashiro_kawabe:3 "河辺虎四郎"
 
   jap_heisuke_yanagawa:3 "柳川平助"
   jap_kouhei_kashii:3 "香椎浩平"
@@ -180,6 +181,14 @@
   jap_ryuzo_sejima:3 "瀬島龍三"
   jap_masaji_shii:3 "志位正二"
   jap_seiki_asahara:3 "浅原正基"
+
+  jap_isamu_chou:3 "長勇"
+  jap_takeichi_nishi:3 "西竹一"
+  jap_seiichi_kume:3 "久米精一"
+
+  jap_kumazo_hino:3 "日野熊蔵"
+  jap_yoshitoshi_tokugawa:3 "徳川好敏"
+
 
   jap_hiroyasu_fushimi:3 "伏見宮博恭王"
   jap_eisuke_yamamoto:3 "山本英輔"
@@ -214,6 +223,11 @@
   jap_seiichi_ito:3 "伊藤整一"
   jap_nishizo_tsukahara:3 "塚原二四三"
   jap_shigeyoshi_inoue:3 "井上成美"
+
+  jap_mitsuo_fuchida:3 "淵田美津雄"
+
+  jap_minoru_genda:3 "源田実"
+
 
   man_xianyu_aisin_gioro:3 "川島芳子"
   jap_takeo_yoshikawa:3 "森村正"
