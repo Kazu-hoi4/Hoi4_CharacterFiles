@@ -11,15 +11,4 @@ NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 1000;
 NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 1000;
 NDefines.NMilitary.MAX_AIR_EXPERIENCE = 1000;
 
-NDefines.NCharacter.OFFICER_CORP_HIGH_COMMAND_SLOTS_IN_MENU = 4;
-NDefines.NCharacter.OFFICER_CORP_ADVISOR_ENTRIES_IN_MENU = {
-	"high_command",
-	"theorist",
-	"chief",
-	"army_chief",
-	"navy_chief",
-	"air_chief",
-	"minister_of_army",
-	"minister_of_navy",
-	"minister_of_air",
-};
+NDefines.NCharacter.OFFICER_CORP_HIGH_COMMAND_SLOTS_IN_MENU = 3;
