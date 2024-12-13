@@ -54,6 +54,7 @@
 		recruit_character = jap_ichiro_hatoyama
 		recruit_character = jap_tanzan_ishibashi
 		recruit_character = jap_nobusuke_kishi
+		recruit_character = jap_kyuichi_tokuda
 
 		recruit_character = jap_takejiro_tokonami
 		recruit_character = jap_rentaro_mizuno
@@ -126,10 +127,10 @@
 		recruit_character = jap_teiichi_suzuki
 		recruit_character = jap_yoshisuke_ayukawa
 
-		recruit_character = jap_kyuichi_tokuda
 		recruit_character = jap_sanzo_nosaka
 		recruit_character = jap_hotsumi_ozaki
 		
+
 		recruit_character = jap_kotohito_kanin
 		recruit_character = jap_morimasa_nashimoto
 		recruit_character = jap_kazushige_ugaki
@@ -184,6 +185,9 @@
 		recruit_character = jap_tsunenori_kaya
 		recruit_character = jap_haruhito_kanin
 
+		recruit_character = jap_shin_yoshida
+		recruit_character = jap_torashiro_kawabe
+
 		recruit_character = jap_heisuke_yanagawa
 		recruit_character = jap_kouhei_kashii
 
@@ -192,6 +196,14 @@
 		recruit_character = jap_ryuzo_sejima
 		recruit_character = jap_masaji_shii
 		recruit_character = jap_seiki_asahara
+
+		recruit_character = jap_isamu_chou
+		recruit_character = jap_takeichi_nishi
+		recruit_character = jap_seiichi_kume
+
+		recruit_character = jap_kumazo_hino
+		recruit_character = jap_yoshitoshi_tokugawa
+
 
 		recruit_character = jap_hiroyasu_fushimi
 		recruit_character = jap_eisuke_yamamoto
@@ -222,9 +234,14 @@
 		recruit_character = jap_chuichi_nagumo
 		recruit_character = jap_nishizo_tsukahara
 		recruit_character = jap_shigeyoshi_inoue
+
 		recruit_character = jap_communist_sympathizer_admiral_1
 		recruit_character = jap_communist_sympathizer_admiral_2
 		recruit_character = jap_communist_sympathizer_admiral_3
+
+		recruit_character = jap_mitsuo_fuchida
+
+		recruit_character = jap_minoru_genda
 
 		if = {
 			limit = { has_dlc = "La Resistance" }
